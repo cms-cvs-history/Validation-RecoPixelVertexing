@@ -20,6 +20,7 @@
 #include <iostream>
 #include <vector>
 #include <cmath>
+#include <TH1.h>
 #include "TTree.h"
 #include "TFile.h"
 #include "TDirectory.h"
@@ -40,6 +41,7 @@ private:
   // Tree of simple vars for testing resolution eff etc
   TTree *t_;
   TFile *f_;
+  TH1*   h1_nvtx_;
   int ntrk_;
   static const int maxtrk_=1000;
   double pt_[maxtrk_];
@@ -100,6 +102,9 @@ void PixelVertexTest::beginJob(const edm::EventSetup& es) {
   t_->Branch("errz0",errz0_,"errz0[ntrk]/D");
   //  t_->Branch("tanl",tanl_,"tanl[ntrk]/D");
   t_->Branch("theta",theta_,"theta[ntrk]/D");
+
+  // validation histos
+  h1_nvtx_ = new TH1F("nvtx","Nb vertices",101,-0.5,100.5);
   gDirectory->cd(cwd);
 }
 
@@ -161,6 +166,9 @@ void PixelVertexTest::analyze(
     cout << "Reconstructed "<< vertexes.size() << " vertexes" << std::endl;
   }
   nvtx2_ = vertexes.size();
+  
+  h1_nvtx_->Fill(float(nvtx2_));
+
   PVClusterComparer vcompare;
   for (int i=0; i<nvtx2_ && i<maxvtx_; i++) {
     vz2_[i] = vertexes[i].z();
@@ -181,6 +189,7 @@ void PixelVertexTest::analyze(
 }
 
 void PixelVertexTest::endJob() {
+  if (h1_nvtx_) h1_nvtx_->Write();
   if (t_) t_->Print();
   if (f_) {
     f_->Print();
