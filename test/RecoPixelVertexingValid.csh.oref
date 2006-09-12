@@ -1,0 +1,1164 @@
+
+[oval run] =================================================
+[oval run] USER : vanlaer
+[oval run] HOST : lxplus064.cern.ch
+[oval run] run tool: oval
+[oval run] final instruction: ./RecoPixelVertexingValid.csh
+[oval run] =================================================
+
+Please cd into the directory where cmsset_default.csh is.
+/bin/ls: /afs/cern.ch/cms/slc3_ia32_gcc323/etc/profile.d/: No such file or directory
+Reading cached build data
+Scanning src/Validation/RecoPixelVertexing/test/BuildFile
+
+>> All binaries built
+===========> Validating Pixel Primary Vertex Reco with 10-muon samples.......
+%MSG-i DDLParser:  12-Sep-2006 19:01:41 XYZ pre-events
+Start Parsing.  Validation is set off for the time being.
+Element: Constant (64)
+Timing in XMLIdealGeometryESSource : Real Time = 1.69 (s), User Time = 1.62 (s), System Time = 0.03 (s), Cpu Time = 1.65 (s), Idle Time = 0.04 (s), 
+%MSG-i DDLParser:  12-Sep-2006 19:01:43 XYZ pre-events
+Start Parsing.  Validation is set off for the time being.
+Element: Constant (2331)
+Timing in XMLIdealGeometryESSource : Real Time = 19.86 (s), User Time = 19.32 (s), System Time = 0.39 (s), Cpu Time = 19.71 (s), Idle Time = 0.15 (s), 
+Using the site default catalog: trivialcatalog_file:/afs/cern.ch/cms/SITECONF/local/PhEDEx/storage.xml?protocol=rfio
+%MSG-i PixelTrackProducer:  PixelTrackProducer:pixelTracks{ctor} 
+       12-Sep-2006 19:02:16 XYZ pre-events
+ constuction...
+%MSG-i PixelVertexTest:  PixelVertexTest:test{ctor} 12-Sep-2006 19:02:16 XYZ 
+       pre-events
+ CTOR
+%MSG-w EventSetupDependency:  PoolOutputModule:out{ctor} 
+       12-Sep-2006 19:02:20 XYZ pre-events
+The EventSetup record TrackerDigiGeometryRecord depends on at least one Record 
+ (TrackerAlignmentErrorRcd, TrackerAlignmentRcd) which is not present in the job.
+ This may lead to failures during event processing.
+Error in <TFile::cd>: No such file rfio:///castor/cern.ch/cms/store/unmerged/RelVal/2006/8/13/RelVal09010Muons1-10/GEN-SIM-DIGI-RECO/0005/EC233E68-1E2B-DB11-8406-0002B3D8E6A4.root:/
+file:pixel_vertexing.root: level[Always] Root file version:51200
+%MSG-i FwkReport:  main_input:source 12-Sep-2006 19:02:39 XYZ BeforeEvents
+Begin processing the 1th record. Run 5001, Event 1
+%MSG-i TkDetLayers:  PixelTrackProducer:pixelTracks 12-Sep-2006 19:02:49 XYZ 
+       Run: 5001 Event: 1
+------ GeometricSearchTracker constructed with: ------
+n pxlBarLayers: 3
+n tibLayers:    4
+n tobLayers:    6
+n negPxlFwdLayers: 2
+n negPxlFwdLayers: 2
+n negTidLayers: 3
+n posTidLayers: 3
+n negTecLayers: 9
+n posTecLayers: 9
+n barreLayers:  13
+n negforwardLayers: 14
+n posForwardLayers: 14
+Creating a new Timing Report
+StopWatch bias 3.29666e-08
+CPUWatch bias 0.000764
+
+         ___________________________________        
+      .-'                                   '-.     
+    .'      Magnetic Field Geometry built      `.   
+   /                                             \  
+  ;         Barrel volumes: 2436                  ; 
+  ;         Endcap volumes: 816                   ; 
+   \                                             /  
+    `.          Fasten your seatbelt.          .'   
+      `-.___________________________________.-'     
+
+MultipleScatteringX0Data initialisation, reading :...
+%MSG-i PixelTrackProducer:  PixelTrackProducer:pixelTracks 
+       12-Sep-2006 19:02:59 XYZ Run: 5001 Event: 1
+size of triplets: 12
+nTracks12
+*** PixelVertexTest, analyze event: run: 5001 event: 1
+Process Name = PROD
+ModuleLabel = pixelTracks
+Product ID = 63
+Class Name = std::vector<reco::Track>
+Friendly Class Name = recoTracks
+Product Instance Name = 
+Product ID = 63
+Conditions ID = 0
+CreatorStatus = 0
+Module Description ID = 3f8a3ea5390b6e0967ffa0072de862e5
+Is Present = 1
+
+Reconstructed 12 tracks
+	momentum: (3.34078,0.828127,-4.3299)	PT: 3.44189
+	vertex: (-0.00193625,0.0078111,0.0083962)	Z0: 0.0083962 +- 0.0079799
+	charge: 1
+------------------------------------------------
+	momentum: (2.4879,1.28277,-6.11242)	PT: 2.79913
+	vertex: (0.00150885,-0.00292639,0.0142502)	Z0: 0.0142502 +- 0.00846296
+	charge: 1
+------------------------------------------------
+	momentum: (3.75839,8.429,31.8448)	PT: 9.22896
+	vertex: (0.0013245,-0.00059058,-0.00741875)	Z0: -0.00741875 +- 0.00738924
+	charge: -1
+------------------------------------------------
+	momentum: (3.78926,12.9465,26.7847)	PT: 13.4896
+	vertex: (0.00657596,-0.00192469,0.00105116)	Z0: 0.00105116 +- 0.007356
+	charge: -1
+------------------------------------------------
+	momentum: (-1.90298,4.39493,-0.829723)	PT: 4.78923
+	vertex: (-0.0187197,-0.00810548,0.00861913)	Z0: 0.00861913 +- 0.00739029
+	charge: -1
+------------------------------------------------
+	momentum: (-3.67547,6.29306,-3.90372)	PT: 7.28778
+	vertex: (0.0234534,0.013698,0.00230948)	Z0: 0.00230948 +- 0.00726151
+	charge: -1
+------------------------------------------------
+	momentum: (-2.99404,5.15739,-3.1964)	PT: 5.96347
+	vertex: (0.0167572,0.0097281,0.00373935)	Z0: 0.00373935 +- 0.00722377
+	charge: -1
+------------------------------------------------
+	momentum: (-1.7963,1.25848,0.153284)	PT: 2.19328
+	vertex: (0.0113222,0.0161608,-0.0108581)	Z0: -0.0108581 +- 0.0090627
+	charge: -1
+------------------------------------------------
+	momentum: (-1.08261,-0.564158,1.79418)	PT: 1.22079
+	vertex: (-0.00294222,0.0056461,0.0029935)	Z0: 0.0029935 +- 0.010362
+	charge: 1
+------------------------------------------------
+	momentum: (0.167028,-4.67769,10.2815)	PT: 4.68067
+	vertex: (0.00234987,8.39077e-05,-0.00139759)	Z0: -0.00139759 +- 0.00741982
+	charge: 1
+------------------------------------------------
+	momentum: (4.12718,-5.19838,26.0853)	PT: 6.63752
+	vertex: (0.00293051,0.00232663,-0.0125661)	Z0: -0.0125661 +- 0.00722346
+	charge: 1
+------------------------------------------------
+	momentum: (4.37269,9.84381,37.1668)	PT: 10.7713
+	vertex: (0.00517191,-0.0022974,-0.00739954)	Z0: -0.00739954 +- 0.007356
+	charge: -1
+------------------------------------------------
+The average z-position of these tracks is 0.000143249 +- 0.00227302
+The weighted average z-position of these tracks is -9.81283e-05 +- 0.00227302
+Process Name = PROD
+ModuleLabel = pixelVertices
+Product ID = 64
+Class Name = std::vector<reco::Vertex>
+Friendly Class Name = recoVertexs
+Product Instance Name = 
+Product ID = 64
+Conditions ID = 0
+CreatorStatus = 0
+Module Description ID = 127edd1f1f620ad9d939a91aeb3b7329
+Is Present = 1
+
+Reconstructed 1 vertexes
+%MSG-i FwkReport:  main_input:source 12-Sep-2006 19:02:59 XYZ Run: 5001 Event: 1
+Begin processing the 2th record. Run 5001, Event 2
+%MSG-i PixelTrackProducer:  PixelTrackProducer:pixelTracks 
+       12-Sep-2006 19:02:59 XYZ Run: 5001 Event: 2
+size of triplets: 10
+nTracks10
+*** PixelVertexTest, analyze event: run: 5001 event: 2
+Process Name = PROD
+ModuleLabel = pixelTracks
+Product ID = 63
+Class Name = std::vector<reco::Track>
+Friendly Class Name = recoTracks
+Product Instance Name = 
+Product ID = 63
+Conditions ID = 0
+CreatorStatus = 0
+Module Description ID = 3f8a3ea5390b6e0967ffa0072de862e5
+Is Present = 1
+
+Reconstructed 10 tracks
+	momentum: (8.12895,7.75514,2.16073)	PT: 11.2349
+	vertex: (0.00450684,-0.00472408,-0.0100419)	Z0: -0.0100419 +- 0.007356
+	charge: -1
+------------------------------------------------
+	momentum: (7.06747,5.37869,1.19329)	PT: 8.88141
+	vertex: (0.00181539,-0.00238538,-0.00770628)	Z0: -0.00770628 +- 0.0073807
+	charge: 1
+------------------------------------------------
+	momentum: (-1.68298,2.03643,-0.46469)	PT: 2.64187
+	vertex: (-0.0229352,-0.0189545,-0.00470095)	Z0: -0.00470095 +- 0.00860444
+	charge: -1
+------------------------------------------------
+	momentum: (-10.7489,4.30594,-21.467)	PT: 11.5793
+	vertex: (-0.00688178,-0.0171789,0.00447693)	Z0: 0.00447693 +- 0.007356
+	charge: 1
+------------------------------------------------
+	momentum: (-6.659,-2.81507,-24.3687)	PT: 7.22959
+	vertex: (0.00633907,-0.014995,0.00765803)	Z0: 0.00765803 +- 0.00725713
+	charge: 1
+------------------------------------------------
+	momentum: (-27.2156,-6.52824,-4.03117)	PT: 27.9876
+	vertex: (0.0121244,-0.0505453,-0.00629576)	Z0: -0.00629576 +- 0.007356
+	charge: -1
+------------------------------------------------
+	momentum: (-1.17423,-1.33774,1.35359)	PT: 1.77999
+	vertex: (0.00909346,-0.00798197,0.00466809)	Z0: 0.00466809 +- 0.00956119
+	charge: -1
+------------------------------------------------
+	momentum: (2.79135,-5.38581,6.79399)	PT: 6.06619
+	vertex: (0.00462581,0.00239746,0.00321864)	Z0: 0.00321864 +- 0.0072202
+	charge: -1
+------------------------------------------------
+	momentum: (4.54154,-0.352365,-6.42445)	PT: 4.55519
+	vertex: (-0.00027251,-0.00351231,-0.00130025)	Z0: -0.00130025 +- 0.00745746
+	charge: 1
+------------------------------------------------
+	momentum: (-5.24536,-2.2378,-19.2268)	PT: 5.70277
+	vertex: (0.00254145,-0.0059571,0.0106809)	Z0: 0.0106809 +- 0.00723969
+	charge: 1
+------------------------------------------------
+The average z-position of these tracks is 6.57497e-05 +- 0.00242827
+The weighted average z-position of these tracks is 8.33717e-05 +- 0.00242827
+Process Name = PROD
+ModuleLabel = pixelVertices
+Product ID = 64
+Class Name = std::vector<reco::Vertex>
+Friendly Class Name = recoVertexs
+Product Instance Name = 
+Product ID = 64
+Conditions ID = 0
+CreatorStatus = 0
+Module Description ID = 127edd1f1f620ad9d939a91aeb3b7329
+Is Present = 1
+
+Reconstructed 1 vertexes
+%MSG-i FwkReport:  main_input:source 12-Sep-2006 19:02:59 XYZ Run: 5001 Event: 2
+Begin processing the 3th record. Run 5001, Event 3
+%MSG-i PixelTrackProducer:  PixelTrackProducer:pixelTracks 
+       12-Sep-2006 19:02:59 XYZ Run: 5001 Event: 3
+size of triplets: 11
+nTracks11
+*** PixelVertexTest, analyze event: run: 5001 event: 3
+Process Name = PROD
+ModuleLabel = pixelTracks
+Product ID = 63
+Class Name = std::vector<reco::Track>
+Friendly Class Name = recoTracks
+Product Instance Name = 
+Product ID = 63
+Conditions ID = 0
+CreatorStatus = 0
+Module Description ID = 3f8a3ea5390b6e0967ffa0072de862e5
+Is Present = 1
+
+Reconstructed 11 tracks
+	momentum: (1.59406,5.18511,-5.67071)	PT: 5.42461
+	vertex: (-0.00449086,0.00138063,0.000727033)	Z0: 0.000727033 +- 0.0072687
+	charge: -1
+------------------------------------------------
+	momentum: (-2.03088,7.86372,8.76823)	PT: 8.12174
+	vertex: (0.00172489,0.00044547,0.000798251)	Z0: 0.000798251 +- 0.0073313
+	charge: 1
+------------------------------------------------
+	momentum: (-2.38202,3.92752,-10.8327)	PT: 4.59341
+	vertex: (0.00746202,0.00452567,0.0162589)	Z0: 0.0162589 +- 0.00744559
+	charge: -1
+------------------------------------------------
+	momentum: (-11.8568,6.80247,24.9502)	PT: 13.6695
+	vertex: (0.0216436,0.037725,0.0130384)	Z0: 0.0130384 +- 0.007356
+	charge: -1
+------------------------------------------------
+	momentum: (-5.64537,3.28342,11.9202)	PT: 6.53078
+	vertex: (0.0133533,0.0229591,0.0131246)	Z0: 0.0131246 +- 0.00722022
+	charge: -1
+------------------------------------------------
+	momentum: (-2.34879,-5.8493,11.3785)	PT: 6.30326
+	vertex: (-0.00788575,0.00316653,0.0129202)	Z0: 0.0129202 +- 0.00721713
+	charge: 1
+------------------------------------------------
+	momentum: (-1.18517,-7.44581,-11.1706)	PT: 7.53955
+	vertex: (-0.00428515,0.000682076,0.00340285)	Z0: 0.00340285 +- 0.00728178
+	charge: 1
+------------------------------------------------
+	momentum: (-1.29938,-8.10491,-12.1799)	PT: 8.20841
+	vertex: (0.000292823,-4.69452e-05,0.0191285)	Z0: 0.0191285 +- 0.00733831
+	charge: 1
+------------------------------------------------
+	momentum: (7.35568,-7.42148,-0.80795)	PT: 10.4491
+	vertex: (0.00223957,0.00221971,-0.00649724)	Z0: -0.00649724 +- 0.007356
+	charge: 1
+------------------------------------------------
+	momentum: (-1.70038,0.289894,8.62419)	PT: 1.72492
+	vertex: (-0.000290034,-0.00170121,0.0116622)	Z0: 0.0116622 +- 0.00963344
+	charge: -1
+------------------------------------------------
+	momentum: (-1.32954,-5.6917,-34.6318)	PT: 5.84492
+	vertex: (-0.00362912,0.000847737,0.026606)	Z0: 0.026606 +- 0.00722975
+	charge: -1
+------------------------------------------------
+The average z-position of these tracks is 0.0101063 +- 0.00226622
+The weighted average z-position of these tracks is 0.0100715 +- 0.00226622
+Process Name = PROD
+ModuleLabel = pixelVertices
+Product ID = 64
+Class Name = std::vector<reco::Vertex>
+Friendly Class Name = recoVertexs
+Product Instance Name = 
+Product ID = 64
+Conditions ID = 0
+CreatorStatus = 0
+Module Description ID = 127edd1f1f620ad9d939a91aeb3b7329
+Is Present = 1
+
+Reconstructed 1 vertexes
+%MSG-i FwkReport:  main_input:source 12-Sep-2006 19:02:59 XYZ Run: 5001 Event: 3
+Begin processing the 4th record. Run 5001, Event 4
+%MSG-i PixelTrackProducer:  PixelTrackProducer:pixelTracks 
+       12-Sep-2006 19:02:59 XYZ Run: 5001 Event: 4
+size of triplets: 17
+nTracks17
+*** PixelVertexTest, analyze event: run: 5001 event: 4
+Process Name = PROD
+ModuleLabel = pixelTracks
+Product ID = 63
+Class Name = std::vector<reco::Track>
+Friendly Class Name = recoTracks
+Product Instance Name = 
+Product ID = 63
+Conditions ID = 0
+CreatorStatus = 0
+Module Description ID = 3f8a3ea5390b6e0967ffa0072de862e5
+Is Present = 1
+
+Reconstructed 17 tracks
+	momentum: (1.27441,0.809484,4.686)	PT: 1.50976
+	vertex: (0.0032819,-0.00516684,-0.0265613)	Z0: -0.0265613 +- 0.00992935
+	charge: -1
+------------------------------------------------
+	momentum: (2.67745,3.10458,12.9652)	PT: 4.09965
+	vertex: (0.00728768,-0.00628504,0.000889005)	Z0: 0.000889005 +- 0.00762805
+	charge: 1
+------------------------------------------------
+	momentum: (-0.328149,2.92454,-4.00013)	PT: 2.94289
+	vertex: (0.0191404,0.00214765,-0.0157479)	Z0: -0.0157479 +- 0.00834191
+	charge: 1
+------------------------------------------------
+	momentum: (-5.00646,11.4324,-13.4338)	PT: 12.4805
+	vertex: (-0.00599147,-0.00262378,0.00158211)	Z0: 0.00158211 +- 0.007356
+	charge: 1
+------------------------------------------------
+	momentum: (-4.93101,3.84204,0.271917)	PT: 6.25109
+	vertex: (0.00471135,0.00604671,0.00498899)	Z0: 0.00498899 +- 0.00721722
+	charge: -1
+------------------------------------------------
+	momentum: (-1.33751,-2.21934,4.7517)	PT: 2.59122
+	vertex: (0.0042876,-0.00258397,0.00684684)	Z0: 0.00684684 +- 0.00865208
+	charge: -1
+------------------------------------------------
+	momentum: (-1.26995,-2.09636,4.50068)	PT: 2.45102
+	vertex: (0.0124106,-0.0075182,-0.0105078)	Z0: -0.0105078 +- 0.00878929
+	charge: -1
+------------------------------------------------
+	momentum: (-1.48912,-2.49097,5.32964)	PT: 2.90213
+	vertex: (-0.00474337,0.00283562,-0.00450745)	Z0: -0.00450745 +- 0.00837544
+	charge: -1
+------------------------------------------------
+	momentum: (-1.44337,-2.40763,5.16221)	PT: 2.80714
+	vertex: (-0.000166798,9.99955e-05,-0.0233111)	Z0: -0.0233111 +- 0.00845601
+	charge: -1
+------------------------------------------------
+	momentum: (-0.582865,-5.13232,9.88896)	PT: 5.16531
+	vertex: (0.00476608,-0.000541272,-0.0322321)	Z0: -0.0322321 +- 0.00730836
+	charge: -1
+------------------------------------------------
+	momentum: (-1.20143,-4.30062,14.5612)	PT: 4.46529
+	vertex: (-0.0113866,0.00318097,0.032571)	Z0: 0.032571 +- 0.00748682
+	charge: 1
+------------------------------------------------
+	momentum: (-1.41196,-5.01202,16.9803)	PT: 5.2071
+	vertex: (-0.00589349,0.00166028,0.0324828)	Z0: 0.0324828 +- 0.00730109
+	charge: 1
+------------------------------------------------
+	momentum: (-0.690707,-6.25361,12.0252)	PT: 6.29164
+	vertex: (-0.0049114,0.000542461,-0.0174269)	Z0: -0.0174269 +- 0.00721712
+	charge: -1
+------------------------------------------------
+	momentum: (0.261018,-1.90764,-7.20202)	PT: 1.92542
+	vertex: (-0.0851415,-0.0116497,0.00620609)	Z0: 0.00620609 +- 0.00937708
+	charge: 1
+------------------------------------------------
+	momentum: (-4.40847,-1.27925,-20.3384)	PT: 4.59033
+	vertex: (0.00601412,-0.0207254,-0.0139167)	Z0: -0.0139167 +- 0.00744653
+	charge: -1
+------------------------------------------------
+	momentum: (-5.23979,-1.53923,-24.1804)	PT: 5.46119
+	vertex: (0.00304809,-0.0103762,-0.0278016)	Z0: -0.0278016 +- 0.00726412
+	charge: -1
+------------------------------------------------
+	momentum: (0.702018,-6.57186,-24.7113)	PT: 6.60925
+	vertex: (-0.0017448,-0.000186383,0.00138659)	Z0: 0.00138659 +- 0.0072225
+	charge: 1
+------------------------------------------------
+The average z-position of these tracks is -0.00500349 +- 0.00193128
+The weighted average z-position of these tracks is -0.00441534 +- 0.00193128
+Process Name = PROD
+ModuleLabel = pixelVertices
+Product ID = 64
+Class Name = std::vector<reco::Vertex>
+Friendly Class Name = recoVertexs
+Product Instance Name = 
+Product ID = 64
+Conditions ID = 0
+CreatorStatus = 0
+Module Description ID = 127edd1f1f620ad9d939a91aeb3b7329
+Is Present = 1
+
+Reconstructed 1 vertexes
+%MSG-i FwkReport:  main_input:source 12-Sep-2006 19:02:59 XYZ Run: 5001 Event: 4
+Begin processing the 5th record. Run 5001, Event 5
+%MSG-i PixelTrackProducer:  PixelTrackProducer:pixelTracks 
+       12-Sep-2006 19:02:59 XYZ Run: 5001 Event: 5
+size of triplets: 15
+nTracks15
+*** PixelVertexTest, analyze event: run: 5001 event: 5
+Process Name = PROD
+ModuleLabel = pixelTracks
+Product ID = 63
+Class Name = std::vector<reco::Track>
+Friendly Class Name = recoTracks
+Product Instance Name = 
+Product ID = 63
+Conditions ID = 0
+CreatorStatus = 0
+Module Description ID = 3f8a3ea5390b6e0967ffa0072de862e5
+Is Present = 1
+
+Reconstructed 15 tracks
+	momentum: (2.68428,0.603918,-3.537)	PT: 2.75138
+	vertex: (0.000462447,-0.00205547,0.0155246)	Z0: 0.0155246 +- 0.00850491
+	charge: -1
+------------------------------------------------
+	momentum: (7.5518,3.11389,19.8102)	PT: 8.1686
+	vertex: (-0.00221847,0.00538021,-0.0161404)	Z0: -0.0161404 +- 0.00733512
+	charge: 1
+------------------------------------------------
+	momentum: (6.9361,2.86629,18.2008)	PT: 7.505
+	vertex: (-0.00142718,0.00345362,-0.016125)	Z0: -0.016125 +- 0.0072789
+	charge: 1
+------------------------------------------------
+	momentum: (5.28423,4.78469,15.9302)	PT: 7.12856
+	vertex: (0.000499301,-0.00055143,-0.00874066)	Z0: -0.00874066 +- 0.00724987
+	charge: -1
+------------------------------------------------
+	momentum: (-0.505085,1.07786,-2.36441)	PT: 1.19033
+	vertex: (0.0116839,0.0054751,0.0285111)	Z0: 0.0285111 +- 0.01041
+	charge: 1
+------------------------------------------------
+	momentum: (-0.552069,1.196,-2.61655)	PT: 1.31727
+	vertex: (-0.0028955,-0.00133655,0.0291168)	Z0: 0.0291168 +- 0.010213
+	charge: 1
+------------------------------------------------
+	momentum: (-2.61737,5.12776,-1.15134)	PT: 5.75713
+	vertex: (-0.0038862,-0.00198364,0.0185882)	Z0: 0.0185882 +- 0.00723551
+	charge: 1
+------------------------------------------------
+	momentum: (-4.89052,5.36231,-17.5822)	PT: 7.25752
+	vertex: (0.00135687,0.00123749,-0.00912514)	Z0: -0.00912514 +- 0.00725921
+	charge: 1
+------------------------------------------------
+	momentum: (-4.56414,4.9973,-16.396)	PT: 6.76789
+	vertex: (0.00278179,0.00254067,-0.00914081)	Z0: -0.00914081 +- 0.00722876
+	charge: 1
+------------------------------------------------
+	momentum: (-4.72152,5.17241,-16.9744)	PT: 7.00333
+	vertex: (0.00231296,0.00211133,-0.00436872)	Z0: -0.00436872 +- 0.00724161
+	charge: 1
+------------------------------------------------
+	momentum: (-4.51443,4.94104,-16.2219)	PT: 6.69283
+	vertex: (0.00320349,0.0029269,-0.0043783)	Z0: -0.0043783 +- 0.00722554
+	charge: 1
+------------------------------------------------
+	momentum: (-9.32569,4.14384,8.63187)	PT: 10.2049
+	vertex: (0.00406251,0.00914264,0.0151122)	Z0: 0.0151122 +- 0.007356
+	charge: -1
+------------------------------------------------
+	momentum: (8.56849,-4.8666,-15.9892)	PT: 9.85408
+	vertex: (-0.00208773,-0.0036758,-0.00123949)	Z0: -0.00123949 +- 0.00736895
+	charge: -1
+------------------------------------------------
+	momentum: (7.38402,-3.33448,-4.20922)	PT: 8.10201
+	vertex: (-0.00215454,-0.0047711,0.0021586)	Z0: 0.0021586 +- 0.00732968
+	charge: -1
+------------------------------------------------
+	momentum: (7.43771,-3.35802,-4.23806)	PT: 8.16063
+	vertex: (-0.00226305,-0.00501246,0.00124156)	Z0: 0.00124156 +- 0.00733447
+	charge: -1
+------------------------------------------------
+The average z-position of these tracks is 0.00273296 +- 0.00200658
+The weighted average z-position of these tracks is 0.000563483 +- 0.00200658
+Process Name = PROD
+ModuleLabel = pixelVertices
+Product ID = 64
+Class Name = std::vector<reco::Vertex>
+Friendly Class Name = recoVertexs
+Product Instance Name = 
+Product ID = 64
+Conditions ID = 0
+CreatorStatus = 0
+Module Description ID = 127edd1f1f620ad9d939a91aeb3b7329
+Is Present = 1
+
+Reconstructed 1 vertexes
+%MSG-i FwkReport:  main_input:source 12-Sep-2006 19:02:59 XYZ Run: 5001 Event: 5
+Begin processing the 6th record. Run 5001, Event 6
+%MSG-i PixelTrackProducer:  PixelTrackProducer:pixelTracks 
+       12-Sep-2006 19:02:59 XYZ Run: 5001 Event: 6
+size of triplets: 13
+nTracks13
+*** PixelVertexTest, analyze event: run: 5001 event: 6
+Process Name = PROD
+ModuleLabel = pixelTracks
+Product ID = 63
+Class Name = std::vector<reco::Track>
+Friendly Class Name = recoTracks
+Product Instance Name = 
+Product ID = 63
+Conditions ID = 0
+CreatorStatus = 0
+Module Description ID = 3f8a3ea5390b6e0967ffa0072de862e5
+Is Present = 1
+
+Reconstructed 13 tracks
+	momentum: (6.48121,1.13226,17.8697)	PT: 6.57937
+	vertex: (-0.00149196,0.0085402,0.0434861)	Z0: 0.0434861 +- 0.00722156
+	charge: -1
+------------------------------------------------
+	momentum: (6.35505,1.10881,17.5212)	PT: 6.45105
+	vertex: (-0.00160413,0.00919391,0.043492)	Z0: 0.043492 +- 0.00721852
+	charge: -1
+------------------------------------------------
+	momentum: (11.5004,9.94392,13.794)	PT: 15.2033
+	vertex: (-0.00684851,0.00792046,-0.0020266)	Z0: -0.0020266 +- 0.007356
+	charge: 1
+------------------------------------------------
+	momentum: (16.3305,14.06,19.5958)	PT: 21.5492
+	vertex: (-0.0128709,0.0149494,-0.0174252)	Z0: -0.0174252 +- 0.007356
+	charge: 1
+------------------------------------------------
+	momentum: (-0.232015,-7.31812,6.37508)	PT: 7.32179
+	vertex: (-0.0047114,0.000149371,0.00600227)	Z0: 0.00600227 +- 0.00726413
+	charge: -1
+------------------------------------------------
+	momentum: (0.515822,-5.31262,-0.178168)	PT: 5.3376
+	vertex: (-0.0127154,-0.00123458,0.013667)	Z0: 0.013667 +- 0.00728058
+	charge: 1
+------------------------------------------------
+	momentum: (5.12613,-7.99004,0.423195)	PT: 9.49304
+	vertex: (0.00606802,0.00389303,0.00650052)	Z0: 0.00650052 +- 0.00738701
+	charge: 1
+------------------------------------------------
+	momentum: (2.03096,-3.35742,2.74571)	PT: 3.92391
+	vertex: (0.00765832,0.00463265,-0.00779537)	Z0: -0.00779537 +- 0.00770917
+	charge: -1
+------------------------------------------------
+	momentum: (4.94116,-5.31765,21.3148)	PT: 7.25896
+	vertex: (0.00436261,0.00405374,0.00306762)	Z0: 0.00306762 +- 0.00725932
+	charge: 1
+------------------------------------------------
+	momentum: (-0.966955,-4.84991,22.9201)	PT: 4.94537
+	vertex: (0.00804458,-0.00160389,0.020961)	Z0: 0.020961 +- 0.00735256
+	charge: -1
+------------------------------------------------
+	momentum: (-0.947721,-4.74311,22.4275)	PT: 4.83687
+	vertex: (0.00928128,-0.00185449,0.0121172)	Z0: 0.0121172 +- 0.0073782
+	charge: -1
+------------------------------------------------
+	momentum: (-3.12681,1.05527,-12.5767)	PT: 3.30008
+	vertex: (0.00137568,0.0040762,0.0359507)	Z0: 0.0359507 +- 0.00807392
+	charge: -1
+------------------------------------------------
+	momentum: (-3.20157,1.07789,-12.8693)	PT: 3.37815
+	vertex: (0.00210617,0.00625577,0.029954)	Z0: 0.029954 +- 0.00802132
+	charge: -1
+------------------------------------------------
+The average z-position of these tracks is 0.0144578 +- 0.00206686
+The weighted average z-position of these tracks is 0.0142717 +- 0.00206686
+Process Name = PROD
+ModuleLabel = pixelVertices
+Product ID = 64
+Class Name = std::vector<reco::Vertex>
+Friendly Class Name = recoVertexs
+Product Instance Name = 
+Product ID = 64
+Conditions ID = 0
+CreatorStatus = 0
+Module Description ID = 127edd1f1f620ad9d939a91aeb3b7329
+Is Present = 1
+
+Reconstructed 1 vertexes
+%MSG-i FwkReport:  main_input:source 12-Sep-2006 19:02:59 XYZ Run: 5001 Event: 6
+Begin processing the 7th record. Run 5001, Event 7
+%MSG-i PixelTrackProducer:  PixelTrackProducer:pixelTracks 
+       12-Sep-2006 19:02:59 XYZ Run: 5001 Event: 7
+size of triplets: 17
+nTracks17
+*** PixelVertexTest, analyze event: run: 5001 event: 7
+Process Name = PROD
+ModuleLabel = pixelTracks
+Product ID = 63
+Class Name = std::vector<reco::Track>
+Friendly Class Name = recoTracks
+Product Instance Name = 
+Product ID = 63
+Conditions ID = 0
+CreatorStatus = 0
+Module Description ID = 3f8a3ea5390b6e0967ffa0072de862e5
+Is Present = 1
+
+Reconstructed 17 tracks
+	momentum: (-0.676359,4.82484,-0.183127)	PT: 4.87202
+	vertex: (0.00791016,0.00110887,0.00117969)	Z0: 0.00117969 +- 0.0073696
+	charge: 1
+------------------------------------------------
+	momentum: (-13.6163,23.2541,-0.975668)	PT: 26.9473
+	vertex: (-0.0221348,-0.0129609,0.00433607)	Z0: 0.00433607 +- 0.007356
+	charge: 1
+------------------------------------------------
+	momentum: (-4.03854,6.7764,-0.281385)	PT: 7.88857
+	vertex: (-0.00244269,-0.00145577,0.00208454)	Z0: 0.00208454 +- 0.00731165
+	charge: 1
+------------------------------------------------
+	momentum: (-3.70166,3.62874,18.4576)	PT: 5.18363
+	vertex: (-0.00139859,-0.0014267,-0.003195)	Z0: -0.003195 +- 0.00730513
+	charge: 1
+------------------------------------------------
+	momentum: (-3.79476,3.72245,18.9279)	PT: 5.31571
+	vertex: (-0.0019699,-0.00200817,-0.00320825)	Z0: -0.00320825 +- 0.00728379
+	charge: 1
+------------------------------------------------
+	momentum: (0.691648,-3.70205,1.20039)	PT: 3.7661
+	vertex: (-0.0129944,-0.00242773,-0.00411188)	Z0: -0.00411188 +- 0.0077898
+	charge: -1
+------------------------------------------------
+	momentum: (0.604468,-3.30036,1.07228)	PT: 3.35526
+	vertex: (0.00228564,0.00041862,-0.0104552)	Z0: -0.0104552 +- 0.00803653
+	charge: -1
+------------------------------------------------
+	momentum: (3.79963,-1.83181,7.60617)	PT: 4.21814
+	vertex: (0.00344276,0.00714116,-0.0145174)	Z0: -0.0145174 +- 0.00757831
+	charge: 1
+------------------------------------------------
+	momentum: (23.7198,-1.58837,130.965)	PT: 23.773
+	vertex: (-0.00431411,-0.0644247,0.0613331)	Z0: 0.0613331 +- 0.007356
+	charge: -1
+------------------------------------------------
+	momentum: (67.5253,-4.37377,372.683)	PT: 67.6668
+	vertex: (-0.004594,-0.0709254,0.0670333)	Z0: 0.0670333 +- 0.007356
+	charge: -1
+------------------------------------------------
+	momentum: (-7.97485,34.6203,201.706)	PT: 35.5269
+	vertex: (0.04035,0.0092947,-0.062441)	Z0: -0.062441 +- 0.007356
+	charge: 1
+------------------------------------------------
+	momentum: (-3.35481,3.27695,16.6743)	PT: 4.68968
+	vertex: (0.00231347,0.00236844,0.0188106)	Z0: 0.0188106 +- 0.00741726
+	charge: 1
+------------------------------------------------
+	momentum: (-3.3781,3.30057,16.7922)	PT: 4.72285
+	vertex: (0.00206658,0.00211512,0.0188019)	Z0: 0.0188019 +- 0.00740802
+	charge: 1
+------------------------------------------------
+	momentum: (-3.33695,3.25867,16.5827)	PT: 4.66414
+	vertex: (0.00261509,0.00267791,0.0195016)	Z0: 0.0195016 +- 0.00742456
+	charge: 1
+------------------------------------------------
+	momentum: (-3.35563,3.27759,16.6771)	PT: 4.69071
+	vertex: (0.00240314,0.00246036,0.019495)	Z0: 0.019495 +- 0.00741697
+	charge: 1
+------------------------------------------------
+	momentum: (1.56136,0.8299,-9.95229)	PT: 1.76821
+	vertex: (0.0401504,-0.0755382,0.119391)	Z0: 0.119391 +- 0.00957652
+	charge: -1
+------------------------------------------------
+	momentum: (1.64456,0.877948,-10.4927)	PT: 1.86423
+	vertex: (0.0423835,-0.0793919,0.119678)	Z0: 0.119678 +- 0.00945337
+	charge: -1
+------------------------------------------------
+The average z-position of these tracks is 0.0208068 +- 0.00186603
+The weighted average z-position of these tracks is 0.0163589 +- 0.00186603
+Process Name = PROD
+ModuleLabel = pixelVertices
+Product ID = 64
+Class Name = std::vector<reco::Vertex>
+Friendly Class Name = recoVertexs
+Product Instance Name = 
+Product ID = 64
+Conditions ID = 0
+CreatorStatus = 0
+Module Description ID = 127edd1f1f620ad9d939a91aeb3b7329
+Is Present = 1
+
+Reconstructed 1 vertexes
+%MSG-i FwkReport:  main_input:source 12-Sep-2006 19:02:59 XYZ Run: 5001 Event: 7
+Begin processing the 8th record. Run 5001, Event 8
+%MSG-i PixelTrackProducer:  PixelTrackProducer:pixelTracks 
+       12-Sep-2006 19:02:59 XYZ Run: 5001 Event: 8
+size of triplets: 16
+nTracks16
+*** PixelVertexTest, analyze event: run: 5001 event: 8
+Process Name = PROD
+ModuleLabel = pixelTracks
+Product ID = 63
+Class Name = std::vector<reco::Track>
+Friendly Class Name = recoTracks
+Product Instance Name = 
+Product ID = 63
+Conditions ID = 0
+CreatorStatus = 0
+Module Description ID = 3f8a3ea5390b6e0967ffa0072de862e5
+Is Present = 1
+
+Reconstructed 16 tracks
+	momentum: (8.64551,0.915978,-31.6835)	PT: 8.6939
+	vertex: (0.00242209,-0.022861,0.239229)	Z0: 0.239229 +- 0.00737169
+	charge: -1
+------------------------------------------------
+	momentum: (8.92704,0.948138,-32.7161)	PT: 8.97725
+	vertex: (0.00251228,-0.0236539,0.239236)	Z0: 0.239236 +- 0.0073842
+	charge: -1
+------------------------------------------------
+	momentum: (6.20068,0.628537,-22.476)	PT: 6.23246
+	vertex: (0.000485486,-0.00478944,-0.0290427)	Z0: -0.0290427 +- 0.00721732
+	charge: -1
+------------------------------------------------
+	momentum: (6.42642,0.654026,-23.2952)	PT: 6.45961
+	vertex: (0.000602564,-0.00592075,-0.0290276)	Z0: -0.0290276 +- 0.00721867
+	charge: -1
+------------------------------------------------
+	momentum: (8.0097,6.35022,-8.85041)	PT: 10.2216
+	vertex: (0.000255045,-0.000321694,-0.00231588)	Z0: -0.00231588 +- 0.007356
+	charge: -1
+------------------------------------------------
+	momentum: (1.88975,3.16095,0.574479)	PT: 3.68277
+	vertex: (0.00652876,-0.00390317,0.0197826)	Z0: 0.0197826 +- 0.00783546
+	charge: 1
+------------------------------------------------
+	momentum: (-0.122833,2.21624,-4.3487)	PT: 2.21964
+	vertex: (-0.00269125,-0.00014916,0.00197567)	Z0: 0.00197567 +- 0.00903345
+	charge: -1
+------------------------------------------------
+	momentum: (-1.51609,0.622267,-3.94683)	PT: 1.63883
+	vertex: (-0.00260116,-0.00633748,0.073723)	Z0: 0.073723 +- 0.00974921
+	charge: -1
+------------------------------------------------
+	momentum: (-1.59402,-0.569187,-0.893958)	PT: 1.6926
+	vertex: (0.000887819,-0.00248636,-0.0131024)	Z0: -0.0131024 +- 0.0096765
+	charge: -1
+------------------------------------------------
+	momentum: (7.95272,-7.46579,10.9617)	PT: 10.908
+	vertex: (0.00143511,0.0015287,-0.00184155)	Z0: -0.00184155 +- 0.007356
+	charge: 1
+------------------------------------------------
+	momentum: (0.725247,0.707497,5.52961)	PT: 1.01318
+	vertex: (0.0619304,-0.0634841,0.0710258)	Z0: 0.0710258 +- 0.0106987
+	charge: 1
+------------------------------------------------
+	momentum: (-4.20239,-1.85493,-23.7885)	PT: 4.59356
+	vertex: (-0.00281821,0.00638474,-0.0192566)	Z0: -0.0192566 +- 0.00744554
+	charge: 1
+------------------------------------------------
+	momentum: (-4.45932,-1.96297,-25.2299)	PT: 4.87225
+	vertex: (-0.00165203,0.00375295,-0.0207182)	Z0: -0.0207182 +- 0.00736955
+	charge: 1
+------------------------------------------------
+	momentum: (0.231123,1.5644,-9.48235)	PT: 1.58138
+	vertex: (0.0260483,-0.00384836,0.021575)	Z0: 0.021575 +- 0.00982842
+	charge: 1
+------------------------------------------------
+	momentum: (5.41705,0.538289,-19.6845)	PT: 5.44373
+	vertex: (-0.000129882,0.00130706,0.0156344)	Z0: 0.0156344 +- 0.00726628
+	charge: -1
+------------------------------------------------
+	momentum: (5.26539,0.520165,-19.1326)	PT: 5.29102
+	vertex: (-0.000317453,0.00321343,0.015841)	Z0: 0.015841 +- 0.00728752
+	charge: -1
+------------------------------------------------
+The average z-position of these tracks is 0.0364199 +- 0.00203273
+The weighted average z-position of these tracks is 0.0364107 +- 0.00203273
+Process Name = PROD
+ModuleLabel = pixelVertices
+Product ID = 64
+Class Name = std::vector<reco::Vertex>
+Friendly Class Name = recoVertexs
+Product Instance Name = 
+Product ID = 64
+Conditions ID = 0
+CreatorStatus = 0
+Module Description ID = 127edd1f1f620ad9d939a91aeb3b7329
+Is Present = 1
+
+Reconstructed 1 vertexes
+%MSG-i FwkReport:  main_input:source 12-Sep-2006 19:02:59 XYZ Run: 5001 Event: 8
+Begin processing the 9th record. Run 5001, Event 9
+%MSG-i PixelTrackProducer:  PixelTrackProducer:pixelTracks 
+       12-Sep-2006 19:02:59 XYZ Run: 5001 Event: 9
+size of triplets: 9
+nTracks9
+*** PixelVertexTest, analyze event: run: 5001 event: 9
+Process Name = PROD
+ModuleLabel = pixelTracks
+Product ID = 63
+Class Name = std::vector<reco::Track>
+Friendly Class Name = recoTracks
+Product Instance Name = 
+Product ID = 63
+Conditions ID = 0
+CreatorStatus = 0
+Module Description ID = 3f8a3ea5390b6e0967ffa0072de862e5
+Is Present = 1
+
+Reconstructed 9 tracks
+	momentum: (3.27127,0.143952,3.32195)	PT: 3.27444
+	vertex: (-0.000229444,0.00521404,-0.00247885)	Z0: -0.00247885 +- 0.00809165
+	charge: 1
+------------------------------------------------
+	momentum: (3.56025,1.49701,2.54897)	PT: 3.86218
+	vertex: (-0.0158905,0.0377914,-0.00282117)	Z0: -0.00282117 +- 0.00773981
+	charge: 1
+------------------------------------------------
+	momentum: (-4.1159,0.919908,-3.31276)	PT: 4.21745
+	vertex: (0.00043219,0.00193373,0.00464112)	Z0: 0.00464112 +- 0.0075786
+	charge: -1
+------------------------------------------------
+	momentum: (-4.31004,0.959034,-3.46298)	PT: 4.41545
+	vertex: (0.00103927,0.00467063,-0.000338217)	Z0: -0.000338217 +- 0.00750398
+	charge: -1
+------------------------------------------------
+	momentum: (-1.95181,-0.140555,3.03501)	PT: 1.95687
+	vertex: (0.00534103,-0.0741679,-0.027022)	Z0: -0.027022 +- 0.00933852
+	charge: -1
+------------------------------------------------
+	momentum: (-2.3954,-4.97769,4.1189)	PT: 5.52407
+	vertex: (-0.00588142,0.00283031,5.16745e-05)	Z0: 5.16745e-05 +- 0.0072568
+	charge: 1
+------------------------------------------------
+	momentum: (8.7371,-1.35128,-4.62038)	PT: 8.84097
+	vertex: (-0.000380414,-0.00245968,-0.00526065)	Z0: -0.00526065 +- 0.00737899
+	charge: 1
+------------------------------------------------
+	momentum: (-3.22356,2.34744,20.7195)	PT: 3.98771
+	vertex: (0.0029955,0.0041135,0.0082996)	Z0: 0.0082996 +- 0.00767868
+	charge: -1
+------------------------------------------------
+	momentum: (-7.40719,-2.42669,-36.0178)	PT: 7.79457
+	vertex: (0.00120464,-0.00367702,0.00895581)	Z0: 0.00895581 +- 0.00730356
+	charge: 1
+------------------------------------------------
+The average z-position of these tracks is -0.00177474 +- 0.0025878
+The weighted average z-position of these tracks is -0.00070543 +- 0.0025878
+Process Name = PROD
+ModuleLabel = pixelVertices
+Product ID = 64
+Class Name = std::vector<reco::Vertex>
+Friendly Class Name = recoVertexs
+Product Instance Name = 
+Product ID = 64
+Conditions ID = 0
+CreatorStatus = 0
+Module Description ID = 127edd1f1f620ad9d939a91aeb3b7329
+Is Present = 1
+
+Reconstructed 1 vertexes
+%MSG-i FwkReport:  main_input:source 12-Sep-2006 19:02:59 XYZ Run: 5001 Event: 9
+Begin processing the 10th record. Run 5001, Event 10
+%MSG-i PixelTrackProducer:  PixelTrackProducer:pixelTracks 
+       12-Sep-2006 19:02:59 XYZ Run: 5001 Event: 10
+size of triplets: 10
+nTracks10
+*** PixelVertexTest, analyze event: run: 5001 event: 10
+Process Name = PROD
+ModuleLabel = pixelTracks
+Product ID = 63
+Class Name = std::vector<reco::Track>
+Friendly Class Name = recoTracks
+Product Instance Name = 
+Product ID = 63
+Conditions ID = 0
+CreatorStatus = 0
+Module Description ID = 3f8a3ea5390b6e0967ffa0072de862e5
+Is Present = 1
+
+Reconstructed 10 tracks
+	momentum: (-4.57928,1.8747,-14.9249)	PT: 4.94816
+	vertex: (0.00161315,0.0039404,-0.0284762)	Z0: -0.0284762 +- 0.00735193
+	charge: -1
+------------------------------------------------
+	momentum: (-1.95251,0.730829,-0.312872)	PT: 2.0848
+	vertex: (0.00352611,0.00942048,-0.0174787)	Z0: -0.0174787 +- 0.00918623
+	charge: 1
+------------------------------------------------
+	momentum: (-1.58939,-2.81179,3.99066)	PT: 3.22991
+	vertex: (0.0131831,-0.00745188,-0.000108425)	Z0: -0.000108425 +- 0.00812299
+	charge: -1
+------------------------------------------------
+	momentum: (2.96376,-6.24383,17.7587)	PT: 6.91153
+	vertex: (0.004333,0.00205675,-0.00392516)	Z0: -0.00392516 +- 0.00723615
+	charge: -1
+------------------------------------------------
+	momentum: (3.57955,-7.50733,21.37)	PT: 8.31704
+	vertex: (-6.01981e-05,-2.87029e-05,-0.00396457)	Z0: -0.00396457 +- 0.00734674
+	charge: -1
+------------------------------------------------
+	momentum: (4.50255,-2.18678,10.6055)	PT: 5.0055
+	vertex: (-0.000246704,-0.000507959,-0.00921906)	Z0: -0.00921906 +- 0.00733946
+	charge: 1
+------------------------------------------------
+	momentum: (1.44897,-0.164362,1.92562)	PT: 1.45826
+	vertex: (0.000723721,0.00638012,-0.00949306)	Z0: -0.00949306 +- 0.0100035
+	charge: -1
+------------------------------------------------
+	momentum: (-0.192938,-3.83446,14.4903)	PT: 3.83931
+	vertex: (-0.0125122,0.000629576,0.0251753)	Z0: 0.0251753 +- 0.00775145
+	charge: 1
+------------------------------------------------
+	momentum: (5.00525,2.96717,-33.668)	PT: 5.81864
+	vertex: (0.000205719,-0.000347022,0.0543064)	Z0: 0.0543064 +- 0.00723135
+	charge: 1
+------------------------------------------------
+	momentum: (6.78694,3.99778,-45.5773)	PT: 7.87685
+	vertex: (-0.00329636,0.00559615,0.0544299)	Z0: 0.0544299 +- 0.00731064
+	charge: 1
+------------------------------------------------
+The average z-position of these tracks is 0.00612465 +- 0.00249442
+The weighted average z-position of these tracks is 0.00797935 +- 0.00249442
+Process Name = PROD
+ModuleLabel = pixelVertices
+Product ID = 64
+Class Name = std::vector<reco::Vertex>
+Friendly Class Name = recoVertexs
+Product Instance Name = 
+Product ID = 64
+Conditions ID = 0
+CreatorStatus = 0
+Module Description ID = 127edd1f1f620ad9d939a91aeb3b7329
+Is Present = 1
+
+Reconstructed 1 vertexes
+******************************************************************************
+*Tree    :t         : Pixel Vertex Testing                                   *
+*Entries :       10 : Total =           15327 bytes  File  Size =          0 *
+*        :          : Tree compression factor =   1.00                       *
+******************************************************************************
+*Br    0 :nvtx      : nvtx/I                                                 *
+*Entries :       10 : Total  Size=        654 bytes  One basket in memory    *
+*Baskets :        0 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br    1 :vz        : vz[nvtx]/D                                             *
+*Entries :       10 : Total  Size=        777 bytes  One basket in memory    *
+*Baskets :        0 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br    2 :errvz     : errvz[nvtx]/D                                          *
+*Entries :       10 : Total  Size=        795 bytes  One basket in memory    *
+*Baskets :        0 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br    3 :vzwt      : vzwt[nvtx]/D                                           *
+*Entries :       10 : Total  Size=        789 bytes  One basket in memory    *
+*Baskets :        0 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br    4 :errvzwt   : errvzwt[nvtx]/D                                        *
+*Entries :       10 : Total  Size=        807 bytes  One basket in memory    *
+*Baskets :        0 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br    5 :nvtx2     : nvtx2/I                                                *
+*Entries :       10 : Total  Size=        660 bytes  One basket in memory    *
+*Baskets :        0 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br    6 :vz2       : vz2[nvtx2]/D                                           *
+*Entries :       10 : Total  Size=        787 bytes  One basket in memory    *
+*Baskets :        0 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br    7 :trk2avg   : trk2avg[nvtx2]/D                                       *
+*Entries :       10 : Total  Size=        811 bytes  One basket in memory    *
+*Baskets :        0 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br    8 :errvz2    : errvz2[nvtx2]/D                                        *
+*Entries :       10 : Total  Size=        805 bytes  One basket in memory    *
+*Baskets :        0 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br    9 :ntrk2     : ntrk2[nvtx2]/I                                         *
+*Entries :       10 : Total  Size=        744 bytes  One basket in memory    *
+*Baskets :        0 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br   10 :sumpt2    : sumpt2[nvtx2]/D                                        *
+*Entries :       10 : Total  Size=        805 bytes  One basket in memory    *
+*Baskets :        0 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br   11 :ntrk      : ntrk/I                                                 *
+*Entries :       10 : Total  Size=        654 bytes  One basket in memory    *
+*Baskets :        0 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br   12 :pt        : pt[ntrk]/D                                             *
+*Entries :       10 : Total  Size=       1737 bytes  One basket in memory    *
+*Baskets :        0 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br   13 :z0        : z0[ntrk]/D                                             *
+*Entries :       10 : Total  Size=       1737 bytes  One basket in memory    *
+*Baskets :        0 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br   14 :errz0     : errz0[ntrk]/D                                          *
+*Entries :       10 : Total  Size=       1755 bytes  One basket in memory    *
+*Baskets :        0 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br   15 :theta     : theta[ntrk]/D                                          *
+*Entries :       10 : Total  Size=       1755 bytes  One basket in memory    *
+*Baskets :        0 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+TFile: name=pixel_vertices.root, title=, option=CREATE
+******************************************************************************
+*Tree    :t         : Pixel Vertex Testing                                   *
+*Entries :       10 : Total =           15327 bytes  File  Size =          0 *
+*        :          : Tree compression factor =   1.00                       *
+******************************************************************************
+*Br    0 :nvtx      : nvtx/I                                                 *
+*Entries :       10 : Total  Size=        654 bytes  One basket in memory    *
+*Baskets :        0 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br    1 :vz        : vz[nvtx]/D                                             *
+*Entries :       10 : Total  Size=        777 bytes  One basket in memory    *
+*Baskets :        0 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br    2 :errvz     : errvz[nvtx]/D                                          *
+*Entries :       10 : Total  Size=        795 bytes  One basket in memory    *
+*Baskets :        0 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br    3 :vzwt      : vzwt[nvtx]/D                                           *
+*Entries :       10 : Total  Size=        789 bytes  One basket in memory    *
+*Baskets :        0 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br    4 :errvzwt   : errvzwt[nvtx]/D                                        *
+*Entries :       10 : Total  Size=        807 bytes  One basket in memory    *
+*Baskets :        0 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br    5 :nvtx2     : nvtx2/I                                                *
+*Entries :       10 : Total  Size=        660 bytes  One basket in memory    *
+*Baskets :        0 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br    6 :vz2       : vz2[nvtx2]/D                                           *
+*Entries :       10 : Total  Size=        787 bytes  One basket in memory    *
+*Baskets :        0 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br    7 :trk2avg   : trk2avg[nvtx2]/D                                       *
+*Entries :       10 : Total  Size=        811 bytes  One basket in memory    *
+*Baskets :        0 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br    8 :errvz2    : errvz2[nvtx2]/D                                        *
+*Entries :       10 : Total  Size=        805 bytes  One basket in memory    *
+*Baskets :        0 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br    9 :ntrk2     : ntrk2[nvtx2]/I                                         *
+*Entries :       10 : Total  Size=        744 bytes  One basket in memory    *
+*Baskets :        0 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br   10 :sumpt2    : sumpt2[nvtx2]/D                                        *
+*Entries :       10 : Total  Size=        805 bytes  One basket in memory    *
+*Baskets :        0 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br   11 :ntrk      : ntrk/I                                                 *
+*Entries :       10 : Total  Size=        654 bytes  One basket in memory    *
+*Baskets :        0 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br   12 :pt        : pt[ntrk]/D                                             *
+*Entries :       10 : Total  Size=       1737 bytes  One basket in memory    *
+*Baskets :        0 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br   13 :z0        : z0[ntrk]/D                                             *
+*Entries :       10 : Total  Size=       1737 bytes  One basket in memory    *
+*Baskets :        0 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br   14 :errz0     : errz0[ntrk]/D                                          *
+*Entries :       10 : Total  Size=       1755 bytes  One basket in memory    *
+*Baskets :        0 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br   15 :theta     : theta[ntrk]/D                                          *
+*Entries :       10 : Total  Size=       1755 bytes  One basket in memory    *
+*Baskets :        0 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+%MSG-i FwkJob:  PostSource 12-Sep-2006 19:03:01 XYZ Run: 5001 Event: 10
+
+<File>
+%MSG-i FwkJob:  PostSource 12-Sep-2006 19:03:01 XYZ Run: 5001 Event: 10
+
+<State  Value="closed"/>
+<LFN></LFN>
+<PFN>file:pixel_vertexing.root</PFN>
+<Catalog>file:PoolFileCatalog.xml</Catalog>
+<ModuleLabel>out</ModuleLabel>
+<Runs>
+  <Run>5001</Run>
+</Runs>
+<Branches>
+</Branches>
+<OutputModuleClass>PoolOutputModule</OutputModuleClass>
+<TotalEvents>10</TotalEvents>
+
+%MSG-i FwkJob:  PostSource 12-Sep-2006 19:03:01 XYZ Run: 5001 Event: 10
+
+<Inputs>
+%MSG-i FwkJob:  PostSource 12-Sep-2006 19:03:01 XYZ Run: 5001 Event: 10
+
+<Input>
+%MSG-i FwkJob:  PostSource 12-Sep-2006 19:03:01 XYZ Run: 5001 Event: 10
+
+  <LFN></LFN>
+%MSG-i FwkJob:  PostSource 12-Sep-2006 19:03:01 XYZ Run: 5001 Event: 10
+
+  <PFN>rfio:/castor/cern.ch/cms/store/unmerged/RelVal/2006/8/13/RelVal09010Muons1-10/GEN-SIM-DIGI-RECO/0005/EC233E68-1E2B-DB11-8406-0002B3D8E6A4.root</PFN>
+%MSG-i FwkJob:  PostSource 12-Sep-2006 19:03:01 XYZ Run: 5001 Event: 10
+
+</Input>
+%MSG-i FwkJob:  PostSource 12-Sep-2006 19:03:01 XYZ Run: 5001 Event: 10
+
+</Inputs>
+%MSG-i FwkJob:  PostSource 12-Sep-2006 19:03:01 XYZ Run: 5001 Event: 10
+
+</File>
+%MSG-i FwkJob:  PostSource 12-Sep-2006 19:03:01 XYZ Run: 5001 Event: 10
+
+<InputFile>
+<State  Value="closed"/>
+<LFN></LFN>
+<PFN>rfio:/castor/cern.ch/cms/store/unmerged/RelVal/2006/8/13/RelVal09010Muons1-10/GEN-SIM-DIGI-RECO/0005/EC233E68-1E2B-DB11-8406-0002B3D8E6A4.root</PFN>
+<Catalog>trivialcatalog_file:/afs/cern.ch/cms/SITECONF/local/PhEDEx/storage.xml?protocol=rfio</Catalog>
+<ModuleLabel>source</ModuleLabel>
+<Runs>
+  <Run>5001</Run>
+</Runs>
+<Branches>
+</Branches>
+<InputSourceClass>PoolSource</InputSourceClass>
+<EventsRead>10</EventsRead>
+</InputFile>
+%MSG-i PixelVertexTest:  PostSource 12-Sep-2006 19:03:01 XYZ Run: 5001 Event: 10
+ DTOR
+TH1.Print Name  = nvtx, Entries= 10, Total sum= 10
+
+Main Thread CPU elapsed time 6919u 828s
+  *******************************************
+  *                                         *
+  *        W E L C O M E  to  R O O T       *
+  *                                         *
+  *   Version  5.12/00d  2 September 2006   *
+  *                                         *
+  *  You are welcome to visit our Web site  *
+  *          http://root.cern.ch            *
+  *                                         *
+  *******************************************
+
+Compiled on 3 September 2006 for linux with thread support.
+
+CINT/ROOT C/C++ Interpreter version 5.16.13, June 8, 2006
+Type ? for help. Commands must be C++ statements.
+Enclose multiple statements between { }.
+
+Processing DoCompare.C("_10muons")...
+Initializing HistoCompare... 
+(class HistoCompare)168336720
+Initializing HistoCompare... 
+[OVAL] nvtx PV= 1
+Info in <TCanvas::Print>: eps file _10muonsnvtx.eps has been created
+
+[oval run] ==========================================
+[oval run] result: OK
+[oval run] ==========================================
+
