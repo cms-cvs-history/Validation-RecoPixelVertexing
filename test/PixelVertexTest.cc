@@ -41,7 +41,18 @@ private:
   // Tree of simple vars for testing resolution eff etc
   TTree *t_;
   TFile *f_;
-  TH1*   h1_nvtx_;
+  TH1* h1_nbvtx_in_event_;
+  TH1* h1_nbtks_in_vtx_;
+  TH1* h1_resx_;
+  TH1* h1_resy_;
+  TH1* h1_resz_;
+  TH1* h1_pullx_;
+  TH1* h1_pully_;
+  TH1* h1_pullz_;
+  TH1* h1_vtx_chi2_;
+  TH1* h1_vtx_ndf_;
+  TH1* h1_tklinks_;
+  TH1* h1_nans_;
   int ntrk_;
   static const int maxtrk_=1000;
   double pt_[maxtrk_];
@@ -104,7 +115,18 @@ void PixelVertexTest::beginJob(const edm::EventSetup& es) {
   t_->Branch("theta",theta_,"theta[ntrk]/D");
 
   // validation histos
-  h1_nvtx_ = new TH1F("nvtx","Nb vertices",101,-0.5,100.5);
+  h1_nbvtx_in_event_ = new TH1F("nbvtx","nb vertices in event",100,0.,100.);
+  h1_nbtks_in_vtx_ = new TH1F("nbtksinvtx","nb tracks in vertex",100,0.,100.); 
+  h1_resx_  = new TH1F("resx","residual x",100,-0.1,0.1);
+  h1_resy_ = new TH1F("resy","residual y",100,-0.1,0.1);
+  h1_resz_ = new TH1F("resz","residual z",100,-0.1,0.1);
+  h1_pullx_ = new TH1F("pullx","pull x",100,-25.,25.);
+  h1_pully_ = new TH1F("pully","pull y",100,-25.,25.);
+  h1_pullz_ = new TH1F("pullz","pull z",100,-25.,25.);
+  h1_vtx_chi2_  = new TH1F("vtxchi2","chi squared",100,0.,1000.);
+  h1_vtx_ndf_ = new TH1F("vtxndf","degrees of freedom",100,0.,100.);
+  h1_tklinks_ = new TH1F("tklinks","Usable track links",2,-0.5,1.5);
+  h1_nans_ = new TH1F("nans","Illegal values for x,y,z,xx,xy,xz,yy,yz,zz",9,0.5,9.5);
   gDirectory->cd(cwd);
 }
 
@@ -166,8 +188,57 @@ void PixelVertexTest::analyze(
     cout << "Reconstructed "<< vertexes.size() << " vertexes" << std::endl;
   }
   nvtx2_ = vertexes.size();
-  
-  h1_nvtx_->Fill(float(nvtx2_));
+
+  for(reco::VertexCollection::const_iterator v=vertexes.begin(); 
+      v!=vertexes.end(); ++v){
+
+    try {
+      for(reco::track_iterator t = v->tracks_begin(); 
+	  t!=v->tracks_end(); t++) {
+	// illegal charge
+	if ( (**t).charge() < -1 || (**t).charge() > 1 ) {
+	  h1_tklinks_->Fill(0.);
+	}
+	else {
+	  h1_tklinks_->Fill(1.);
+	}
+      }
+    }
+    catch (...) {
+      // exception thrown when trying to use linked track
+      h1_tklinks_->Fill(0.);
+    }
+    
+    h1_nbvtx_in_event_->Fill(vertexes.size()*1.);
+    h1_nbtks_in_vtx_->Fill(v->tracksSize());
+    h1_resx_->Fill(v->position().x());
+    h1_resy_->Fill(v->position().y());
+    h1_resz_->Fill(v->position().z());
+    h1_pullx_->Fill(v->position().x()/v->xError());
+    h1_pully_->Fill(v->position().y()/v->yError());
+    h1_pullz_->Fill(v->position().z()/v->zError());
+    h1_vtx_chi2_->Fill(v->chi2());
+    h1_vtx_ndf_->Fill(v->ndof());
+    
+    bool problem = false;
+    h1_nans_->Fill(1.,isnan(v->position().x())*1.);
+    h1_nans_->Fill(2.,isnan(v->position().y())*1.);
+    h1_nans_->Fill(3.,isnan(v->position().z())*1.);
+    
+    int index = 3;
+    for (int i = 0; i != 3; i++) {
+      for (int j = i; j != 3; j++) {
+	index++;
+	h1_nans_->Fill(index*1., isnan(v->covariance(i, j))*1.);
+	if (isnan(v->covariance(i, j))) problem = true;
+	// in addition, diagonal element must be positive
+	if (j == i && v->covariance(i, j) < 0) {
+	  h1_nans_->Fill(index*1., 1.);
+	  problem = true;
+	}
+      }
+    }
+  }
 
   PVClusterComparer vcompare;
   for (int i=0; i<nvtx2_ && i<maxvtx_; i++) {
@@ -189,7 +260,18 @@ void PixelVertexTest::analyze(
 }
 
 void PixelVertexTest::endJob() {
-  if (h1_nvtx_) h1_nvtx_->Write();
+  h1_nbvtx_in_event_->Write();
+  h1_nbtks_in_vtx_->Write();
+  h1_resx_->Write();
+  h1_resy_->Write();
+  h1_resz_->Write();
+  h1_pullx_->Write();
+  h1_pully_->Write();
+  h1_pullz_->Write();
+  h1_vtx_chi2_->Write();
+  h1_vtx_ndf_->Write();
+  h1_tklinks_->Write();
+  h1_nans_->Write();
   if (t_) t_->Print();
   if (f_) {
     f_->Print();
