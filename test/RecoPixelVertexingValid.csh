@@ -11,6 +11,6 @@ setenv CURFILE "pixel_vertices.root"
 root -b -p -q DoCompare.C\(\"_10muons\"\)
 
 cmsRun test-io.cfg
-setenv REFFILE "pixel_vertices_iotest.root"
-setenv CURFILE "pixel_vertices.root"
+setenv REFFILE "pixel_vertices.root"
+setenv CURFILE "pixel_vertices_iotest.root"
 root -b -p -q DoCompare.C\(\"_iotest\"\)
