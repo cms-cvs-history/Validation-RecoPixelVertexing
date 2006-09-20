@@ -2,7 +2,7 @@
 
 eval `scramv1 runtime -csh`
 
-scramv1 b bin
+#scramv1 b bin
 
 echo "===========> Validating Pixel Primary Vertex Reco with 10-muon samples......."
 cmsRun test.cfg
