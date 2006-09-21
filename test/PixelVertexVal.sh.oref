@@ -1,0 +1,1000 @@
+
+[oval run] =================================================
+[oval run] USER : aarond
+[oval run] HOST : lxplus064.cern.ch
+[oval run] run tool: oval
+[oval run] final instruction: ./PixelVertexVal.sh
+[oval run] =================================================
+
+===========> Validating Pixel Primary Vertex Reco with 10-muon samples.......
+===========> Validating reconstruction.....
+%MSG-i DDLParser:  21-Sep-2006 23:25:22 XYZ pre-events
+Start Parsing.  Validation is set off for the time being.
+Element: Constant (64)
+Timing in XMLIdealGeometryESSource : Real Time = 1.62 (s), User Time = 1.5 (s), System Time = 0.07 (s), Cpu Time = 1.57 (s), Idle Time = 0.05 (s), 
+%MSG-i DDLParser:  21-Sep-2006 23:25:24 XYZ pre-events
+Start Parsing.  Validation is set off for the time being.
+Element: Constant (2331)
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:28 XYZ pre-events
+DDTrackerLinear info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:28 XYZ pre-events
+DDTrackerLinear info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:28 XYZ pre-events
+DDTrackerLinear info: Creating an instance
+%MSG-i PixelGeom:  21-Sep-2006 23:25:28 XYZ pre-events
+DDPixBarLayerAlgo info: Creating an instance
+%MSG-i PixelGeom:  21-Sep-2006 23:25:28 XYZ pre-events
+DDPixBarLayerAlgo info: Creating an instance
+%MSG-i PixelGeom:  21-Sep-2006 23:25:28 XYZ pre-events
+DDPixBarLayerAlgo info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:29 XYZ pre-events
+DDTrackerZPosAlgo info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:29 XYZ pre-events
+DDTrackerZPosAlgo info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:29 XYZ pre-events
+DDTrackerZPosAlgo info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:29 XYZ pre-events
+DDTrackerZPosAlgo info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:29 XYZ pre-events
+DDTrackerZPosAlgo info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:29 XYZ pre-events
+DDTrackerZPosAlgo info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:29 XYZ pre-events
+DDTrackerZPosAlgo info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:29 XYZ pre-events
+DDTrackerZPosAlgo info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:29 XYZ pre-events
+DDTrackerZPosAlgo info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:29 XYZ pre-events
+DDTrackerZPosAlgo info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:29 XYZ pre-events
+DDTrackerZPosAlgo info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:29 XYZ pre-events
+DDTrackerZPosAlgo info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:29 XYZ pre-events
+DDTrackerZPosAlgo info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:29 XYZ pre-events
+DDTrackerZPosAlgo info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:29 XYZ pre-events
+DDTrackerZPosAlgo info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:29 XYZ pre-events
+DDTrackerZPosAlgo info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:29 XYZ pre-events
+DDTrackerZPosAlgo info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:29 XYZ pre-events
+DDTrackerZPosAlgo info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:29 XYZ pre-events
+DDTrackerZPosAlgo info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:29 XYZ pre-events
+DDTrackerZPosAlgo info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:29 XYZ pre-events
+DDTrackerZPosAlgo info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:29 XYZ pre-events
+DDTrackerZPosAlgo info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:29 XYZ pre-events
+DDTrackerZPosAlgo info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:29 XYZ pre-events
+DDTrackerZPosAlgo info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:29 XYZ pre-events
+DDTrackerZPosAlgo info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:29 XYZ pre-events
+DDTrackerZPosAlgo info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:29 XYZ pre-events
+DDTrackerZPosAlgo info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:29 XYZ pre-events
+DDTrackerZPosAlgo info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:29 XYZ pre-events
+DDTrackerZPosAlgo info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:29 XYZ pre-events
+DDTrackerZPosAlgo info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:29 XYZ pre-events
+DDTrackerZPosAlgo info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:29 XYZ pre-events
+DDTrackerZPosAlgo info: Creating an instance
+%MSG-i TIBGeom:  21-Sep-2006 23:25:29 XYZ pre-events
+DDTIBLayerAlgo info: Creating an instance
+%MSG-i TIBGeom:  21-Sep-2006 23:25:29 XYZ pre-events
+DDTIBLayerAlgo info: Creating an instance
+%MSG-i TIBGeom:  21-Sep-2006 23:25:29 XYZ pre-events
+DDTIBLayerAlgo info: Creating an instance
+%MSG-i TIBGeom:  21-Sep-2006 23:25:29 XYZ pre-events
+DDTIBLayerAlgo info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:29 XYZ pre-events
+DDTrackerAngular info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:29 XYZ pre-events
+DDTrackerAngular info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:29 XYZ pre-events
+DDTrackerAngular info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:29 XYZ pre-events
+DDTrackerAngular info: Creating an instance
+%MSG-i TIBGeom:  21-Sep-2006 23:25:29 XYZ pre-events
+DDTIBRadCableAlgo info: Creating an instance
+%MSG-i TIDGeom:  21-Sep-2006 23:25:29 XYZ pre-events
+DDTIDModuleAlgo info: Creating an instance
+%MSG-i TIDGeom:  21-Sep-2006 23:25:29 XYZ pre-events
+DDTIDModulePosAlgo info: Creating an instance
+%MSG-i TIDGeom:  21-Sep-2006 23:25:29 XYZ pre-events
+DDTIDModulePosAlgo info: Creating an instance
+%MSG-i TIDGeom:  21-Sep-2006 23:25:29 XYZ pre-events
+DDTIDModuleAlgo info: Creating an instance
+%MSG-i TIDGeom:  21-Sep-2006 23:25:29 XYZ pre-events
+DDTIDModulePosAlgo info: Creating an instance
+%MSG-i TIDGeom:  21-Sep-2006 23:25:29 XYZ pre-events
+DDTIDModulePosAlgo info: Creating an instance
+%MSG-i TIDGeom:  21-Sep-2006 23:25:29 XYZ pre-events
+DDTIDModuleAlgo info: Creating an instance
+%MSG-i TIDGeom:  21-Sep-2006 23:25:29 XYZ pre-events
+DDTIDModulePosAlgo info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:29 XYZ pre-events
+DDTrackerAngular info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:29 XYZ pre-events
+DDTrackerPhiAlgo info: Creating an instance
+%MSG-i TIDGeom:  21-Sep-2006 23:25:29 XYZ pre-events
+DDTIDRingAlgo info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:29 XYZ pre-events
+DDTrackerPhiAlgo info: Creating an instance
+%MSG-i TIDGeom:  21-Sep-2006 23:25:29 XYZ pre-events
+DDTIDRingAlgo info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:29 XYZ pre-events
+DDTrackerAngular info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:29 XYZ pre-events
+DDTrackerPhiAlgo info: Creating an instance
+%MSG-i TIDGeom:  21-Sep-2006 23:25:29 XYZ pre-events
+DDTIDRingAlgo info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:29 XYZ pre-events
+DDTrackerPhiAlgo info: Creating an instance
+%MSG-i TIDGeom:  21-Sep-2006 23:25:29 XYZ pre-events
+DDTIDRingAlgo info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:29 XYZ pre-events
+DDTrackerPhiAlgo info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:29 XYZ pre-events
+DDTrackerAngular info: Creating an instance
+%MSG-i TIDGeom:  21-Sep-2006 23:25:29 XYZ pre-events
+DDTIDRingAlgo info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:29 XYZ pre-events
+DDTrackerAngular info: Creating an instance
+%MSG-i TIDGeom:  21-Sep-2006 23:25:29 XYZ pre-events
+DDTIDAxialCableAlgo info: Creating an instance
+%MSG-i TOBGeom:  21-Sep-2006 23:25:29 XYZ pre-events
+DDTOBRodAlgo info: Creating an instance
+%MSG-i TOBGeom:  21-Sep-2006 23:25:29 XYZ pre-events
+DDTOBRodAlgo info: Creating an instance
+%MSG-i TOBGeom:  21-Sep-2006 23:25:29 XYZ pre-events
+DDTOBRodAlgo info: Creating an instance
+%MSG-i TOBGeom:  21-Sep-2006 23:25:29 XYZ pre-events
+DDTOBRodAlgo info: Creating an instance
+%MSG-i TOBGeom:  21-Sep-2006 23:25:29 XYZ pre-events
+DDTOBRodAlgo info: Creating an instance
+%MSG-i TOBGeom:  21-Sep-2006 23:25:29 XYZ pre-events
+DDTOBRodAlgo info: Creating an instance
+%MSG-i TOBGeom:  21-Sep-2006 23:25:29 XYZ pre-events
+DDTOBRodAlgo info: Creating an instance
+%MSG-i TOBGeom:  21-Sep-2006 23:25:29 XYZ pre-events
+DDTOBRodAlgo info: Creating an instance
+%MSG-i TOBGeom:  21-Sep-2006 23:25:29 XYZ pre-events
+DDTOBRodAlgo info: Creating an instance
+%MSG-i TOBGeom:  21-Sep-2006 23:25:29 XYZ pre-events
+DDTOBRodAlgo info: Creating an instance
+%MSG-i TOBGeom:  21-Sep-2006 23:25:29 XYZ pre-events
+DDTOBRodAlgo info: Creating an instance
+%MSG-i TOBGeom:  21-Sep-2006 23:25:29 XYZ pre-events
+DDTOBRodAlgo info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:29 XYZ pre-events
+DDTrackerZPosAlgo info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:29 XYZ pre-events
+DDTrackerZPosAlgo info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:29 XYZ pre-events
+DDTrackerZPosAlgo info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:29 XYZ pre-events
+DDTrackerAngular info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:29 XYZ pre-events
+DDTrackerZPosAlgo info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:29 XYZ pre-events
+DDTrackerAngular info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:29 XYZ pre-events
+DDTrackerZPosAlgo info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:29 XYZ pre-events
+DDTrackerAngular info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:29 XYZ pre-events
+DDTrackerZPosAlgo info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:29 XYZ pre-events
+DDTrackerAngular info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:29 XYZ pre-events
+DDTrackerZPosAlgo info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:29 XYZ pre-events
+DDTrackerAngular info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:29 XYZ pre-events
+DDTrackerZPosAlgo info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:29 XYZ pre-events
+DDTrackerAngular info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:29 XYZ pre-events
+DDTrackerZPosAlgo info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:29 XYZ pre-events
+DDTrackerZPosAlgo info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:29 XYZ pre-events
+DDTrackerZPosAlgo info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:29 XYZ pre-events
+DDTrackerZPosAlgo info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:29 XYZ pre-events
+DDTrackerZPosAlgo info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:29 XYZ pre-events
+DDTrackerZPosAlgo info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:29 XYZ pre-events
+DDTrackerZPosAlgo info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:29 XYZ pre-events
+DDTrackerPhiAltAlgo info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTrackerPhiAltAlgo info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTrackerPhiAltAlgo info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTrackerPhiAltAlgo info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTrackerPhiAltAlgo info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTrackerPhiAltAlgo info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTrackerPhiAlgo info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTrackerPhiAlgo info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTrackerPhiAlgo info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTrackerPhiAlgo info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTrackerPhiAlgo info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTrackerPhiAlgo info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTrackerPhiAlgo info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTrackerPhiAlgo info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTrackerPhiAlgo info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTrackerPhiAlgo info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTrackerPhiAlgo info: Creating an instance
+%MSG-i TOBGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTOBRadCableAlgo info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTrackerAngular info: Creating an instance
+%MSG-i TECGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTECModuleAlgo info: Creating an instance
+%MSG-i TECGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTECModuleAlgo info: Creating an instance
+%MSG-i TECGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTECModuleAlgo info: Creating an instance
+%MSG-i TECGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTECModuleAlgo info: Creating an instance
+%MSG-i TECGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTECModuleAlgo info: Creating an instance
+%MSG-i TECGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTECModuleAlgo info: Creating an instance
+%MSG-i TECGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTECModuleAlgo info: Creating an instance
+%MSG-i TECGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTECPhiAltAlgo info: Creating an instance
+%MSG-i TECGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTECPhiAltAlgo info: Creating an instance
+%MSG-i TECGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTECPhiAltAlgo info: Creating an instance
+%MSG-i TECGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTECPhiAltAlgo info: Creating an instance
+%MSG-i TECGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTECPhiAltAlgo info: Creating an instance
+%MSG-i TECGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTECPhiAltAlgo info: Creating an instance
+%MSG-i TECGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTECPhiAltAlgo info: Creating an instance
+%MSG-i TECGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTECPhiAltAlgo info: Creating an instance
+%MSG-i TECGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTECPhiAltAlgo info: Creating an instance
+%MSG-i TECGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTECPhiAltAlgo info: Creating an instance
+%MSG-i TECGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTECPhiAltAlgo info: Creating an instance
+%MSG-i TECGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTECPhiAltAlgo info: Creating an instance
+%MSG-i TECGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTECPhiAltAlgo info: Creating an instance
+%MSG-i TECGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTECPhiAltAlgo info: Creating an instance
+%MSG-i TECGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTECPhiAltAlgo info: Creating an instance
+%MSG-i TECGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTECPhiAltAlgo info: Creating an instance
+%MSG-i TECGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTECPhiAltAlgo info: Creating an instance
+%MSG-i TECGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTECPhiAltAlgo info: Creating an instance
+%MSG-i TECGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTECPhiAltAlgo info: Creating an instance
+%MSG-i TECGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTECPhiAltAlgo info: Creating an instance
+%MSG-i TECGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTECPhiAltAlgo info: Creating an instance
+%MSG-i TECGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTECPhiAltAlgo info: Creating an instance
+%MSG-i TECGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTECPhiAltAlgo info: Creating an instance
+%MSG-i TECGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTECPhiAltAlgo info: Creating an instance
+%MSG-i TECGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTECPhiAltAlgo info: Creating an instance
+%MSG-i TECGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTECPhiAltAlgo info: Creating an instance
+%MSG-i TECGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTECCoolAlgo info: Creating an instance
+%MSG-i TECGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTECCoolAlgo info: Creating an instance
+%MSG-i TECGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTECCoolAlgo info: Creating an instance
+%MSG-i TECGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTECCoolAlgo info: Creating an instance
+%MSG-i TECGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTECCoolAlgo info: Creating an instance
+%MSG-i TECGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTECCoolAlgo info: Creating an instance
+%MSG-i TECGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTECCoolAlgo info: Creating an instance
+%MSG-i TECGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTECOptoHybAlgo info: Creating an instance
+%MSG-i TECGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTECOptoHybAlgo info: Creating an instance
+%MSG-i TECGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTECOptoHybAlgo info: Creating an instance
+%MSG-i TECGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTECOptoHybAlgo info: Creating an instance
+%MSG-i TECGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTECOptoHybAlgo info: Creating an instance
+%MSG-i TECGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTECOptoHybAlgo info: Creating an instance
+%MSG-i TECGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTECCoolAlgo info: Creating an instance
+%MSG-i TECGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTECCoolAlgo info: Creating an instance
+%MSG-i TECGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTECCoolAlgo info: Creating an instance
+%MSG-i TECGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTECCoolAlgo info: Creating an instance
+%MSG-i TECGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTECCoolAlgo info: Creating an instance
+%MSG-i TECGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTECCoolAlgo info: Creating an instance
+%MSG-i TECGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTECCoolAlgo info: Creating an instance
+%MSG-i TECGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTECOptoHybAlgo info: Creating an instance
+%MSG-i TECGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTECOptoHybAlgo info: Creating an instance
+%MSG-i TECGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTECOptoHybAlgo info: Creating an instance
+%MSG-i TECGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTECOptoHybAlgo info: Creating an instance
+%MSG-i TECGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTECOptoHybAlgo info: Creating an instance
+%MSG-i TECGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTECOptoHybAlgo info: Creating an instance
+%MSG-i TECGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTECCoolAlgo info: Creating an instance
+%MSG-i TECGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTECCoolAlgo info: Creating an instance
+%MSG-i TECGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTECCoolAlgo info: Creating an instance
+%MSG-i TECGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTECCoolAlgo info: Creating an instance
+%MSG-i TECGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTECCoolAlgo info: Creating an instance
+%MSG-i TECGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTECCoolAlgo info: Creating an instance
+%MSG-i TECGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTECOptoHybAlgo info: Creating an instance
+%MSG-i TECGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTECOptoHybAlgo info: Creating an instance
+%MSG-i TECGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTECOptoHybAlgo info: Creating an instance
+%MSG-i TECGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTECOptoHybAlgo info: Creating an instance
+%MSG-i TECGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTECOptoHybAlgo info: Creating an instance
+%MSG-i TECGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTECCoolAlgo info: Creating an instance
+%MSG-i TECGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTECCoolAlgo info: Creating an instance
+%MSG-i TECGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTECCoolAlgo info: Creating an instance
+%MSG-i TECGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTECCoolAlgo info: Creating an instance
+%MSG-i TECGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTECCoolAlgo info: Creating an instance
+%MSG-i TECGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTECCoolAlgo info: Creating an instance
+%MSG-i TECGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTECOptoHybAlgo info: Creating an instance
+%MSG-i TECGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTECOptoHybAlgo info: Creating an instance
+%MSG-i TECGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTECOptoHybAlgo info: Creating an instance
+%MSG-i TECGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTECOptoHybAlgo info: Creating an instance
+%MSG-i TECGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTECOptoHybAlgo info: Creating an instance
+%MSG-i TECGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTECOptoHybAlgo info: Creating an instance
+%MSG-i TECGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTECCoolAlgo info: Creating an instance
+%MSG-i TECGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTECCoolAlgo info: Creating an instance
+%MSG-i TECGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTECCoolAlgo info: Creating an instance
+%MSG-i TECGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTECCoolAlgo info: Creating an instance
+%MSG-i TECGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTECCoolAlgo info: Creating an instance
+%MSG-i TECGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTECOptoHybAlgo info: Creating an instance
+%MSG-i TECGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTECOptoHybAlgo info: Creating an instance
+%MSG-i TECGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTECOptoHybAlgo info: Creating an instance
+%MSG-i TECGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTECOptoHybAlgo info: Creating an instance
+%MSG-i TECGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTECCoolAlgo info: Creating an instance
+%MSG-i TECGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTECCoolAlgo info: Creating an instance
+%MSG-i TECGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTECCoolAlgo info: Creating an instance
+%MSG-i TECGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTECCoolAlgo info: Creating an instance
+%MSG-i TECGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTECCoolAlgo info: Creating an instance
+%MSG-i TECGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTECOptoHybAlgo info: Creating an instance
+%MSG-i TECGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTECOptoHybAlgo info: Creating an instance
+%MSG-i TECGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTECOptoHybAlgo info: Creating an instance
+%MSG-i TECGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTECOptoHybAlgo info: Creating an instance
+%MSG-i TECGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTECCoolAlgo info: Creating an instance
+%MSG-i TECGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTECCoolAlgo info: Creating an instance
+%MSG-i TECGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTECCoolAlgo info: Creating an instance
+%MSG-i TECGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTECCoolAlgo info: Creating an instance
+%MSG-i TECGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTECOptoHybAlgo info: Creating an instance
+%MSG-i TECGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTECOptoHybAlgo info: Creating an instance
+%MSG-i TECGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTECOptoHybAlgo info: Creating an instance
+%MSG-i TECGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTECCoolAlgo info: Creating an instance
+%MSG-i TECGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTECCoolAlgo info: Creating an instance
+%MSG-i TECGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTECCoolAlgo info: Creating an instance
+%MSG-i TECGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTECCoolAlgo info: Creating an instance
+%MSG-i TECGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTECOptoHybAlgo info: Creating an instance
+%MSG-i TECGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTECOptoHybAlgo info: Creating an instance
+%MSG-i TECGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTECOptoHybAlgo info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTrackerAngular info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTrackerAngular info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTrackerAngular info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTrackerAngular info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTrackerAngular info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTrackerAngular info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTrackerAngular info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTrackerAngular info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTrackerAngular info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTrackerAngular info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTrackerAngular info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTrackerAngular info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTrackerPhiAltAlgo info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTrackerPhiAltAlgo info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTrackerAngular info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTrackerAngular info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTrackerAngular info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTrackerAngular info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTrackerAngular info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTrackerAngular info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTrackerAngular info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTrackerAngular info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTrackerAngular info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTrackerAngular info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTrackerAngular info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTrackerAngular info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTrackerPhiAltAlgo info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTrackerPhiAltAlgo info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTrackerAngular info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTrackerAngular info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTrackerAngular info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTrackerAngular info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTrackerAngular info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTrackerAngular info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTrackerAngular info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTrackerAngular info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTrackerAngular info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTrackerAngular info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTrackerAngular info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTrackerAngular info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTrackerPhiAltAlgo info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTrackerPhiAltAlgo info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTrackerAngular info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTrackerAngular info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTrackerAngular info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTrackerAngular info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTrackerAngular info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTrackerAngular info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTrackerAngular info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTrackerAngular info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTrackerAngular info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTrackerAngular info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTrackerAngular info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTrackerAngular info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTrackerPhiAltAlgo info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTrackerPhiAltAlgo info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTrackerPhiAlgo info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTrackerAngular info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTrackerAngular info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTrackerAngular info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTrackerAngular info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTrackerAngular info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTrackerAngular info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTrackerAngular info: Creating an instance
+%MSG-i TECGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTECAxialCableAlgo info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTrackerAngular info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTrackerAngular info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTrackerAngular info: Creating an instance
+%MSG-i TrackerGeom:  21-Sep-2006 23:25:30 XYZ pre-events
+DDTrackerAngular info: Creating an instance
+%MSG-i HCalGeom:  21-Sep-2006 23:25:35 XYZ pre-events
+DDHCalBarrelAlgo info: Creating an instance
+%MSG-i HCalGeom:  21-Sep-2006 23:25:35 XYZ pre-events
+DDHCalEndcapAlgo info: Creating an instance
+%MSG-i HCalGeom:  21-Sep-2006 23:25:35 XYZ pre-events
+DDHCalAngular test: Creating an instance
+%MSG-i HCalGeom:  21-Sep-2006 23:25:35 XYZ pre-events
+DDHCalAngular test: Creating an instance
+%MSG-i HCalGeom:  21-Sep-2006 23:25:35 XYZ pre-events
+DDHCalAngular test: Creating an instance
+%MSG-i HCalGeom:  21-Sep-2006 23:25:35 XYZ pre-events
+DDHCalAngular test: Creating an instance
+%MSG-i HCalGeom:  21-Sep-2006 23:25:35 XYZ pre-events
+DDHCalAngular test: Creating an instance
+%MSG-i HCalGeom:  21-Sep-2006 23:25:35 XYZ pre-events
+DDHCalAngular test: Creating an instance
+%MSG-i HCalGeom:  21-Sep-2006 23:25:35 XYZ pre-events
+DDHCalAngular test: Creating an instance
+%MSG-i HCalGeom:  21-Sep-2006 23:25:35 XYZ pre-events
+DDHCalAngular test: Creating an instance
+%MSG-i HCalGeom:  21-Sep-2006 23:25:35 XYZ pre-events
+DDHCalAngular test: Creating an instance
+%MSG-i HCalGeom:  21-Sep-2006 23:25:35 XYZ pre-events
+DDHCalAngular test: Creating an instance
+%MSG-i HCalGeom:  21-Sep-2006 23:25:35 XYZ pre-events
+DDHCalAngular test: Creating an instance
+%MSG-i HCalGeom:  21-Sep-2006 23:25:35 XYZ pre-events
+DDHCalForwardAlgo info: Creating an instance
+Timing in XMLIdealGeometryESSource : Real Time = 21.6 (s), User Time = 18.97 (s), System Time = 0.41 (s), Cpu Time = 19.38 (s), Idle Time = 2.22 (s), 
+Using the site default catalog: trivialcatalog_file:/afs/cern.ch/cms/SITECONF/local/PhEDEx/storage.xml?protocol=rfio
+%MSG-i PixelTrackProducer:  PixelTrackProducer:pixelTracks{ctor} 
+       21-Sep-2006 23:26:00 XYZ pre-events
+ construction...
+%MSG-w EventSetupDependency:  PoolOutputModule:out{ctor} 
+       21-Sep-2006 23:26:06 XYZ pre-events
+The EventSetup record TrackerDigiGeometryRecord depends on at least one Record 
+ (TrackerAlignmentRcd) which is not present in the job.
+ This may lead to failures during event processing.
+file:pixel_vertexing.root: level[Always] Root file version:51200
+%MSG-i FwkReport:  main_input:source 21-Sep-2006 23:26:26 XYZ BeforeEvents
+Begin processing the 1th record. Run 5001, Event 1
+%MSG-i TkDetLayers:  PixelTrackProducer:pixelTracks 21-Sep-2006 23:26:36 XYZ 
+       Run: 5001 Event: 1
+------ GeometricSearchTracker constructed with: ------
+n pxlBarLayers: 3
+n tibLayers:    4
+n tobLayers:    6
+n negPxlFwdLayers: 2
+n negPxlFwdLayers: 2
+n negTidLayers: 3
+n posTidLayers: 3
+n negTecLayers: 9
+n posTecLayers: 9
+n barreLayers:  13
+n negforwardLayers: 14
+n posForwardLayers: 14
+Creating a new Timing Report
+StopWatch bias 3.29683e-08
+CPUWatch bias 0.000696
+
+         ___________________________________        
+      .-'                                   '-.     
+    .'      Magnetic Field Geometry built      `.   
+   /                                             \  
+  ;         Barrel volumes: 2436                  ; 
+  ;         Endcap volumes: 816                   ; 
+   \                                             /  
+    `.          Fasten your seatbelt.          .'   
+      `-.___________________________________.-'     
+
+MultipleScatteringX0Data initialisation, reading :...
+%MSG-i PixelTrackProducer:  PixelTrackProducer:pixelTracks 
+       21-Sep-2006 23:26:45 XYZ Run: 5001 Event: 1
+number of triplets: 12
+Error in <TBranchElement::GetDataMemberOffset>: obsolete call with (reco::Track,hitPattern_.hitPattern_[5])
+
+Error in <TBranchElement::GetDataMemberOffset>: obsolete call with (reco::Track,hitPattern_.hitPattern_[5])
+
+Error in <TBranchElement::GetDataMemberOffset>: obsolete call with (reco::Track,hitPattern_.hitPattern_[5])
+
+Error in <TBranchElement::GetDataMemberOffset>: obsolete call with (reco::Track,hitPattern_.hitPattern_[5])
+
+%MSG-i FwkReport:  main_input:source 21-Sep-2006 23:26:54 XYZ Run: 5001 Event: 1
+Begin processing the 2th record. Run 5001, Event 2
+%MSG-i PixelTrackProducer:  PixelTrackProducer:pixelTracks 
+       21-Sep-2006 23:26:54 XYZ Run: 5001 Event: 2
+number of triplets: 10
+%MSG-i FwkReport:  main_input:source 21-Sep-2006 23:26:54 XYZ Run: 5001 Event: 2
+Begin processing the 3th record. Run 5001, Event 3
+%MSG-i PixelTrackProducer:  PixelTrackProducer:pixelTracks 
+       21-Sep-2006 23:26:54 XYZ Run: 5001 Event: 3
+number of triplets: 11
+%MSG-i FwkReport:  main_input:source 21-Sep-2006 23:26:55 XYZ Run: 5001 Event: 3
+Begin processing the 4th record. Run 5001, Event 4
+%MSG-i PixelTrackProducer:  PixelTrackProducer:pixelTracks 
+       21-Sep-2006 23:26:55 XYZ Run: 5001 Event: 4
+number of triplets: 17
+%MSG-i FwkReport:  main_input:source 21-Sep-2006 23:26:55 XYZ Run: 5001 Event: 4
+Begin processing the 5th record. Run 5001, Event 5
+%MSG-i PixelTrackProducer:  PixelTrackProducer:pixelTracks 
+       21-Sep-2006 23:26:55 XYZ Run: 5001 Event: 5
+number of triplets: 15
+%MSG-i FwkReport:  main_input:source 21-Sep-2006 23:26:56 XYZ Run: 5001 Event: 5
+Begin processing the 6th record. Run 5001, Event 6
+%MSG-i PixelTrackProducer:  PixelTrackProducer:pixelTracks 
+       21-Sep-2006 23:26:56 XYZ Run: 5001 Event: 6
+number of triplets: 13
+%MSG-i FwkReport:  main_input:source 01-Jan-1970 01:00:00 XYZ Run: 5001 Event: 6
+Begin processing the 7th record. Run 5001, Event 7
+%MSG-i PixelTrackProducer:  PixelTrackProducer:pixelTracks 
+       21-Sep-2006 23:26:56 XYZ Run: 5001 Event: 7
+number of triplets: 17
+%MSG-i FwkReport:  main_input:source 21-Sep-2006 23:26:57 XYZ Run: 5001 Event: 7
+Begin processing the 8th record. Run 5001, Event 8
+%MSG-i PixelTrackProducer:  PixelTrackProducer:pixelTracks 
+       21-Sep-2006 23:26:57 XYZ Run: 5001 Event: 8
+number of triplets: 16
+%MSG-i FwkReport:  main_input:source 21-Sep-2006 23:26:57 XYZ Run: 5001 Event: 8
+Begin processing the 9th record. Run 5001, Event 9
+%MSG-i PixelTrackProducer:  PixelTrackProducer:pixelTracks 
+       21-Sep-2006 23:26:57 XYZ Run: 5001 Event: 9
+number of triplets: 9
+%MSG-i FwkReport:  main_input:source 21-Sep-2006 23:26:58 XYZ Run: 5001 Event: 9
+Begin processing the 10th record. Run 5001, Event 10
+%MSG-i PixelTrackProducer:  PixelTrackProducer:pixelTracks 
+       21-Sep-2006 23:26:58 XYZ Run: 5001 Event: 10
+number of triplets: 10
+%MSG-i FwkJob:  PostSource 21-Sep-2006 23:27:02 XYZ Run: 5001 Event: 10
+
+<File>
+%MSG-i FwkJob:  PostSource 21-Sep-2006 23:27:02 XYZ Run: 5001 Event: 10
+
+<State  Value="closed"/>
+<LFN></LFN>
+<PFN>file:pixel_vertexing.root</PFN>
+<Catalog>file:PoolFileCatalog.xml</Catalog>
+<ModuleLabel>out</ModuleLabel>
+<Runs>
+  <Run>5001</Run>
+</Runs>
+<Branches>
+  <Branch>CrossingFrame_mix__Test.</Branch>
+  <Branch>DetIdSiPixelRecHitSiPixelRecHitedmClonePolicysOwnededmRangeMap_siPixelRecHits__Test.</Branch>
+  <Branch>DetIdSiStripMatchedRecHit2DSiStripMatchedRecHit2DedmClonePolicysOwnededmRangeMap_siStripMatchedRecHits_matchedRecHit_Test.</Branch>
+  <Branch>DetIdSiStripRecHit2DSiStripRecHit2DedmClonePolicysOwnededmRangeMap_siStripMatchedRecHits_rphiRecHit_Test.</Branch>
+  <Branch>DetIdSiStripRecHit2DSiStripRecHit2DedmClonePolicysOwnededmRangeMap_siStripMatchedRecHits_stereoRecHit_Test.</Branch>
+  <Branch>PCaloHits_g4SimHits_CaloHitsTk_Test.</Branch>
+  <Branch>PCaloHits_g4SimHits_CastorBU_Test.</Branch>
+  <Branch>PCaloHits_g4SimHits_CastorFI_Test.</Branch>
+  <Branch>PCaloHits_g4SimHits_CastorPL_Test.</Branch>
+  <Branch>PCaloHits_g4SimHits_CastorTU_Test.</Branch>
+  <Branch>PCaloHits_g4SimHits_EcalHitsEB_Test.</Branch>
+  <Branch>PCaloHits_g4SimHits_EcalHitsEE_Test.</Branch>
+  <Branch>PCaloHits_g4SimHits_EcalHitsES_Test.</Branch>
+  <Branch>PCaloHits_g4SimHits_HcalHits_Test.</Branch>
+  <Branch>PCaloHits_g4SimHits_ZDCHITS_Test.</Branch>
+  <Branch>PSimHits_g4SimHits_MuonCSCHits_Test.</Branch>
+  <Branch>PSimHits_g4SimHits_MuonDTHits_Test.</Branch>
+  <Branch>PSimHits_g4SimHits_MuonRPCHits_Test.</Branch>
+  <Branch>PSimHits_g4SimHits_TotemHitsRP_Test.</Branch>
+  <Branch>PSimHits_g4SimHits_TotemHitsT1_Test.</Branch>
+  <Branch>PSimHits_g4SimHits_TotemHitsT2Gem_Test.</Branch>
+  <Branch>PSimHits_g4SimHits_TrackerHitsPixelBarrelHighTof_Test.</Branch>
+  <Branch>PSimHits_g4SimHits_TrackerHitsPixelBarrelLowTof_Test.</Branch>
+  <Branch>PSimHits_g4SimHits_TrackerHitsPixelEndcapHighTof_Test.</Branch>
+  <Branch>PSimHits_g4SimHits_TrackerHitsPixelEndcapLowTof_Test.</Branch>
+  <Branch>PSimHits_g4SimHits_TrackerHitsTECHighTof_Test.</Branch>
+  <Branch>PSimHits_g4SimHits_TrackerHitsTECLowTof_Test.</Branch>
+  <Branch>PSimHits_g4SimHits_TrackerHitsTIBHighTof_Test.</Branch>
+  <Branch>PSimHits_g4SimHits_TrackerHitsTIBLowTof_Test.</Branch>
+  <Branch>PSimHits_g4SimHits_TrackerHitsTIDHighTof_Test.</Branch>
+  <Branch>PSimHits_g4SimHits_TrackerHitsTIDLowTof_Test.</Branch>
+  <Branch>PSimHits_g4SimHits_TrackerHitsTOBHighTof_Test.</Branch>
+  <Branch>PSimHits_g4SimHits_TrackerHitsTOBLowTof_Test.</Branch>
+  <Branch>PixelDigiSimLinkedmDetSetVector_siPixelDigis__Test.</Branch>
+  <Branch>PixelDigiedmDetSetVector_siPixelDigis__Test.</Branch>
+  <Branch>RoadSearchClouds_cleanRoadSearchClouds__Test.</Branch>
+  <Branch>RoadSearchClouds_rawRoadSearchClouds__Test.</Branch>
+  <Branch>SiPixelClusteredmDetSetVector_siPixelClusters__Test.</Branch>
+  <Branch>SiStripClusteredmDetSetVector_siStripClusters__Test.</Branch>
+  <Branch>SiStripDigiedmDetSetVector_siStripDigis__Test.</Branch>
+  <Branch>SimTracks_g4SimHits__Test.</Branch>
+  <Branch>SimVertexs_g4SimHits__Test.</Branch>
+  <Branch>StripDigiSimLinkedmDetSetVector_siStripDigis__Test.</Branch>
+  <Branch>TrackCandidates_ckfTrackCandidates__Test.</Branch>
+  <Branch>TrackCandidates_rsTrackCandidates__Test.</Branch>
+  <Branch>TrackingRecHitsOwned_ctfAnalyticalTracks__Test.</Branch>
+  <Branch>TrackingRecHitsOwned_ctfWithMaterialTracks__Test.</Branch>
+  <Branch>TrackingRecHitsOwned_pixelTracks__VALRECO.</Branch>
+  <Branch>TrackingRecHitsOwned_rsAnalyticalTracks__Test.</Branch>
+  <Branch>TrackingRecHitsOwned_rsWithMaterialTracks__Test.</Branch>
+  <Branch>TrajectorySeeds_globalPixelSeeds__Test.</Branch>
+  <Branch>TrajectorySeeds_roadSearchSeeds__Test.</Branch>
+  <Branch>edmHepMCProduct_source__Test.</Branch>
+  <Branch>recoTrackExtras_ctfAnalyticalTracks__Test.</Branch>
+  <Branch>recoTrackExtras_ctfWithMaterialTracks__Test.</Branch>
+  <Branch>recoTrackExtras_pixelTracks__VALRECO.</Branch>
+  <Branch>recoTrackExtras_rsAnalyticalTracks__Test.</Branch>
+  <Branch>recoTrackExtras_rsWithMaterialTracks__Test.</Branch>
+  <Branch>recoTracks_ctfAnalyticalTracks__Test.</Branch>
+  <Branch>recoTracks_ctfWithMaterialTracks__Test.</Branch>
+  <Branch>recoTracks_pixelTracks__VALRECO.</Branch>
+  <Branch>recoTracks_rsAnalyticalTracks__Test.</Branch>
+  <Branch>recoTracks_rsWithMaterialTracks__Test.</Branch>
+  <Branch>recoVertexs_pixelVertices__VALRECO.</Branch>
+</Branches>
+<OutputModuleClass>PoolOutputModule</OutputModuleClass>
+<TotalEvents>10</TotalEvents>
+
+%MSG-i FwkJob:  PostSource 21-Sep-2006 23:27:02 XYZ Run: 5001 Event: 10
+
+<Inputs>
+%MSG-i FwkJob:  PostSource 21-Sep-2006 23:27:02 XYZ Run: 5001 Event: 10
+
+<Input>
+%MSG-i FwkJob:  PostSource 21-Sep-2006 23:27:02 XYZ Run: 5001 Event: 10
+
+  <LFN></LFN>
+%MSG-i FwkJob:  PostSource 21-Sep-2006 23:27:02 XYZ Run: 5001 Event: 10
+
+  <PFN>rfio:/castor/cern.ch/cms/store/unmerged/RelVal/2006/8/13/RelVal09010Muons1-10/GEN-SIM-DIGI-RECO/0005/EC233E68-1E2B-DB11-8406-0002B3D8E6A4.root</PFN>
+%MSG-i FwkJob:  PostSource 21-Sep-2006 23:27:02 XYZ Run: 5001 Event: 10
+
+</Input>
+%MSG-i FwkJob:  PostSource 21-Sep-2006 23:27:02 XYZ Run: 5001 Event: 10
+
+</Inputs>
+%MSG-i FwkJob:  PostSource 21-Sep-2006 23:27:02 XYZ Run: 5001 Event: 10
+
+</File>
+%MSG-i FwkJob:  PostSource 21-Sep-2006 23:27:02 XYZ Run: 5001 Event: 10
+
+<InputFile>
+<State  Value="closed"/>
+<LFN></LFN>
+<PFN>rfio:/castor/cern.ch/cms/store/unmerged/RelVal/2006/8/13/RelVal09010Muons1-10/GEN-SIM-DIGI-RECO/0005/EC233E68-1E2B-DB11-8406-0002B3D8E6A4.root</PFN>
+<Catalog>trivialcatalog_file:/afs/cern.ch/cms/SITECONF/local/PhEDEx/storage.xml?protocol=rfio</Catalog>
+<ModuleLabel>source</ModuleLabel>
+<Runs>
+  <Run>5001</Run>
+</Runs>
+<Branches>
+</Branches>
+<InputSourceClass>PoolSource</InputSourceClass>
+<EventsRead>10</EventsRead>
+</InputFile>
+
+Main Thread CPU elapsed time 8475u 866s
+[OVAL] Reconstructed 1 vertexes
+[OVAL] z= 0.00155215 +- 0.00277241
+[OVAL] Has 10 associated tracks with the following z's: -0.0125661 +- 0.0150201 -0.0108581 +- 0.0090627 -0.00739954 +- 0.007356 -0.00139759 +- 0.00741982 0.00105116 +- 0.007356 0.00230948 +- 0.00726151 0.0029935 +- 0.010362 0.0083962 +- 0.0079799 0.00861913 +- 0.00739029 0.0142502 +- 0.00846296 
+
+[OVAL] Reconstructed 1 vertexes
+[OVAL] z= -0.00212778 +- 0.00284377
+[OVAL] Has 9 associated tracks with the following z's: -0.0100419 +- 0.007356 -0.00770628 +- 0.0073807 -0.00629576 +- 0.007356 -0.00470095 +- 0.00860444 -0.00130025 +- 0.00745746 0.00321864 +- 0.0072202 0.00447693 +- 0.007356 0.00466809 +- 0.00956119 0.00765803 +- 0.0144899 
+
+[OVAL] Reconstructed 1 vertexes
+[OVAL] z= 0.0104909 +- 0.00252504
+[OVAL] Has 9 associated tracks with the following z's: -0.00649724 +- 0.007356 0.000727033 +- 0.0072687 0.000798251 +- 0.0073313 0.0116622 +- 0.00963344 0.0129202 +- 0.00721713 0.0130384 +- 0.007356 0.0162589 +- 0.00744559 0.0191285 +- 0.00733831 0.026606 +- 0.00722975 
+
+[OVAL] Reconstructed 1 vertexes
+[OVAL] z= -0.0059134 +- 0.00351632
+[OVAL] Has 10 associated tracks with the following z's: -0.0278016 +- 0.0169057 -0.0265613 +- 0.00992935 -0.0174269 +- 0.00721712 -0.0157479 +- 0.00834191 -0.00450745 +- 0.00837544 0.000889005 +- 0.0211277 0.00138659 +- 0.0072225 0.00158211 +- 0.007356 0.00498899 +- 0.00721722 0.0324828 +- 0.017503 
+
+[OVAL] Reconstructed 1 vertexes
+[OVAL] z= 0.0023314 +- 0.00243756
+[OVAL] Has 10 associated tracks with the following z's: -0.0161404 +- 0.00733512 -0.00912514 +- 0.00725921 -0.00874066 +- 0.00724987 -0.0043783 +- 0.00722553 -0.00123949 +- 0.00736895 0.00124156 +- 0.00733447 0.0151122 +- 0.007356 0.0155246 +- 0.00850491 0.0185882 +- 0.00723551 0.0291168 +- 0.010213 
+
+[OVAL] Reconstructed 1 vertexes
+[OVAL] z= 0.00912818 +- 0.00308815
+[OVAL] Has 9 associated tracks with the following z's: -0.0174252 +- 0.007356 -0.00779537 +- 0.00770917 0.00306762 +- 0.00725932 0.00600227 +- 0.00726413 0.00650052 +- 0.00738701 0.013667 +- 0.00728058 0.020961 +- 0.00735256 0.029954 +- 0.0245497 0.0434861 +- 0.00722156 
+
+[OVAL] Reconstructed 1 vertexes
+[OVAL] z= 0.000115339 +- 0.00308987
+[OVAL] Has 6 associated tracks with the following z's: -0.0145174 +- 0.00757831 -0.00411188 +- 0.0077898 -0.00320825 +- 0.00728379 0.00117969 +- 0.0073696 0.00433607 +- 0.007356 0.0188019 +- 0.00803416 
+
+[OVAL] Reconstructed 1 vertexes
+[OVAL] z= 0.00217986 +- 0.00290545
+[OVAL] Has 8 associated tracks with the following z's: -0.0207182 +- 0.00736955 -0.0131024 +- 0.0096765 -0.00231588 +- 0.007356 -0.00184155 +- 0.007356 0.00197567 +- 0.00903345 0.015841 +- 0.00728752 0.0197826 +- 0.00783546 0.021575 +- 0.00982842 
+
+[OVAL] Reconstructed 1 vertexes
+[OVAL] z= -0.00139881 +- 0.00275294
+[OVAL] Has 8 associated tracks with the following z's: -0.027022 +- 0.00933852 -0.00526065 +- 0.00737899 -0.00282117 +- 0.00773981 -0.00247885 +- 0.00809165 -0.000338217 +- 0.00750398 5.16745e-05 +- 0.0072568 0.0082996 +- 0.00767868 0.00895581 +- 0.00730356 
+
+[OVAL] Reconstructed 1 vertexes
+[OVAL] z= -0.010826 +- 0.0038664
+[OVAL] Has 7 associated tracks with the following z's: -0.0284762 +- 0.00735193 -0.0174787 +- 0.00918623 -0.00949306 +- 0.0100035 -0.00921906 +- 0.00733946 -0.00396457 +- 0.00734674 -0.000108425 +- 0.00812299 0.0251753 +- 0.022256 
+
+===========> Validating I/O.....
+Using the site default catalog: trivialcatalog_file:/afs/cern.ch/cms/SITECONF/local/PhEDEx/storage.xml?protocol=rfio
+%MSG-i FwkReport:  main_input:source 21-Sep-2006 23:27:23 XYZ BeforeEvents
+Begin processing the 1th record. Run 5001, Event 1
+%MSG-i FwkReport:  main_input:source 21-Sep-2006 23:27:23 XYZ Run: 5001 Event: 1
+Begin processing the 2th record. Run 5001, Event 2
+%MSG-i FwkReport:  main_input:source 21-Sep-2006 23:27:23 XYZ Run: 5001 Event: 2
+Begin processing the 3th record. Run 5001, Event 3
+%MSG-i FwkReport:  main_input:source 21-Sep-2006 23:27:23 XYZ Run: 5001 Event: 3
+Begin processing the 4th record. Run 5001, Event 4
+%MSG-i FwkReport:  main_input:source 21-Sep-2006 23:27:23 XYZ Run: 5001 Event: 4
+Begin processing the 5th record. Run 5001, Event 5
+%MSG-i FwkReport:  main_input:source 21-Sep-2006 23:27:23 XYZ Run: 5001 Event: 5
+Begin processing the 6th record. Run 5001, Event 6
+%MSG-i FwkReport:  main_input:source 21-Sep-2006 23:27:23 XYZ Run: 5001 Event: 6
+Begin processing the 7th record. Run 5001, Event 7
+%MSG-i FwkReport:  main_input:source 21-Sep-2006 23:27:23 XYZ Run: 5001 Event: 7
+Begin processing the 8th record. Run 5001, Event 8
+%MSG-i FwkReport:  main_input:source 21-Sep-2006 23:27:23 XYZ Run: 5001 Event: 8
+Begin processing the 9th record. Run 5001, Event 9
+%MSG-i FwkReport:  main_input:source 21-Sep-2006 23:27:23 XYZ Run: 5001 Event: 9
+Begin processing the 10th record. Run 5001, Event 10
+%MSG-i FwkJob:  PostSource 21-Sep-2006 23:27:23 XYZ Run: 5001 Event: 10
+
+<InputFile>
+<State  Value="closed"/>
+<LFN></LFN>
+<PFN>file:pixel_vertexing.root</PFN>
+<Catalog>trivialcatalog_file:/afs/cern.ch/cms/SITECONF/local/PhEDEx/storage.xml?protocol=rfio</Catalog>
+<ModuleLabel>source</ModuleLabel>
+<Runs>
+  <Run>5001</Run>
+</Runs>
+<Branches>
+</Branches>
+<InputSourceClass>PoolSource</InputSourceClass>
+<EventsRead>10</EventsRead>
+</InputFile>
+
+Main Thread CPU elapsed time 26u 1s
+[OVAL] Reconstructed 1 vertexes
+[OVAL] z= 0.00155215 +- 0.00277241
+[OVAL] Has 10 associated tracks with the following z's: -0.0125661 +- 0.0150201 -0.0108581 +- 0.0090627 -0.00739954 +- 0.007356 -0.00139759 +- 0.00741982 0.00105116 +- 0.007356 0.00230948 +- 0.00726151 0.0029935 +- 0.010362 0.0083962 +- 0.0079799 0.00861913 +- 0.00739029 0.0142502 +- 0.00846296 
+
+[OVAL] Reconstructed 1 vertexes
+[OVAL] z= -0.00212778 +- 0.00284377
+[OVAL] Has 9 associated tracks with the following z's: -0.0100419 +- 0.007356 -0.00770628 +- 0.0073807 -0.00629576 +- 0.007356 -0.00470095 +- 0.00860444 -0.00130025 +- 0.00745746 0.00321864 +- 0.0072202 0.00447693 +- 0.007356 0.00466809 +- 0.00956119 0.00765803 +- 0.0144899 
+
+[OVAL] Reconstructed 1 vertexes
+[OVAL] z= 0.0104909 +- 0.00252504
+[OVAL] Has 9 associated tracks with the following z's: -0.00649724 +- 0.007356 0.000727033 +- 0.0072687 0.000798251 +- 0.0073313 0.0116622 +- 0.00963344 0.0129202 +- 0.00721713 0.0130384 +- 0.007356 0.0162589 +- 0.00744559 0.0191285 +- 0.00733831 0.026606 +- 0.00722975 
+
+[OVAL] Reconstructed 1 vertexes
+[OVAL] z= -0.0059134 +- 0.00351632
+[OVAL] Has 10 associated tracks with the following z's: -0.0278016 +- 0.0169057 -0.0265613 +- 0.00992935 -0.0174269 +- 0.00721712 -0.0157479 +- 0.00834191 -0.00450745 +- 0.00837544 0.000889005 +- 0.0211277 0.00138659 +- 0.0072225 0.00158211 +- 0.007356 0.00498899 +- 0.00721722 0.0324828 +- 0.017503 
+
+[OVAL] Reconstructed 1 vertexes
+[OVAL] z= 0.0023314 +- 0.00243756
+[OVAL] Has 10 associated tracks with the following z's: -0.0161404 +- 0.00733512 -0.00912514 +- 0.00725921 -0.00874066 +- 0.00724987 -0.0043783 +- 0.00722553 -0.00123949 +- 0.00736895 0.00124156 +- 0.00733447 0.0151122 +- 0.007356 0.0155246 +- 0.00850491 0.0185882 +- 0.00723551 0.0291168 +- 0.010213 
+
+[OVAL] Reconstructed 1 vertexes
+[OVAL] z= 0.00912818 +- 0.00308815
+[OVAL] Has 9 associated tracks with the following z's: -0.0174252 +- 0.007356 -0.00779537 +- 0.00770917 0.00306762 +- 0.00725932 0.00600227 +- 0.00726413 0.00650052 +- 0.00738701 0.013667 +- 0.00728058 0.020961 +- 0.00735256 0.029954 +- 0.0245497 0.0434861 +- 0.00722156 
+
+[OVAL] Reconstructed 1 vertexes
+[OVAL] z= 0.000115339 +- 0.00308987
+[OVAL] Has 6 associated tracks with the following z's: -0.0145174 +- 0.00757831 -0.00411188 +- 0.0077898 -0.00320825 +- 0.00728379 0.00117969 +- 0.0073696 0.00433607 +- 0.007356 0.0188019 +- 0.00803416 
+
+[OVAL] Reconstructed 1 vertexes
+[OVAL] z= 0.00217986 +- 0.00290545
+[OVAL] Has 8 associated tracks with the following z's: -0.0207182 +- 0.00736955 -0.0131024 +- 0.0096765 -0.00231588 +- 0.007356 -0.00184155 +- 0.007356 0.00197567 +- 0.00903345 0.015841 +- 0.00728752 0.0197826 +- 0.00783546 0.021575 +- 0.00982842 
+
+[OVAL] Reconstructed 1 vertexes
+[OVAL] z= -0.00139881 +- 0.00275294
+[OVAL] Has 8 associated tracks with the following z's: -0.027022 +- 0.00933852 -0.00526065 +- 0.00737899 -0.00282117 +- 0.00773981 -0.00247885 +- 0.00809165 -0.000338217 +- 0.00750398 5.16745e-05 +- 0.0072568 0.0082996 +- 0.00767868 0.00895581 +- 0.00730356 
+
+[OVAL] Reconstructed 1 vertexes
+[OVAL] z= -0.010826 +- 0.0038664
+[OVAL] Has 7 associated tracks with the following z's: -0.0284762 +- 0.00735193 -0.0174787 +- 0.00918623 -0.00949306 +- 0.0100035 -0.00921906 +- 0.00733946 -0.00396457 +- 0.00734674 -0.000108425 +- 0.00812299 0.0251753 +- 0.022256 
+
+
+[oval run] ==========================================
+[oval run] result: OK
+[oval run] ==========================================
+
