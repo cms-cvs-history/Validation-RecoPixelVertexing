@@ -1,7 +1,7 @@
 #!/bin/bash
 
-# remove old output root file if it exists
-/bin/rm -f pixel_vertexing.root
+# remove old output files if they exist
+/bin/rm -f pixel_vertexing.root val-reco.out val-io.out
 
 eval $(scramv1 runtime -sh)
 
