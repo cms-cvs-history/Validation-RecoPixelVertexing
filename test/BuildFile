@@ -18,6 +18,16 @@
 <use name=RecoPixelVertexing/PixelTrackFitting>
 <use name=RecoPixelVertexing/PixelVertexFinding>
 
+<library file="PixelVertexTest.cc" name="PixelVertexTest">
+ <use name=FWCore/Framework>
+ <flags SEAL_PLUGIN_NAME="PixelVertexTest">
+</library>
+
+
+<library file="PixelTrackVal.cc" name="PixelTrackVal">
+ <use name=FWCore/Framework>
+ <flags SEAL_PLUGIN_NAME="PixelTrackVal">
+</library>
 
 
 <library file="PixelVertexVal.cc" name="PixelVertexVal">
