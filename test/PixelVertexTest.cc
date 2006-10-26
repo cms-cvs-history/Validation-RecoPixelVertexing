@@ -268,4 +268,4 @@ void PixelVertexTest::endJob() {
   }
 }
 
-DEFINE_FWK_MODULE(PixelVertexTest)
+DEFINE_FWK_MODULE(PixelVertexTest);
