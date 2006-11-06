@@ -18,9 +18,9 @@
 <use name=RecoPixelVertexing/PixelTrackFitting>
 <use name=RecoPixelVertexing/PixelVertexFinding>
 
-<library file="PixelVertexTest.cc" name="PixelVertexTest">
+<library file="PixelVertexValTest.cc" name="PixelVertexValTest">
  <use name=FWCore/Framework>
- <flags SEAL_PLUGIN_NAME="PixelVertexTest">
+ <flags SEAL_PLUGIN_NAME="PixelVertexValTest">
 </library>
 
 

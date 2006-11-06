@@ -27,10 +27,10 @@
 
 using namespace std;
 
-class PixelVertexTest : public edm::EDAnalyzer {
+class PixelVertexValTest : public edm::EDAnalyzer {
 public:
-  explicit PixelVertexTest(const edm::ParameterSet& conf);
-  ~PixelVertexTest();
+  explicit PixelVertexValTest(const edm::ParameterSet& conf);
+  ~PixelVertexValTest();
   virtual void beginJob(const edm::EventSetup& es);
   virtual void analyze(const edm::Event& ev, const edm::EventSetup& es);
   virtual void endJob();
@@ -74,20 +74,20 @@ private:
   double sumpt2_[maxvtx_];
 };
 
-PixelVertexTest::PixelVertexTest(const edm::ParameterSet& conf)
+PixelVertexValTest::PixelVertexValTest(const edm::ParameterSet& conf)
   : conf_(conf),t_(0),f_(0)
 {
-  edm::LogInfo("PixelVertexTest")<<" CTOR";
+  edm::LogInfo("PixelVertexValTest")<<" CTOR";
 }
 
-PixelVertexTest::~PixelVertexTest()
+PixelVertexValTest::~PixelVertexValTest()
 {
-  edm::LogInfo("PixelVertexTest")<<" DTOR";
+  edm::LogInfo("PixelVertexValTest")<<" DTOR";
   delete f_;
   //  delete t_;
 }
 
-void PixelVertexTest::beginJob(const edm::EventSetup& es) {
+void PixelVertexValTest::beginJob(const edm::EventSetup& es) {
   // How noisy?
   verbose_ = conf_.getUntrackedParameter<unsigned int>("Verbosity",0);
 
@@ -130,10 +130,10 @@ void PixelVertexTest::beginJob(const edm::EventSetup& es) {
 //  gDirectory->cd(cwd);
 }
 
-void PixelVertexTest::analyze(
+void PixelVertexValTest::analyze(
     const edm::Event& ev, const edm::EventSetup& es)
 {
-  cout <<"*** PixelVertexTest, analyze event: " << ev.id() << endl;
+  cout <<"*** PixelVertexValTest, analyze event: " << ev.id() << endl;
   edm::Handle<reco::TrackCollection> trackCollection;
   std::string trackCollName = conf_.getParameter<std::string>("TrackCollection");
   ev.getByLabel(trackCollName,trackCollection);
@@ -260,7 +260,7 @@ void PixelVertexTest::analyze(
   t_->Fill();
 }
 
-void PixelVertexTest::endJob() {
+void PixelVertexValTest::endJob() {
   if (t_) t_->Print();
   if (f_) {
     f_->Print();
@@ -268,4 +268,4 @@ void PixelVertexTest::endJob() {
   }
 }
 
-DEFINE_FWK_MODULE(PixelVertexTest);
+DEFINE_FWK_MODULE(PixelVertexValTest);

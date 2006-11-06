@@ -82,7 +82,7 @@ Reconstructed 12 tracks
 	momentum: (4.37269,9.84381,37.1668)	PT: 10.7713
 	vertex: (0.00517191,-0.0022974,-0.00739954)	TIP: 0.00565921 +- 0.00637	Z0: -0.00739954 +- 0.007356
 	charge: -1
-*** PixelVertexTest, analyze event: run: 5001 event: 1
+*** PixelVertexValTest, analyze event: run: 5001 event: 1
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -166,7 +166,7 @@ Reconstructed 10 tracks
 	momentum: (-5.24536,-2.2378,-19.2268)	PT: 5.70277
 	vertex: (0.00254145,-0.0059571,0.0106809)	TIP: -0.00647657 +- 0.00672416	Z0: 0.0106809 +- 0.00723969
 	charge: 1
-*** PixelVertexTest, analyze event: run: 5001 event: 2
+*** PixelVertexValTest, analyze event: run: 5001 event: 2
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -245,7 +245,7 @@ Reconstructed 11 tracks
 	momentum: (-1.32954,-5.6917,-34.6318)	PT: 5.84492
 	vertex: (-0.00362912,0.000847737,0.026606)	TIP: 0.00372682 +- 0.00670412	Z0: 0.026606 +- 0.00722975
 	charge: -1
-*** PixelVertexTest, analyze event: run: 5001 event: 3
+*** PixelVertexValTest, analyze event: run: 5001 event: 3
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -342,7 +342,7 @@ Reconstructed 17 tracks
 	momentum: (0.702018,-6.57186,-24.7113)	PT: 6.60925
 	vertex: (-0.0017448,-0.000186383,0.00138659)	TIP: 0.00175473 +- 0.00661112	Z0: 0.00138659 +- 0.0072225
 	charge: 1
-*** PixelVertexTest, analyze event: run: 5001 event: 4
+*** PixelVertexValTest, analyze event: run: 5001 event: 4
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -433,7 +433,7 @@ Reconstructed 15 tracks
 	momentum: (7.43771,-3.35802,-4.23806)	PT: 8.16063
 	vertex: (-0.00226305,-0.00501246,0.00124156)	TIP: 0.00549965 +- 0.00647594	Z0: 0.00124156 +- 0.00733447
 	charge: -1
-*** PixelVertexTest, analyze event: run: 5001 event: 5
+*** PixelVertexValTest, analyze event: run: 5001 event: 5
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -518,7 +518,7 @@ Reconstructed 13 tracks
 	momentum: (-3.20157,1.07789,-12.8693)	PT: 3.37815
 	vertex: (0.00210617,0.00625577,0.029954)	TIP: 0.0066008 +- 0.00729129	Z0: 0.029954 +- 0.00802132
 	charge: -1
-*** PixelVertexTest, analyze event: run: 5001 event: 6
+*** PixelVertexValTest, analyze event: run: 5001 event: 6
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -615,7 +615,7 @@ Reconstructed 17 tracks
 	momentum: (1.64456,0.877948,-10.4927)	PT: 1.86423
 	vertex: (0.0423835,-0.0793919,0.119678)	TIP: 0.0899968 +- 0.00842115	Z0: 0.119678 +- 0.00945337
 	charge: -1
-*** PixelVertexTest, analyze event: run: 5001 event: 7
+*** PixelVertexValTest, analyze event: run: 5001 event: 7
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -709,7 +709,7 @@ Reconstructed 16 tracks
 	momentum: (5.26539,0.520165,-19.1326)	PT: 5.29102
 	vertex: (-0.000317453,0.00321343,0.015841)	TIP: -0.00322907 +- 0.0067883	Z0: 0.015841 +- 0.00728752
 	charge: -1
-*** PixelVertexTest, analyze event: run: 5001 event: 8
+*** PixelVertexValTest, analyze event: run: 5001 event: 8
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -782,7 +782,7 @@ Reconstructed 9 tracks
 	momentum: (-7.40719,-2.42669,-36.0178)	PT: 7.79457
 	vertex: (0.00120464,-0.00367702,0.00895581)	TIP: -0.00386932 +- 0.00650298	Z0: 0.00895581 +- 0.00730356
 	charge: 1
-*** PixelVertexTest, analyze event: run: 5001 event: 9
+*** PixelVertexValTest, analyze event: run: 5001 event: 9
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -858,7 +858,7 @@ Reconstructed 10 tracks
 	momentum: (6.78694,3.99778,-45.5773)	PT: 7.87685
 	vertex: (-0.00329636,0.00559615,0.0544299)	TIP: -0.00649483 +- 0.00649669	Z0: 0.0544299 +- 0.00731064
 	charge: 1
-*** PixelVertexTest, analyze event: run: 5001 event: 10
+*** PixelVertexValTest, analyze event: run: 5001 event: 10
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -940,7 +940,7 @@ Reconstructed 12 tracks
 	momentum: (1.61567,-4.66361,-20.7591)	PT: 4.93555
 	vertex: (-0.000292324,-0.000101274,-0.0101545)	TIP: 0.00030937 +- 0.00685227	Z0: -0.0101545 +- 0.00735477
 	charge: -1
-*** PixelVertexTest, analyze event: run: 5001 event: 11
+*** PixelVertexValTest, analyze event: run: 5001 event: 11
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -1019,7 +1019,7 @@ Reconstructed 11 tracks
 	momentum: (-0.896647,5.02614,-25.7827)	PT: 5.10549
 	vertex: (0.00107728,0.000192183,-0.000719428)	TIP: 0.00109429 +- 0.00682058	Z0: -0.000719428 +- 0.00731938
 	charge: 1
-*** PixelVertexTest, analyze event: run: 5001 event: 12
+*** PixelVertexValTest, analyze event: run: 5001 event: 12
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -1113,7 +1113,7 @@ Reconstructed 16 tracks
 	momentum: (1.59471,-2.38113,-0.857883)	PT: 2.86581
 	vertex: (-0.000555623,-0.000372118,-0.0103823)	TIP: 0.000668722 +- 0.00754002	Z0: -0.0103823 +- 0.00840584
 	charge: 1
-*** PixelVertexTest, analyze event: run: 5001 event: 13
+*** PixelVertexValTest, analyze event: run: 5001 event: 13
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -1195,7 +1195,7 @@ Reconstructed 12 tracks
 	momentum: (0.504927,1.96407,-9.86016)	PT: 2.02794
 	vertex: (0.0516874,-0.0132879,0.193584)	TIP: 0.0533682 +- 0.00821762	Z0: 0.193584 +- 0.00925302
 	charge: 1
-*** PixelVertexTest, analyze event: run: 5001 event: 14
+*** PixelVertexValTest, analyze event: run: 5001 event: 14
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -1280,7 +1280,7 @@ Reconstructed 13 tracks
 	momentum: (-1.12039,-1.15325,-8.99716)	PT: 1.60787
 	vertex: (0.0145106,-0.0140972,-0.0643527)	TIP: -0.0202309 +- 0.00882312	Z0: -0.0643527 +- 0.00979169
 	charge: 1
-*** PixelVertexTest, analyze event: run: 5001 event: 15
+*** PixelVertexValTest, analyze event: run: 5001 event: 15
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -1359,7 +1359,7 @@ Reconstructed 11 tracks
 	momentum: (-1.7906,4.56525,-27.6595)	PT: 4.90385
 	vertex: (-0.018931,-0.0074252,-0.00416016)	TIP: -0.0203351 +- 0.00685843	Z0: -0.00416016 +- 0.00736206
 	charge: 1
-*** PixelVertexTest, analyze event: run: 5001 event: 16
+*** PixelVertexValTest, analyze event: run: 5001 event: 16
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -1438,7 +1438,7 @@ Reconstructed 11 tracks
 	momentum: (-6.29012,0.51366,31.318)	PT: 6.31105
 	vertex: (0.00115299,0.0141192,0.0084123)	TIP: 0.0141662 +- 0.00664472	Z0: 0.0084123 +- 0.00721714
 	charge: 1
-*** PixelVertexTest, analyze event: run: 5001 event: 17
+*** PixelVertexValTest, analyze event: run: 5001 event: 17
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -1517,7 +1517,7 @@ Reconstructed 11 tracks
 	momentum: (-7.10995,1.94297,42.1053)	PT: 7.37065
 	vertex: (-0.00389251,-0.0142439,0.10228)	TIP: -0.0147662 +- 0.00653766	Z0: 0.10228 +- 0.00726797
 	charge: -1
-*** PixelVertexTest, analyze event: run: 5001 event: 18
+*** PixelVertexValTest, analyze event: run: 5001 event: 18
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -1581,7 +1581,7 @@ Reconstructed 6 tracks
 	momentum: (1.95354,9.22045,-48.1506)	PT: 9.42513
 	vertex: (0.000133519,-2.82887e-05,0.00520419)	TIP: 0.000136483 +- 0.00639867	Z0: 0.00520419 +- 0.00738839
 	charge: -1
-*** PixelVertexTest, analyze event: run: 5001 event: 19
+*** PixelVertexValTest, analyze event: run: 5001 event: 19
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -1657,7 +1657,7 @@ Reconstructed 10 tracks
 	momentum: (-1.79218,-4.29855,18.4923)	PT: 4.65719
 	vertex: (-0.0077367,0.00322564,0.005384)	TIP: 0.0083822 +- 0.00690919	Z0: 0.005384 +- 0.00742657
 	charge: -1
-*** PixelVertexTest, analyze event: run: 5001 event: 20
+*** PixelVertexValTest, analyze event: run: 5001 event: 20
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -1757,7 +1757,7 @@ Reconstructed 18 tracks
 	momentum: (-0.531365,-0.850109,-3.58956)	PT: 1.00251
 	vertex: (-0.015183,0.00949021,-0.0869733)	TIP: 0.0179049 +- 0.0105882	Z0: -0.0869733 +- 0.0107166
 	charge: 1
-*** PixelVertexTest, analyze event: run: 5001 event: 21
+*** PixelVertexValTest, analyze event: run: 5001 event: 21
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -1839,7 +1839,7 @@ Reconstructed 12 tracks
 	momentum: (1.0534,0.607865,-5.7129)	PT: 1.21621
 	vertex: (0.00244618,-0.00423912,-0.0162393)	TIP: 0.00489427 +- 0.00976448	Z0: -0.0162393 +- 0.0103692
 	charge: -1
-*** PixelVertexTest, analyze event: run: 5001 event: 22
+*** PixelVertexValTest, analyze event: run: 5001 event: 22
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -1915,7 +1915,7 @@ Reconstructed 10 tracks
 	momentum: (3.3662,3.25564,-16.5957)	PT: 4.683
 	vertex: (-0.00632741,0.00654229,-0.0171727)	TIP: -0.00910152 +- 0.00690363	Z0: -0.0171727 +- 0.00741916
 	charge: 1
-*** PixelVertexTest, analyze event: run: 5001 event: 23
+*** PixelVertexValTest, analyze event: run: 5001 event: 23
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -1991,7 +1991,7 @@ Reconstructed 10 tracks
 	momentum: (2.62115,4.83198,21.8004)	PT: 5.49714
 	vertex: (-0.00386241,0.0020952,-0.0274448)	TIP: -0.0043941 +- 0.00675499	Z0: -0.0274448 +- 0.00725985
 	charge: 1
-*** PixelVertexTest, analyze event: run: 5001 event: 24
+*** PixelVertexValTest, analyze event: run: 5001 event: 24
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -2067,7 +2067,7 @@ Reconstructed 10 tracks
 	momentum: (-0.0971731,2.34572,8.72331)	PT: 2.34773
 	vertex: (0.00640372,0.000265279,-0.0100406)	TIP: 0.00640921 +- 0.00790193	Z0: -0.0100406 +- 0.00889552
 	charge: -1
-*** PixelVertexTest, analyze event: run: 5001 event: 25
+*** PixelVertexValTest, analyze event: run: 5001 event: 25
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -2149,7 +2149,7 @@ Reconstructed 12 tracks
 	momentum: (0.679279,9.50692,-34.8563)	PT: 9.53116
 	vertex: (0.00247701,-0.000176985,-0.00727444)	TIP: 0.00248332 +- 0.00639312	Z0: -0.00727444 +- 0.00738596
 	charge: 1
-*** PixelVertexTest, analyze event: run: 5001 event: 26
+*** PixelVertexValTest, analyze event: run: 5001 event: 26
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -2231,7 +2231,7 @@ Reconstructed 12 tracks
 	momentum: (5.35413,-19.3451,-113.19)	PT: 20.0723
 	vertex: (0.0137905,0.0038168,-0.0201933)	TIP: -0.014309 +- 0.00637	Z0: -0.0201933 +- 0.007356
 	charge: 1
-*** PixelVertexTest, analyze event: run: 5001 event: 27
+*** PixelVertexValTest, analyze event: run: 5001 event: 27
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -2316,7 +2316,7 @@ Reconstructed 13 tracks
 	momentum: (2.75038,-1.6997,-11.252)	PT: 3.2332
 	vertex: (0.0100238,0.0162201,0.0380593)	TIP: -0.0190675 +- 0.00735367	Z0: 0.0380593 +- 0.00812065
 	charge: 1
-*** PixelVertexTest, analyze event: run: 5001 event: 28
+*** PixelVertexValTest, analyze event: run: 5001 event: 28
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -2389,7 +2389,7 @@ Reconstructed 9 tracks
 	momentum: (0.984716,-4.64575,-25.4792)	PT: 4.74897
 	vertex: (-0.0412366,-0.00874053,0.00263192)	TIP: 0.0421528 +- 0.00688969	Z0: 0.00263192 +- 0.00740092
 	charge: -1
-*** PixelVertexTest, analyze event: run: 5001 event: 29
+*** PixelVertexValTest, analyze event: run: 5001 event: 29
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -2474,7 +2474,7 @@ Reconstructed 13 tracks
 	momentum: (5.56082,6.29914,-32.5706)	PT: 8.40249
 	vertex: (-0.0119361,0.0105371,0.00657099)	TIP: -0.0159217 +- 0.00645936	Z0: 0.00657099 +- 0.00735305
 	charge: 1
-*** PixelVertexTest, analyze event: run: 5001 event: 30
+*** PixelVertexValTest, analyze event: run: 5001 event: 30
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -2550,7 +2550,7 @@ Reconstructed 10 tracks
 	momentum: (-5.672,7.44256,-47.6818)	PT: 9.35752
 	vertex: (0.00116871,0.000890675,0.000667324)	TIP: 0.00146941 +- 0.00640227	Z0: 0.000667324 +- 0.0073892
 	charge: 1
-*** PixelVertexTest, analyze event: run: 5001 event: 31
+*** PixelVertexValTest, analyze event: run: 5001 event: 31
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -2632,7 +2632,7 @@ Reconstructed 12 tracks
 	momentum: (-1.30705,0.50803,-6.93991)	PT: 1.40231
 	vertex: (0.00478161,0.0123021,-0.0634937)	TIP: 0.0131987 +- 0.00925161	Z0: -0.0634937 +- 0.0100854
 	charge: -1
-*** PixelVertexTest, analyze event: run: 5001 event: 32
+*** PixelVertexValTest, analyze event: run: 5001 event: 32
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -2708,7 +2708,7 @@ Reconstructed 10 tracks
 	momentum: (-6.42828,0.85828,28.5246)	PT: 6.48532
 	vertex: (-0.00187827,-0.0140677,-0.00892074)	TIP: -0.0141925 +- 0.00662471	Z0: -0.00892074 +- 0.00721918
 	charge: -1
-*** PixelVertexTest, analyze event: run: 5001 event: 33
+*** PixelVertexValTest, analyze event: run: 5001 event: 33
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -2793,7 +2793,7 @@ Reconstructed 13 tracks
 	momentum: (1.64283,-1.17697,0.274324)	PT: 2.02093
 	vertex: (-0.0114067,-0.0159215,0.0121514)	TIP: 0.0195859 +- 0.00822566	Z0: 0.0121514 +- 0.00926136
 	charge: 1
-*** PixelVertexTest, analyze event: run: 5001 event: 34
+*** PixelVertexValTest, analyze event: run: 5001 event: 34
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -2878,7 +2878,7 @@ Reconstructed 13 tracks
 	momentum: (-0.830442,2.4612,-12.0177)	PT: 2.59752
 	vertex: (0.00341901,0.00115362,-0.034676)	TIP: 0.00360839 +- 0.00770942	Z0: -0.034676 +- 0.0086461
 	charge: 1
-*** PixelVertexTest, analyze event: run: 5001 event: 35
+*** PixelVertexValTest, analyze event: run: 5001 event: 35
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -2963,7 +2963,7 @@ Reconstructed 13 tracks
 	momentum: (-0.217381,7.09561,-28.8458)	PT: 7.09894
 	vertex: (-0.00775584,-0.000237608,-0.0018881)	TIP: -0.00775948 +- 0.00656207	Z0: -0.0018881 +- 0.00724784
 	charge: -1
-*** PixelVertexTest, analyze event: run: 5001 event: 36
+*** PixelVertexValTest, analyze event: run: 5001 event: 36
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -3036,7 +3036,7 @@ Reconstructed 9 tracks
 	momentum: (-0.999268,1.20506,-7.00947)	PT: 1.56547
 	vertex: (0.0158386,0.0131338,-0.0342104)	TIP: 0.0205757 +- 0.00890229	Z0: -0.0342104 +- 0.00985062
 	charge: -1
-*** PixelVertexTest, analyze event: run: 5001 event: 37
+*** PixelVertexValTest, analyze event: run: 5001 event: 37
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -3118,7 +3118,7 @@ Reconstructed 12 tracks
 	momentum: (-2.41893,5.64543,32.3987)	PT: 6.14183
 	vertex: (0.00977035,0.00418636,0.0172571)	TIP: 0.0106295 +- 0.00666524	Z0: 0.0172571 +- 0.00721846
 	charge: -1
-*** PixelVertexTest, analyze event: run: 5001 event: 38
+*** PixelVertexValTest, analyze event: run: 5001 event: 38
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -3233,7 +3233,7 @@ Reconstructed 23 tracks
 	momentum: (-4.9784,-0.335637,-21.1949)	PT: 4.9897
 	vertex: (-0.00100737,0.0149419,0.013491)	TIP: 0.0149758 +- 0.00684194	Z0: 0.013491 +- 0.00734283
 	charge: 1
-*** PixelVertexTest, analyze event: run: 5001 event: 39
+*** PixelVertexValTest, analyze event: run: 5001 event: 39
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -3327,7 +3327,7 @@ Reconstructed 16 tracks
 	momentum: (0.85582,-0.382787,-3.34567)	PT: 0.937525
 	vertex: (-0.0193866,-0.0433438,0.0975946)	TIP: 0.0474818 +- 0.0109132	Z0: 0.0975946 +- 0.0108269
 	charge: 1
-*** PixelVertexTest, analyze event: run: 5001 event: 40
+*** PixelVertexValTest, analyze event: run: 5001 event: 40
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -3415,7 +3415,7 @@ Reconstructed 14 tracks
 	momentum: (-2.51795,-6.528,-24.6808)	PT: 6.99677
 	vertex: (0.00291109,-0.00112285,-0.00099885)	TIP: -0.00312013 +- 0.00657174	Z0: -0.00099885 +- 0.0072412
 	charge: -1
-*** PixelVertexTest, analyze event: run: 5001 event: 41
+*** PixelVertexValTest, analyze event: run: 5001 event: 41
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -3497,7 +3497,7 @@ Reconstructed 12 tracks
 	momentum: (-17.3191,14.9098,92.2805)	PT: 22.8528
 	vertex: (-0.0154099,-0.0179,0.000228074)	TIP: -0.0236193 +- 0.00637	Z0: 0.000228074 +- 0.007356
 	charge: 1
-*** PixelVertexTest, analyze event: run: 5001 event: 42
+*** PixelVertexValTest, analyze event: run: 5001 event: 42
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -3573,7 +3573,7 @@ Reconstructed 10 tracks
 	momentum: (-3.83771,1.94301,-16.2855)	PT: 4.30155
 	vertex: (-0.00349428,-0.00690169,0.0427493)	TIP: -0.00773585 +- 0.00699263	Z0: 0.0427493 +- 0.00754562
 	charge: -1
-*** PixelVertexTest, analyze event: run: 5001 event: 43
+*** PixelVertexValTest, analyze event: run: 5001 event: 43
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -3646,7 +3646,7 @@ Reconstructed 9 tracks
 	momentum: (-11.0773,-0.527747,-45.1386)	PT: 11.0898
 	vertex: (-0.000699915,0.014691,0.0169859)	TIP: 0.0147077 +- 0.00637	Z0: 0.0169859 +- 0.007356
 	charge: -1
-*** PixelVertexTest, analyze event: run: 5001 event: 44
+*** PixelVertexValTest, analyze event: run: 5001 event: 44
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -3737,7 +3737,7 @@ Reconstructed 15 tracks
 	momentum: (1.07107,-3.37264,-12.4633)	PT: 3.53863
 	vertex: (-0.0048446,-0.00153853,-0.0208205)	TIP: 0.00508303 +- 0.0072282	Z0: -0.0208205 +- 0.00791963
 	charge: -1
-*** PixelVertexTest, analyze event: run: 5001 event: 45
+*** PixelVertexValTest, analyze event: run: 5001 event: 45
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -3825,7 +3825,7 @@ Reconstructed 14 tracks
 	momentum: (7.77094,2.78847,-38.0777)	PT: 8.25609
 	vertex: (-0.00208662,0.00581502,0.00902747)	TIP: -0.00617806 +- 0.00646928	Z0: 0.00902747 +- 0.00734206
 	charge: -1
-*** PixelVertexTest, analyze event: run: 5001 event: 46
+*** PixelVertexValTest, analyze event: run: 5001 event: 46
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -3910,7 +3910,7 @@ Reconstructed 13 tracks
 	momentum: (-1.41263,3.58835,-13.4877)	PT: 3.8564
 	vertex: (0.00311337,0.00122564,-0.00306032)	TIP: 0.00334593 +- 0.00711876	Z0: -0.00306032 +- 0.00774274
 	charge: -1
-*** PixelVertexTest, analyze event: run: 5001 event: 47
+*** PixelVertexValTest, analyze event: run: 5001 event: 47
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -3995,7 +3995,7 @@ Reconstructed 13 tracks
 	momentum: (-3.11355,1.2298,-16.1757)	PT: 3.34763
 	vertex: (-0.00446371,-0.0113011,-0.111307)	TIP: -0.0121507 +- 0.00730398	Z0: -0.111307 +- 0.00804163
 	charge: -1
-*** PixelVertexTest, analyze event: run: 5001 event: 48
+*** PixelVertexValTest, analyze event: run: 5001 event: 48
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -4077,7 +4077,7 @@ Reconstructed 12 tracks
 	momentum: (-6.8638,-2.50511,-28.9885)	PT: 7.30666
 	vertex: (0.001124,-0.00307968,-0.00521276)	TIP: -0.00327838 +- 0.00654325	Z0: -0.00521276 +- 0.00726296
 	charge: 1
-*** PixelVertexTest, analyze event: run: 5001 event: 49
+*** PixelVertexValTest, analyze event: run: 5001 event: 49
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -4162,7 +4162,7 @@ Reconstructed 13 tracks
 	momentum: (3.69532,0.0386523,-14.1326)	PT: 3.69552
 	vertex: (-4.34708e-05,0.00415598,0.00177074)	TIP: -0.00415621 +- 0.00717181	Z0: 0.00177074 +- 0.00782833
 	charge: 1
-*** PixelVertexTest, analyze event: run: 5001 event: 50
+*** PixelVertexValTest, analyze event: run: 5001 event: 50
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -4247,7 +4247,7 @@ Reconstructed 13 tracks
 	momentum: (4.5021,-6.06871,-27.3892)	PT: 7.55633
 	vertex: (0.0105152,0.00780079,0.0169861)	TIP: -0.0130928 +- 0.00652199	Z0: 0.0169861 +- 0.00728319
 	charge: -1
-*** PixelVertexTest, analyze event: run: 5001 event: 51
+*** PixelVertexValTest, analyze event: run: 5001 event: 51
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -4320,7 +4320,7 @@ Reconstructed 9 tracks
 	momentum: (4.0075,-1.613,17.9146)	PT: 4.31993
 	vertex: (-0.000783385,-0.00194632,0.00708896)	TIP: 0.00209806 +- 0.00698798	Z0: 0.00708896 +- 0.00753867
 	charge: -1
-*** PixelVertexTest, analyze event: run: 5001 event: 52
+*** PixelVertexValTest, analyze event: run: 5001 event: 52
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -4411,7 +4411,7 @@ Reconstructed 15 tracks
 	momentum: (5.46243,-3.23239,-30.2872)	PT: 6.34717
 	vertex: (-0.00111343,-0.00188159,-0.00577326)	TIP: 0.00218635 +- 0.00664049	Z0: -0.00577326 +- 0.00721729
 	charge: 1
-*** PixelVertexTest, analyze event: run: 5001 event: 53
+*** PixelVertexValTest, analyze event: run: 5001 event: 53
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -4490,7 +4490,7 @@ Reconstructed 11 tracks
 	momentum: (4.95637,-2.37518,-20.7518)	PT: 5.4961
 	vertex: (-0.00285118,-0.00594965,0.00422923)	TIP: 0.00659754 +- 0.00675515	Z0: 0.00422923 +- 0.00725997
 	charge: -1
-*** PixelVertexTest, analyze event: run: 5001 event: 54
+*** PixelVertexValTest, analyze event: run: 5001 event: 54
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -4581,7 +4581,7 @@ Reconstructed 15 tracks
 	momentum: (3.21468,-1.93973,0.978977)	PT: 3.75456
 	vertex: (0.014255,0.0236246,0.0059518)	TIP: -0.0275922 +- 0.00715181	Z0: 0.0059518 +- 0.00779599
 	charge: -1
-*** PixelVertexTest, analyze event: run: 5001 event: 55
+*** PixelVertexValTest, analyze event: run: 5001 event: 55
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -4660,7 +4660,7 @@ Reconstructed 11 tracks
 	momentum: (-2.46594,-6.01596,-24.5626)	PT: 6.50174
 	vertex: (-0.00532634,0.00218327,0.00292179)	TIP: 0.00575643 +- 0.00662288	Z0: 0.00292179 +- 0.00721953
 	charge: 1
-*** PixelVertexTest, analyze event: run: 5001 event: 56
+*** PixelVertexValTest, analyze event: run: 5001 event: 56
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -4745,7 +4745,7 @@ Reconstructed 13 tracks
 	momentum: (4.83633,-4.46759,-27.0091)	PT: 6.58403
 	vertex: (0.00790808,0.0085608,0.00656084)	TIP: -0.0116544 +- 0.00661385	Z0: 0.00656084 +- 0.0072217
 	charge: 1
-*** PixelVertexTest, analyze event: run: 5001 event: 57
+*** PixelVertexValTest, analyze event: run: 5001 event: 57
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -4833,7 +4833,7 @@ Reconstructed 14 tracks
 	momentum: (-1.87655,-5.59748,24.3673)	PT: 5.90366
 	vertex: (0.0073254,-0.00245584,0.00198019)	TIP: -0.0077261 +- 0.00669612	Z0: 0.00198019 +- 0.00722653
 	charge: -1
-*** PixelVertexTest, analyze event: run: 5001 event: 58
+*** PixelVertexValTest, analyze event: run: 5001 event: 58
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -4957,7 +4957,7 @@ Reconstructed 26 tracks
 	momentum: (-2.43294,-4.70265,23.8678)	PT: 5.29472
 	vertex: (0.0102248,-0.00528983,-0.00468978)	TIP: -0.0115121 +- 0.00678768	Z0: -0.00468978 +- 0.00728696
 	charge: 1
-*** PixelVertexTest, analyze event: run: 5001 event: 59
+*** PixelVertexValTest, analyze event: run: 5001 event: 59
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -5036,7 +5036,7 @@ Reconstructed 11 tracks
 	momentum: (-2.10725,-1.57831,-11.7932)	PT: 2.63278
 	vertex: (0.000179417,-0.000239545,0.0761879)	TIP: -0.000299286 +- 0.00768518	Z0: 0.0761879 +- 0.00861292
 	charge: 1
-*** PixelVertexTest, analyze event: run: 5001 event: 60
+*** PixelVertexValTest, analyze event: run: 5001 event: 60
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -5115,7 +5115,7 @@ Reconstructed 11 tracks
 	momentum: (3.92493,3.1832,-23.1337)	PT: 5.0535
 	vertex: (-0.000578309,0.000713065,0.0181935)	TIP: -0.000918097 +- 0.00683005	Z0: 0.0181935 +- 0.00732956
 	charge: -1
-*** PixelVertexTest, analyze event: run: 5001 event: 61
+*** PixelVertexValTest, analyze event: run: 5001 event: 61
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -5185,7 +5185,7 @@ Reconstructed 8 tracks
 	momentum: (2.09533,-1.68822,12.1868)	PT: 2.69082
 	vertex: (-0.00935588,-0.0116121,-0.0280134)	TIP: 0.0149122 +- 0.00764668	Z0: -0.0280134 +- 0.00855937
 	charge: 1
-*** PixelVertexTest, analyze event: run: 5001 event: 62
+*** PixelVertexValTest, analyze event: run: 5001 event: 62
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -5276,7 +5276,7 @@ Reconstructed 15 tracks
 	momentum: (4.73981,-1.1843,-18.158)	PT: 4.88552
 	vertex: (-0.00109448,-0.0043803,0.0014296)	TIP: 0.00451496 +- 0.00686203	Z0: 0.0014296 +- 0.00736638
 	charge: -1
-*** PixelVertexTest, analyze event: run: 5001 event: 63
+*** PixelVertexValTest, analyze event: run: 5001 event: 63
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -5364,7 +5364,7 @@ Reconstructed 14 tracks
 	momentum: (1.74259,-1.27496,-7.45305)	PT: 2.1592
 	vertex: (0.00892695,0.0122012,-0.00852612)	TIP: -0.0151182 +- 0.00807673	Z0: -0.00852612 +- 0.00910096
 	charge: -1
-*** PixelVertexTest, analyze event: run: 5001 event: 64
+*** PixelVertexValTest, analyze event: run: 5001 event: 64
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -5440,7 +5440,7 @@ Reconstructed 10 tracks
 	momentum: (1.60745,-0.204076,0.197913)	PT: 1.62035
 	vertex: (-0.00137908,-0.0108626,-0.0137469)	TIP: 0.0109498 +- 0.0088006	Z0: -0.0137469 +- 0.00977451
 	charge: -1
-*** PixelVertexTest, analyze event: run: 5001 event: 65
+*** PixelVertexValTest, analyze event: run: 5001 event: 65
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -5537,7 +5537,7 @@ Reconstructed 17 tracks
 	momentum: (-8.01421,1.79476,29.4188)	PT: 8.21272
 	vertex: (-0.000995158,-0.00444371,0.000112671)	TIP: -0.00455378 +- 0.00647228	Z0: 0.000112671 +- 0.00733865
 	charge: -1
-*** PixelVertexTest, analyze event: run: 5001 event: 66
+*** PixelVertexValTest, analyze event: run: 5001 event: 66
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -5625,7 +5625,7 @@ Reconstructed 14 tracks
 	momentum: (-2.04841,0.131573,-9.70866)	PT: 2.05263
 	vertex: (-0.00643985,-0.10026,-0.0320644)	TIP: -0.100466 +- 0.00818975	Z0: -0.0320644 +- 0.00922384
 	charge: -1
-*** PixelVertexTest, analyze event: run: 5001 event: 67
+*** PixelVertexValTest, analyze event: run: 5001 event: 67
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -5722,7 +5722,7 @@ Reconstructed 17 tracks
 	momentum: (3.926,0.310028,-12.8736)	PT: 3.93822
 	vertex: (-0.000324506,0.00410934,0.00301117)	TIP: -0.00412213 +- 0.00709343	Z0: 0.00301117 +- 0.00770222
 	charge: 1
-*** PixelVertexTest, analyze event: run: 5001 event: 68
+*** PixelVertexValTest, analyze event: run: 5001 event: 68
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -5798,7 +5798,7 @@ Reconstructed 10 tracks
 	momentum: (10.8529,8.60473,-59.6833)	PT: 13.8502
 	vertex: (-0.0130735,0.0164893,0.00576068)	TIP: -0.0210432 +- 0.00637	Z0: 0.00576068 +- 0.007356
 	charge: 1
-*** PixelVertexTest, analyze event: run: 5001 event: 69
+*** PixelVertexValTest, analyze event: run: 5001 event: 69
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -5895,7 +5895,7 @@ Reconstructed 17 tracks
 	momentum: (-3.5289,1.73869,-15.6645)	PT: 3.93398
 	vertex: (0.00378788,0.00768799,-0.0213709)	TIP: 0.00857048 +- 0.00709472	Z0: -0.0213709 +- 0.00770428
 	charge: -1
-*** PixelVertexTest, analyze event: run: 5001 event: 70
+*** PixelVertexValTest, analyze event: run: 5001 event: 70
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -5992,7 +5992,7 @@ Reconstructed 17 tracks
 	momentum: (3.74982,2.1997,-18.2299)	PT: 4.34739
 	vertex: (0.0130273,-0.0222076,-0.00335098)	TIP: 0.0257467 +- 0.00698111	Z0: -0.00335098 +- 0.00752845
 	charge: 1
-*** PixelVertexTest, analyze event: run: 5001 event: 71
+*** PixelVertexValTest, analyze event: run: 5001 event: 71
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -6068,7 +6068,7 @@ Reconstructed 10 tracks
 	momentum: (7.2392,-4.29634,-2.88321)	PT: 8.4181
 	vertex: (0.00162753,0.00274234,0.00205968)	TIP: -0.00318893 +- 0.00645832	Z0: 0.00205968 +- 0.00735416
 	charge: -1
-*** PixelVertexTest, analyze event: run: 5001 event: 72
+*** PixelVertexValTest, analyze event: run: 5001 event: 72
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -6138,7 +6138,7 @@ Reconstructed 8 tracks
 	momentum: (-13.3066,0.0669909,-54.9833)	PT: 13.3068
 	vertex: (-4.42489e-05,-0.00878931,0.0295995)	TIP: -0.00878942 +- 0.00637	Z0: 0.0295995 +- 0.007356
 	charge: 1
-*** PixelVertexTest, analyze event: run: 5001 event: 73
+*** PixelVertexValTest, analyze event: run: 5001 event: 73
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -6226,7 +6226,7 @@ Reconstructed 14 tracks
 	momentum: (-2.13671,4.0855,22.9492)	PT: 4.61051
 	vertex: (-0.0227404,-0.0118932,-0.00560832)	TIP: -0.0256626 +- 0.00691941	Z0: -0.00560832 +- 0.00744039
 	charge: -1
-*** PixelVertexTest, analyze event: run: 5001 event: 74
+*** PixelVertexValTest, analyze event: run: 5001 event: 74
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -6305,7 +6305,7 @@ Reconstructed 11 tracks
 	momentum: (-0.912863,2.6699,-14.7015)	PT: 2.82164
 	vertex: (0.0245321,0.00838777,0.0137774)	TIP: 0.0259264 +- 0.0075657	Z0: 0.0137774 +- 0.00844349
 	charge: 1
-*** PixelVertexTest, analyze event: run: 5001 event: 75
+*** PixelVertexValTest, analyze event: run: 5001 event: 75
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -6393,7 +6393,7 @@ Reconstructed 14 tracks
 	momentum: (-3.13593,1.30366,-14.31)	PT: 3.39611
 	vertex: (0.000401675,0.000966222,0.0231206)	TIP: 0.00104639 +- 0.00728394	Z0: 0.0231206 +- 0.00800951
 	charge: 1
-*** PixelVertexTest, analyze event: run: 5001 event: 76
+*** PixelVertexValTest, analyze event: run: 5001 event: 76
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -6475,7 +6475,7 @@ Reconstructed 12 tracks
 	momentum: (2.96234,-2.3362,-15.0313)	PT: 3.7727
 	vertex: (-0.00828435,-0.0105047,0.0189649)	TIP: 0.0133783 +- 0.00714579	Z0: 0.0189649 +- 0.00778627
 	charge: 1
-*** PixelVertexTest, analyze event: run: 5001 event: 77
+*** PixelVertexValTest, analyze event: run: 5001 event: 77
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -6557,7 +6557,7 @@ Reconstructed 12 tracks
 	momentum: (-9.5408,-0.791766,39.4798)	PT: 9.5736
 	vertex: (-0.000666937,0.0080366,-0.00478277)	TIP: 0.00806423 +- 0.00639093	Z0: -0.00478277 +- 0.00738458
 	charge: -1
-*** PixelVertexTest, analyze event: run: 5001 event: 78
+*** PixelVertexValTest, analyze event: run: 5001 event: 78
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -6651,7 +6651,7 @@ Reconstructed 16 tracks
 	momentum: (-2.26468,2.40783,-15.2866)	PT: 3.30551
 	vertex: (0.00490974,0.00461785,-0.0455004)	TIP: 0.00674018 +- 0.00732187	Z0: -0.0455004 +- 0.00807019
 	charge: -1
-*** PixelVertexTest, analyze event: run: 5001 event: 79
+*** PixelVertexValTest, analyze event: run: 5001 event: 79
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -6733,7 +6733,7 @@ Reconstructed 12 tracks
 	momentum: (9.89957,1.14006,36.2115)	PT: 9.965
 	vertex: (-0.000476309,0.00413598,0.010395)	TIP: -0.00416332 +- 0.00637165	Z0: 0.010395 +- 0.00735943
 	charge: 1
-*** PixelVertexTest, analyze event: run: 5001 event: 80
+*** PixelVertexValTest, analyze event: run: 5001 event: 80
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -6815,7 +6815,7 @@ Reconstructed 12 tracks
 	momentum: (-1.21441,0.68351,-4.76363)	PT: 1.39355
 	vertex: (0.0127578,0.0226672,0.014092)	TIP: 0.0260109 +- 0.00927268	Z0: 0.014092 +- 0.0100984
 	charge: 1
-*** PixelVertexTest, analyze event: run: 5001 event: 81
+*** PixelVertexValTest, analyze event: run: 5001 event: 81
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -6900,7 +6900,7 @@ Reconstructed 13 tracks
 	momentum: (1.71832,7.098,-26.9689)	PT: 7.30303
 	vertex: (9.42969e-05,-2.28279e-05,0.0179102)	TIP: 9.70207e-05 +- 0.00654357	Z0: 0.0179102 +- 0.00726268
 	charge: 1
-*** PixelVertexTest, analyze event: run: 5001 event: 82
+*** PixelVertexValTest, analyze event: run: 5001 event: 82
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -6976,7 +6976,7 @@ Reconstructed 10 tracks
 	momentum: (2.53262,-1.92438,16.5319)	PT: 3.18079
 	vertex: (-0.0148546,-0.0195498,-0.0284833)	TIP: 0.0245531 +- 0.00737762	Z0: -0.0284833 +- 0.00815836
 	charge: 1
-*** PixelVertexTest, analyze event: run: 5001 event: 83
+*** PixelVertexValTest, analyze event: run: 5001 event: 83
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -7061,7 +7061,7 @@ Reconstructed 13 tracks
 	momentum: (2.16633,2.44364,-14.717)	PT: 3.26564
 	vertex: (-0.00740036,0.00656056,0.00618343)	TIP: -0.00988971 +- 0.00733923	Z0: 0.00618343 +- 0.00809779
 	charge: 1
-*** PixelVertexTest, analyze event: run: 5001 event: 84
+*** PixelVertexValTest, analyze event: run: 5001 event: 84
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -7164,7 +7164,7 @@ Reconstructed 19 tracks
 	momentum: (4.56556,1.07141,-18.0628)	PT: 4.68959
 	vertex: (-0.00109435,0.0046633,0.00813113)	TIP: -0.00478999 +- 0.00690222	Z0: 0.00813113 +- 0.00741729
 	charge: -1
-*** PixelVertexTest, analyze event: run: 5001 event: 85
+*** PixelVertexValTest, analyze event: run: 5001 event: 85
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -7240,7 +7240,7 @@ Reconstructed 10 tracks
 	momentum: (-0.721856,7.30301,31.8754)	PT: 7.3386
 	vertex: (-0.00212689,-0.00021023,-0.0265768)	TIP: -0.00213726 +- 0.00654045	Z0: -0.0265768 +- 0.00726544
 	charge: 1
-*** PixelVertexTest, analyze event: run: 5001 event: 86
+*** PixelVertexValTest, analyze event: run: 5001 event: 86
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -7322,7 +7322,7 @@ Reconstructed 12 tracks
 	momentum: (-4.95335,0.277239,-22.3547)	PT: 4.9611
 	vertex: (0.000186313,0.0033288,-0.0130491)	TIP: 0.00333401 +- 0.00684737	Z0: -0.0130491 +- 0.00734905
 	charge: -1
-*** PixelVertexTest, analyze event: run: 5001 event: 87
+*** PixelVertexValTest, analyze event: run: 5001 event: 87
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -7410,7 +7410,7 @@ Reconstructed 14 tracks
 	momentum: (0.112283,1.25743,-4.41171)	PT: 1.26243
 	vertex: (-0.00815347,0.00072807,0.0285889)	TIP: -0.00818591 +- 0.00962297	Z0: 0.0285889 +- 0.0102971
 	charge: 1
-*** PixelVertexTest, analyze event: run: 5001 event: 88
+*** PixelVertexValTest, analyze event: run: 5001 event: 88
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -7507,7 +7507,7 @@ Reconstructed 17 tracks
 	momentum: (-1.00017,6.71671,-29.1584)	PT: 6.79077
 	vertex: (0.00704522,0.00104909,0.0227468)	TIP: 0.0071229 +- 0.00659212	Z0: 0.0227468 +- 0.00722984
 	charge: -1
-*** PixelVertexTest, analyze event: run: 5001 event: 89
+*** PixelVertexValTest, analyze event: run: 5001 event: 89
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -7583,7 +7583,7 @@ Reconstructed 10 tracks
 	momentum: (-25.6149,17.81,132.246)	PT: 31.1981
 	vertex: (0.0411023,0.0591146,0.0155843)	TIP: 0.0719995 +- 0.00637	Z0: 0.0155843 +- 0.007356
 	charge: -1
-*** PixelVertexTest, analyze event: run: 5001 event: 90
+*** PixelVertexValTest, analyze event: run: 5001 event: 90
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -7668,7 +7668,7 @@ Reconstructed 13 tracks
 	momentum: (1.1941,-4.19214,-20.4623)	PT: 4.35889
 	vertex: (0.00567373,0.00161611,-0.0125973)	TIP: -0.00589941 +- 0.00697826	Z0: -0.0125973 +- 0.00752423
 	charge: -1
-*** PixelVertexTest, analyze event: run: 5001 event: 91
+*** PixelVertexValTest, analyze event: run: 5001 event: 91
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -7747,7 +7747,7 @@ Reconstructed 11 tracks
 	momentum: (25.8053,-13.1561,-18.0009)	PT: 28.9655
 	vertex: (0.0620007,0.121612,-0.0164368)	TIP: -0.136505 +- 0.00637	Z0: -0.0164368 +- 0.007356
 	charge: 1
-*** PixelVertexTest, analyze event: run: 5001 event: 92
+*** PixelVertexValTest, analyze event: run: 5001 event: 92
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -7847,7 +7847,7 @@ Reconstructed 18 tracks
 	momentum: (-2.16248,-0.691526,7.87443)	PT: 2.27036
 	vertex: (0.00250595,-0.00783641,0.0921028)	TIP: -0.00822734 +- 0.00797016	Z0: 0.0921028 +- 0.00897801
 	charge: 1
-*** PixelVertexTest, analyze event: run: 5001 event: 93
+*** PixelVertexValTest, analyze event: run: 5001 event: 93
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -7933,7 +7933,7 @@ Reconstructed 13 tracks
 	momentum: (-1.10352,-8.2423,-29.1694)	PT: 8.31585
 	vertex: (0.00583883,-0.000781734,-0.00891124)	TIP: -0.00589093 +- 0.00646519	Z0: -0.00891124 +- 0.00734665
 	charge: 1
-*** PixelVertexTest, analyze event: run: 5001 event: 94
+*** PixelVertexValTest, analyze event: run: 5001 event: 94
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -8006,7 +8006,7 @@ Reconstructed 9 tracks
 	momentum: (5.20489,3.62026,28.3186)	PT: 6.34013
 	vertex: (0.000450188,-0.00064724,-0.00388004)	TIP: 0.00078841 +- 0.00664131	Z0: -0.00388004 +- 0.00721725
 	charge: -1
-*** PixelVertexTest, analyze event: run: 5001 event: 95
+*** PixelVertexValTest, analyze event: run: 5001 event: 95
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -8094,7 +8094,7 @@ Reconstructed 14 tracks
 	momentum: (-2.94173,-5.09015,23.3278)	PT: 5.87906
 	vertex: (0.0224736,-0.0129881,-0.0953534)	TIP: -0.0259568 +- 0.00669945	Z0: -0.0953534 +- 0.00722782
 	charge: -1
-*** PixelVertexTest, analyze event: run: 5001 event: 96
+*** PixelVertexValTest, analyze event: run: 5001 event: 96
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -8170,7 +8170,7 @@ Reconstructed 10 tracks
 	momentum: (-3.1036,6.53975,-27.5289)	PT: 7.23883
 	vertex: (-0.00280759,-0.00133241,0.0068547)	TIP: -0.00310771 +- 0.00654928	Z0: 0.0068547 +- 0.00725781
 	charge: -1
-*** PixelVertexTest, analyze event: run: 5001 event: 97
+*** PixelVertexValTest, analyze event: run: 5001 event: 97
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -8258,7 +8258,7 @@ Reconstructed 14 tracks
 	momentum: (8.22714,-2.6272,-34.0704)	PT: 8.63644
 	vertex: (-0.00222626,-0.00697159,-8.99978e-05)	TIP: 0.00731843 +- 0.00644421	Z0: -8.99978e-05 +- 0.00736842
 	charge: -1
-*** PixelVertexTest, analyze event: run: 5001 event: 98
+*** PixelVertexValTest, analyze event: run: 5001 event: 98
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -8340,7 +8340,7 @@ Reconstructed 12 tracks
 	momentum: (34.9545,21.7301,-225.454)	PT: 41.1584
 	vertex: (-0.0109381,0.0175947,-0.0224901)	TIP: -0.0207174 +- 0.00637	Z0: -0.0224901 +- 0.007356
 	charge: 1
-*** PixelVertexTest, analyze event: run: 5001 event: 99
+*** PixelVertexValTest, analyze event: run: 5001 event: 99
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -8419,7 +8419,7 @@ Reconstructed 11 tracks
 	momentum: (-7.94677,4.43424,-49.4619)	PT: 9.1002
 	vertex: (0.00399672,0.00716268,0.0204273)	TIP: 0.0082023 +- 0.00641647	Z0: 0.0204273 +- 0.00738746
 	charge: -1
-*** PixelVertexTest, analyze event: run: 5001 event: 100
+*** PixelVertexValTest, analyze event: run: 5001 event: 100
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -8761,7 +8761,7 @@ Reconstructed 12 tracks
 	momentum: (4.37269,9.84381,37.1668)	PT: 10.7713
 	vertex: (0.00517191,-0.0022974,-0.00739954)	TIP: 0.00565921 +- 0.00637	Z0: -0.00739954 +- 0.007356
 	charge: -1
-*** PixelVertexTest, analyze event: run: 5001 event: 1
+*** PixelVertexValTest, analyze event: run: 5001 event: 1
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -8836,7 +8836,7 @@ Reconstructed 10 tracks
 	momentum: (-5.24536,-2.2378,-19.2268)	PT: 5.70277
 	vertex: (0.00254145,-0.0059571,0.0106809)	TIP: -0.00647657 +- 0.00672416	Z0: 0.0106809 +- 0.00723969
 	charge: 1
-*** PixelVertexTest, analyze event: run: 5001 event: 2
+*** PixelVertexValTest, analyze event: run: 5001 event: 2
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -8914,7 +8914,7 @@ Reconstructed 11 tracks
 	momentum: (-1.32954,-5.6917,-34.6318)	PT: 5.84492
 	vertex: (-0.00362912,0.000847737,0.026606)	TIP: 0.00372682 +- 0.00670412	Z0: 0.026606 +- 0.00722975
 	charge: -1
-*** PixelVertexTest, analyze event: run: 5001 event: 3
+*** PixelVertexValTest, analyze event: run: 5001 event: 3
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -9010,7 +9010,7 @@ Reconstructed 17 tracks
 	momentum: (0.702018,-6.57186,-24.7113)	PT: 6.60925
 	vertex: (-0.0017448,-0.000186383,0.00138659)	TIP: 0.00175473 +- 0.00661112	Z0: 0.00138659 +- 0.0072225
 	charge: 1
-*** PixelVertexTest, analyze event: run: 5001 event: 4
+*** PixelVertexValTest, analyze event: run: 5001 event: 4
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -9100,7 +9100,7 @@ Reconstructed 15 tracks
 	momentum: (7.43771,-3.35802,-4.23806)	PT: 8.16063
 	vertex: (-0.00226305,-0.00501246,0.00124156)	TIP: 0.00549965 +- 0.00647594	Z0: 0.00124156 +- 0.00733447
 	charge: -1
-*** PixelVertexTest, analyze event: run: 5001 event: 5
+*** PixelVertexValTest, analyze event: run: 5001 event: 5
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -9184,7 +9184,7 @@ Reconstructed 13 tracks
 	momentum: (-3.20157,1.07789,-12.8693)	PT: 3.37815
 	vertex: (0.00210617,0.00625577,0.029954)	TIP: 0.0066008 +- 0.00729129	Z0: 0.029954 +- 0.00802132
 	charge: -1
-*** PixelVertexTest, analyze event: run: 5001 event: 6
+*** PixelVertexValTest, analyze event: run: 5001 event: 6
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -9280,7 +9280,7 @@ Reconstructed 17 tracks
 	momentum: (1.64456,0.877948,-10.4927)	PT: 1.86423
 	vertex: (0.0423835,-0.0793919,0.119678)	TIP: 0.0899968 +- 0.00842115	Z0: 0.119678 +- 0.00945337
 	charge: -1
-*** PixelVertexTest, analyze event: run: 5001 event: 7
+*** PixelVertexValTest, analyze event: run: 5001 event: 7
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -9373,7 +9373,7 @@ Reconstructed 16 tracks
 	momentum: (5.26539,0.520165,-19.1326)	PT: 5.29102
 	vertex: (-0.000317453,0.00321343,0.015841)	TIP: -0.00322907 +- 0.0067883	Z0: 0.015841 +- 0.00728752
 	charge: -1
-*** PixelVertexTest, analyze event: run: 5001 event: 8
+*** PixelVertexValTest, analyze event: run: 5001 event: 8
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -9445,7 +9445,7 @@ Reconstructed 9 tracks
 	momentum: (-7.40719,-2.42669,-36.0178)	PT: 7.79457
 	vertex: (0.00120464,-0.00367702,0.00895581)	TIP: -0.00386932 +- 0.00650298	Z0: 0.00895581 +- 0.00730356
 	charge: 1
-*** PixelVertexTest, analyze event: run: 5001 event: 9
+*** PixelVertexValTest, analyze event: run: 5001 event: 9
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -9520,7 +9520,7 @@ Reconstructed 10 tracks
 	momentum: (6.78694,3.99778,-45.5773)	PT: 7.87685
 	vertex: (-0.00329636,0.00559615,0.0544299)	TIP: -0.00649483 +- 0.00649669	Z0: 0.0544299 +- 0.00731064
 	charge: 1
-*** PixelVertexTest, analyze event: run: 5001 event: 10
+*** PixelVertexValTest, analyze event: run: 5001 event: 10
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -9601,7 +9601,7 @@ Reconstructed 12 tracks
 	momentum: (1.61567,-4.66361,-20.7591)	PT: 4.93555
 	vertex: (-0.000292324,-0.000101274,-0.0101545)	TIP: 0.00030937 +- 0.00685227	Z0: -0.0101545 +- 0.00735477
 	charge: -1
-*** PixelVertexTest, analyze event: run: 5001 event: 11
+*** PixelVertexValTest, analyze event: run: 5001 event: 11
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -9679,7 +9679,7 @@ Reconstructed 11 tracks
 	momentum: (-0.896647,5.02614,-25.7827)	PT: 5.10549
 	vertex: (0.00107728,0.000192183,-0.000719428)	TIP: 0.00109429 +- 0.00682058	Z0: -0.000719428 +- 0.00731938
 	charge: 1
-*** PixelVertexTest, analyze event: run: 5001 event: 12
+*** PixelVertexValTest, analyze event: run: 5001 event: 12
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -9772,7 +9772,7 @@ Reconstructed 16 tracks
 	momentum: (1.59471,-2.38113,-0.857883)	PT: 2.86581
 	vertex: (-0.000555623,-0.000372118,-0.0103823)	TIP: 0.000668722 +- 0.00754002	Z0: -0.0103823 +- 0.00840584
 	charge: 1
-*** PixelVertexTest, analyze event: run: 5001 event: 13
+*** PixelVertexValTest, analyze event: run: 5001 event: 13
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -9853,7 +9853,7 @@ Reconstructed 12 tracks
 	momentum: (0.504927,1.96407,-9.86016)	PT: 2.02794
 	vertex: (0.0516874,-0.0132879,0.193584)	TIP: 0.0533682 +- 0.00821762	Z0: 0.193584 +- 0.00925302
 	charge: 1
-*** PixelVertexTest, analyze event: run: 5001 event: 14
+*** PixelVertexValTest, analyze event: run: 5001 event: 14
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -9937,7 +9937,7 @@ Reconstructed 13 tracks
 	momentum: (-1.12039,-1.15325,-8.99716)	PT: 1.60787
 	vertex: (0.0145106,-0.0140972,-0.0643527)	TIP: -0.0202309 +- 0.00882312	Z0: -0.0643527 +- 0.00979169
 	charge: 1
-*** PixelVertexTest, analyze event: run: 5001 event: 15
+*** PixelVertexValTest, analyze event: run: 5001 event: 15
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -10015,7 +10015,7 @@ Reconstructed 11 tracks
 	momentum: (-1.7906,4.56525,-27.6595)	PT: 4.90385
 	vertex: (-0.018931,-0.0074252,-0.00416016)	TIP: -0.0203351 +- 0.00685843	Z0: -0.00416016 +- 0.00736206
 	charge: 1
-*** PixelVertexTest, analyze event: run: 5001 event: 16
+*** PixelVertexValTest, analyze event: run: 5001 event: 16
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -10093,7 +10093,7 @@ Reconstructed 11 tracks
 	momentum: (-6.29012,0.51366,31.318)	PT: 6.31105
 	vertex: (0.00115299,0.0141192,0.0084123)	TIP: 0.0141662 +- 0.00664472	Z0: 0.0084123 +- 0.00721714
 	charge: 1
-*** PixelVertexTest, analyze event: run: 5001 event: 17
+*** PixelVertexValTest, analyze event: run: 5001 event: 17
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -10171,7 +10171,7 @@ Reconstructed 11 tracks
 	momentum: (-7.10995,1.94297,42.1053)	PT: 7.37065
 	vertex: (-0.00389251,-0.0142439,0.10228)	TIP: -0.0147662 +- 0.00653766	Z0: 0.10228 +- 0.00726797
 	charge: -1
-*** PixelVertexTest, analyze event: run: 5001 event: 18
+*** PixelVertexValTest, analyze event: run: 5001 event: 18
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -10234,7 +10234,7 @@ Reconstructed 6 tracks
 	momentum: (1.95354,9.22045,-48.1506)	PT: 9.42513
 	vertex: (0.000133519,-2.82887e-05,0.00520419)	TIP: 0.000136483 +- 0.00639867	Z0: 0.00520419 +- 0.00738839
 	charge: -1
-*** PixelVertexTest, analyze event: run: 5001 event: 19
+*** PixelVertexValTest, analyze event: run: 5001 event: 19
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -10309,7 +10309,7 @@ Reconstructed 10 tracks
 	momentum: (-1.79218,-4.29855,18.4923)	PT: 4.65719
 	vertex: (-0.0077367,0.00322564,0.005384)	TIP: 0.0083822 +- 0.00690919	Z0: 0.005384 +- 0.00742657
 	charge: -1
-*** PixelVertexTest, analyze event: run: 5001 event: 20
+*** PixelVertexValTest, analyze event: run: 5001 event: 20
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -10408,7 +10408,7 @@ Reconstructed 18 tracks
 	momentum: (-0.531365,-0.850109,-3.58956)	PT: 1.00251
 	vertex: (-0.015183,0.00949021,-0.0869733)	TIP: 0.0179049 +- 0.0105882	Z0: -0.0869733 +- 0.0107166
 	charge: 1
-*** PixelVertexTest, analyze event: run: 5001 event: 21
+*** PixelVertexValTest, analyze event: run: 5001 event: 21
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -10489,7 +10489,7 @@ Reconstructed 12 tracks
 	momentum: (1.0534,0.607865,-5.7129)	PT: 1.21621
 	vertex: (0.00244618,-0.00423912,-0.0162393)	TIP: 0.00489427 +- 0.00976448	Z0: -0.0162393 +- 0.0103692
 	charge: -1
-*** PixelVertexTest, analyze event: run: 5001 event: 22
+*** PixelVertexValTest, analyze event: run: 5001 event: 22
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -10564,7 +10564,7 @@ Reconstructed 10 tracks
 	momentum: (3.3662,3.25564,-16.5957)	PT: 4.683
 	vertex: (-0.00632741,0.00654229,-0.0171727)	TIP: -0.00910152 +- 0.00690363	Z0: -0.0171727 +- 0.00741916
 	charge: 1
-*** PixelVertexTest, analyze event: run: 5001 event: 23
+*** PixelVertexValTest, analyze event: run: 5001 event: 23
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -10639,7 +10639,7 @@ Reconstructed 10 tracks
 	momentum: (2.62115,4.83198,21.8004)	PT: 5.49714
 	vertex: (-0.00386241,0.0020952,-0.0274448)	TIP: -0.0043941 +- 0.00675499	Z0: -0.0274448 +- 0.00725985
 	charge: 1
-*** PixelVertexTest, analyze event: run: 5001 event: 24
+*** PixelVertexValTest, analyze event: run: 5001 event: 24
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -10714,7 +10714,7 @@ Reconstructed 10 tracks
 	momentum: (-0.0971731,2.34572,8.72331)	PT: 2.34773
 	vertex: (0.00640372,0.000265279,-0.0100406)	TIP: 0.00640921 +- 0.00790193	Z0: -0.0100406 +- 0.00889552
 	charge: -1
-*** PixelVertexTest, analyze event: run: 5001 event: 25
+*** PixelVertexValTest, analyze event: run: 5001 event: 25
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -10795,7 +10795,7 @@ Reconstructed 12 tracks
 	momentum: (0.679279,9.50692,-34.8563)	PT: 9.53116
 	vertex: (0.00247701,-0.000176985,-0.00727444)	TIP: 0.00248332 +- 0.00639312	Z0: -0.00727444 +- 0.00738596
 	charge: 1
-*** PixelVertexTest, analyze event: run: 5001 event: 26
+*** PixelVertexValTest, analyze event: run: 5001 event: 26
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -10876,7 +10876,7 @@ Reconstructed 12 tracks
 	momentum: (5.35413,-19.3451,-113.19)	PT: 20.0723
 	vertex: (0.0137905,0.0038168,-0.0201933)	TIP: -0.014309 +- 0.00637	Z0: -0.0201933 +- 0.007356
 	charge: 1
-*** PixelVertexTest, analyze event: run: 5001 event: 27
+*** PixelVertexValTest, analyze event: run: 5001 event: 27
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -10960,7 +10960,7 @@ Reconstructed 13 tracks
 	momentum: (2.75038,-1.6997,-11.252)	PT: 3.2332
 	vertex: (0.0100238,0.0162201,0.0380593)	TIP: -0.0190675 +- 0.00735367	Z0: 0.0380593 +- 0.00812065
 	charge: 1
-*** PixelVertexTest, analyze event: run: 5001 event: 28
+*** PixelVertexValTest, analyze event: run: 5001 event: 28
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -11032,7 +11032,7 @@ Reconstructed 9 tracks
 	momentum: (0.984716,-4.64575,-25.4792)	PT: 4.74897
 	vertex: (-0.0412366,-0.00874053,0.00263192)	TIP: 0.0421528 +- 0.00688969	Z0: 0.00263192 +- 0.00740092
 	charge: -1
-*** PixelVertexTest, analyze event: run: 5001 event: 29
+*** PixelVertexValTest, analyze event: run: 5001 event: 29
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -11116,7 +11116,7 @@ Reconstructed 13 tracks
 	momentum: (5.56082,6.29914,-32.5706)	PT: 8.40249
 	vertex: (-0.0119361,0.0105371,0.00657099)	TIP: -0.0159217 +- 0.00645936	Z0: 0.00657099 +- 0.00735305
 	charge: 1
-*** PixelVertexTest, analyze event: run: 5001 event: 30
+*** PixelVertexValTest, analyze event: run: 5001 event: 30
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -11191,7 +11191,7 @@ Reconstructed 10 tracks
 	momentum: (-5.672,7.44256,-47.6818)	PT: 9.35752
 	vertex: (0.00116871,0.000890675,0.000667324)	TIP: 0.00146941 +- 0.00640227	Z0: 0.000667324 +- 0.0073892
 	charge: 1
-*** PixelVertexTest, analyze event: run: 5001 event: 31
+*** PixelVertexValTest, analyze event: run: 5001 event: 31
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -11272,7 +11272,7 @@ Reconstructed 12 tracks
 	momentum: (-1.30705,0.50803,-6.93991)	PT: 1.40231
 	vertex: (0.00478161,0.0123021,-0.0634937)	TIP: 0.0131987 +- 0.00925161	Z0: -0.0634937 +- 0.0100854
 	charge: -1
-*** PixelVertexTest, analyze event: run: 5001 event: 32
+*** PixelVertexValTest, analyze event: run: 5001 event: 32
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -11347,7 +11347,7 @@ Reconstructed 10 tracks
 	momentum: (-6.42828,0.85828,28.5246)	PT: 6.48532
 	vertex: (-0.00187827,-0.0140677,-0.00892074)	TIP: -0.0141925 +- 0.00662471	Z0: -0.00892074 +- 0.00721918
 	charge: -1
-*** PixelVertexTest, analyze event: run: 5001 event: 33
+*** PixelVertexValTest, analyze event: run: 5001 event: 33
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -11431,7 +11431,7 @@ Reconstructed 13 tracks
 	momentum: (1.64283,-1.17697,0.274324)	PT: 2.02093
 	vertex: (-0.0114067,-0.0159215,0.0121514)	TIP: 0.0195859 +- 0.00822566	Z0: 0.0121514 +- 0.00926136
 	charge: 1
-*** PixelVertexTest, analyze event: run: 5001 event: 34
+*** PixelVertexValTest, analyze event: run: 5001 event: 34
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -11515,7 +11515,7 @@ Reconstructed 13 tracks
 	momentum: (-0.830442,2.4612,-12.0177)	PT: 2.59752
 	vertex: (0.00341901,0.00115362,-0.034676)	TIP: 0.00360839 +- 0.00770942	Z0: -0.034676 +- 0.0086461
 	charge: 1
-*** PixelVertexTest, analyze event: run: 5001 event: 35
+*** PixelVertexValTest, analyze event: run: 5001 event: 35
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -11599,7 +11599,7 @@ Reconstructed 13 tracks
 	momentum: (-0.217381,7.09561,-28.8458)	PT: 7.09894
 	vertex: (-0.00775584,-0.000237608,-0.0018881)	TIP: -0.00775948 +- 0.00656207	Z0: -0.0018881 +- 0.00724784
 	charge: -1
-*** PixelVertexTest, analyze event: run: 5001 event: 36
+*** PixelVertexValTest, analyze event: run: 5001 event: 36
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -11671,7 +11671,7 @@ Reconstructed 9 tracks
 	momentum: (-0.999268,1.20506,-7.00947)	PT: 1.56547
 	vertex: (0.0158386,0.0131338,-0.0342104)	TIP: 0.0205757 +- 0.00890229	Z0: -0.0342104 +- 0.00985062
 	charge: -1
-*** PixelVertexTest, analyze event: run: 5001 event: 37
+*** PixelVertexValTest, analyze event: run: 5001 event: 37
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -11752,7 +11752,7 @@ Reconstructed 12 tracks
 	momentum: (-2.41893,5.64543,32.3987)	PT: 6.14183
 	vertex: (0.00977035,0.00418636,0.0172571)	TIP: 0.0106295 +- 0.00666524	Z0: 0.0172571 +- 0.00721846
 	charge: -1
-*** PixelVertexTest, analyze event: run: 5001 event: 38
+*** PixelVertexValTest, analyze event: run: 5001 event: 38
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -11866,7 +11866,7 @@ Reconstructed 23 tracks
 	momentum: (-4.9784,-0.335637,-21.1949)	PT: 4.9897
 	vertex: (-0.00100737,0.0149419,0.013491)	TIP: 0.0149758 +- 0.00684194	Z0: 0.013491 +- 0.00734283
 	charge: 1
-*** PixelVertexTest, analyze event: run: 5001 event: 39
+*** PixelVertexValTest, analyze event: run: 5001 event: 39
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -11959,7 +11959,7 @@ Reconstructed 16 tracks
 	momentum: (0.85582,-0.382787,-3.34567)	PT: 0.937525
 	vertex: (-0.0193866,-0.0433438,0.0975946)	TIP: 0.0474818 +- 0.0109132	Z0: 0.0975946 +- 0.0108269
 	charge: 1
-*** PixelVertexTest, analyze event: run: 5001 event: 40
+*** PixelVertexValTest, analyze event: run: 5001 event: 40
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -12046,7 +12046,7 @@ Reconstructed 14 tracks
 	momentum: (-2.51795,-6.528,-24.6808)	PT: 6.99677
 	vertex: (0.00291109,-0.00112285,-0.00099885)	TIP: -0.00312013 +- 0.00657174	Z0: -0.00099885 +- 0.0072412
 	charge: -1
-*** PixelVertexTest, analyze event: run: 5001 event: 41
+*** PixelVertexValTest, analyze event: run: 5001 event: 41
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -12127,7 +12127,7 @@ Reconstructed 12 tracks
 	momentum: (-17.3191,14.9098,92.2805)	PT: 22.8528
 	vertex: (-0.0154099,-0.0179,0.000228074)	TIP: -0.0236193 +- 0.00637	Z0: 0.000228074 +- 0.007356
 	charge: 1
-*** PixelVertexTest, analyze event: run: 5001 event: 42
+*** PixelVertexValTest, analyze event: run: 5001 event: 42
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -12202,7 +12202,7 @@ Reconstructed 10 tracks
 	momentum: (-3.83771,1.94301,-16.2855)	PT: 4.30155
 	vertex: (-0.00349428,-0.00690169,0.0427493)	TIP: -0.00773585 +- 0.00699263	Z0: 0.0427493 +- 0.00754562
 	charge: -1
-*** PixelVertexTest, analyze event: run: 5001 event: 43
+*** PixelVertexValTest, analyze event: run: 5001 event: 43
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -12274,7 +12274,7 @@ Reconstructed 9 tracks
 	momentum: (-11.0773,-0.527747,-45.1386)	PT: 11.0898
 	vertex: (-0.000699915,0.014691,0.0169859)	TIP: 0.0147077 +- 0.00637	Z0: 0.0169859 +- 0.007356
 	charge: -1
-*** PixelVertexTest, analyze event: run: 5001 event: 44
+*** PixelVertexValTest, analyze event: run: 5001 event: 44
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -12364,7 +12364,7 @@ Reconstructed 15 tracks
 	momentum: (1.07107,-3.37264,-12.4633)	PT: 3.53863
 	vertex: (-0.0048446,-0.00153853,-0.0208205)	TIP: 0.00508303 +- 0.0072282	Z0: -0.0208205 +- 0.00791963
 	charge: -1
-*** PixelVertexTest, analyze event: run: 5001 event: 45
+*** PixelVertexValTest, analyze event: run: 5001 event: 45
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -12451,7 +12451,7 @@ Reconstructed 14 tracks
 	momentum: (7.77094,2.78847,-38.0777)	PT: 8.25609
 	vertex: (-0.00208662,0.00581502,0.00902747)	TIP: -0.00617806 +- 0.00646928	Z0: 0.00902747 +- 0.00734206
 	charge: -1
-*** PixelVertexTest, analyze event: run: 5001 event: 46
+*** PixelVertexValTest, analyze event: run: 5001 event: 46
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -12535,7 +12535,7 @@ Reconstructed 13 tracks
 	momentum: (-1.41263,3.58835,-13.4877)	PT: 3.8564
 	vertex: (0.00311337,0.00122564,-0.00306032)	TIP: 0.00334593 +- 0.00711876	Z0: -0.00306032 +- 0.00774274
 	charge: -1
-*** PixelVertexTest, analyze event: run: 5001 event: 47
+*** PixelVertexValTest, analyze event: run: 5001 event: 47
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -12619,7 +12619,7 @@ Reconstructed 13 tracks
 	momentum: (-3.11355,1.2298,-16.1757)	PT: 3.34763
 	vertex: (-0.00446371,-0.0113011,-0.111307)	TIP: -0.0121507 +- 0.00730398	Z0: -0.111307 +- 0.00804163
 	charge: -1
-*** PixelVertexTest, analyze event: run: 5001 event: 48
+*** PixelVertexValTest, analyze event: run: 5001 event: 48
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -12700,7 +12700,7 @@ Reconstructed 12 tracks
 	momentum: (-6.8638,-2.50511,-28.9885)	PT: 7.30666
 	vertex: (0.001124,-0.00307968,-0.00521276)	TIP: -0.00327838 +- 0.00654325	Z0: -0.00521276 +- 0.00726296
 	charge: 1
-*** PixelVertexTest, analyze event: run: 5001 event: 49
+*** PixelVertexValTest, analyze event: run: 5001 event: 49
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -12784,7 +12784,7 @@ Reconstructed 13 tracks
 	momentum: (3.69532,0.0386523,-14.1326)	PT: 3.69552
 	vertex: (-4.34708e-05,0.00415598,0.00177074)	TIP: -0.00415621 +- 0.00717181	Z0: 0.00177074 +- 0.00782833
 	charge: 1
-*** PixelVertexTest, analyze event: run: 5001 event: 50
+*** PixelVertexValTest, analyze event: run: 5001 event: 50
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -12868,7 +12868,7 @@ Reconstructed 13 tracks
 	momentum: (4.5021,-6.06871,-27.3892)	PT: 7.55633
 	vertex: (0.0105152,0.00780079,0.0169861)	TIP: -0.0130928 +- 0.00652199	Z0: 0.0169861 +- 0.00728319
 	charge: -1
-*** PixelVertexTest, analyze event: run: 5001 event: 51
+*** PixelVertexValTest, analyze event: run: 5001 event: 51
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -12940,7 +12940,7 @@ Reconstructed 9 tracks
 	momentum: (4.0075,-1.613,17.9146)	PT: 4.31993
 	vertex: (-0.000783385,-0.00194632,0.00708896)	TIP: 0.00209806 +- 0.00698798	Z0: 0.00708896 +- 0.00753867
 	charge: -1
-*** PixelVertexTest, analyze event: run: 5001 event: 52
+*** PixelVertexValTest, analyze event: run: 5001 event: 52
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -13030,7 +13030,7 @@ Reconstructed 15 tracks
 	momentum: (5.46243,-3.23239,-30.2872)	PT: 6.34717
 	vertex: (-0.00111343,-0.00188159,-0.00577326)	TIP: 0.00218635 +- 0.00664049	Z0: -0.00577326 +- 0.00721729
 	charge: 1
-*** PixelVertexTest, analyze event: run: 5001 event: 53
+*** PixelVertexValTest, analyze event: run: 5001 event: 53
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -13108,7 +13108,7 @@ Reconstructed 11 tracks
 	momentum: (4.95637,-2.37518,-20.7518)	PT: 5.4961
 	vertex: (-0.00285118,-0.00594965,0.00422923)	TIP: 0.00659754 +- 0.00675515	Z0: 0.00422923 +- 0.00725997
 	charge: -1
-*** PixelVertexTest, analyze event: run: 5001 event: 54
+*** PixelVertexValTest, analyze event: run: 5001 event: 54
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -13198,7 +13198,7 @@ Reconstructed 15 tracks
 	momentum: (3.21468,-1.93973,0.978977)	PT: 3.75456
 	vertex: (0.014255,0.0236246,0.0059518)	TIP: -0.0275922 +- 0.00715181	Z0: 0.0059518 +- 0.00779599
 	charge: -1
-*** PixelVertexTest, analyze event: run: 5001 event: 55
+*** PixelVertexValTest, analyze event: run: 5001 event: 55
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -13276,7 +13276,7 @@ Reconstructed 11 tracks
 	momentum: (-2.46594,-6.01596,-24.5626)	PT: 6.50174
 	vertex: (-0.00532634,0.00218327,0.00292179)	TIP: 0.00575643 +- 0.00662288	Z0: 0.00292179 +- 0.00721953
 	charge: 1
-*** PixelVertexTest, analyze event: run: 5001 event: 56
+*** PixelVertexValTest, analyze event: run: 5001 event: 56
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -13360,7 +13360,7 @@ Reconstructed 13 tracks
 	momentum: (4.83633,-4.46759,-27.0091)	PT: 6.58403
 	vertex: (0.00790808,0.0085608,0.00656084)	TIP: -0.0116544 +- 0.00661385	Z0: 0.00656084 +- 0.0072217
 	charge: 1
-*** PixelVertexTest, analyze event: run: 5001 event: 57
+*** PixelVertexValTest, analyze event: run: 5001 event: 57
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -13447,7 +13447,7 @@ Reconstructed 14 tracks
 	momentum: (-1.87655,-5.59748,24.3673)	PT: 5.90366
 	vertex: (0.0073254,-0.00245584,0.00198019)	TIP: -0.0077261 +- 0.00669612	Z0: 0.00198019 +- 0.00722653
 	charge: -1
-*** PixelVertexTest, analyze event: run: 5001 event: 58
+*** PixelVertexValTest, analyze event: run: 5001 event: 58
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -13570,7 +13570,7 @@ Reconstructed 26 tracks
 	momentum: (-2.43294,-4.70265,23.8678)	PT: 5.29472
 	vertex: (0.0102248,-0.00528983,-0.00468978)	TIP: -0.0115121 +- 0.00678768	Z0: -0.00468978 +- 0.00728696
 	charge: 1
-*** PixelVertexTest, analyze event: run: 5001 event: 59
+*** PixelVertexValTest, analyze event: run: 5001 event: 59
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -13648,7 +13648,7 @@ Reconstructed 11 tracks
 	momentum: (-2.10725,-1.57831,-11.7932)	PT: 2.63278
 	vertex: (0.000179417,-0.000239545,0.0761879)	TIP: -0.000299286 +- 0.00768518	Z0: 0.0761879 +- 0.00861292
 	charge: 1
-*** PixelVertexTest, analyze event: run: 5001 event: 60
+*** PixelVertexValTest, analyze event: run: 5001 event: 60
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -13726,7 +13726,7 @@ Reconstructed 11 tracks
 	momentum: (3.92493,3.1832,-23.1337)	PT: 5.0535
 	vertex: (-0.000578309,0.000713065,0.0181935)	TIP: -0.000918097 +- 0.00683005	Z0: 0.0181935 +- 0.00732956
 	charge: -1
-*** PixelVertexTest, analyze event: run: 5001 event: 61
+*** PixelVertexValTest, analyze event: run: 5001 event: 61
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -13795,7 +13795,7 @@ Reconstructed 8 tracks
 	momentum: (2.09533,-1.68822,12.1868)	PT: 2.69082
 	vertex: (-0.00935588,-0.0116121,-0.0280134)	TIP: 0.0149122 +- 0.00764668	Z0: -0.0280134 +- 0.00855937
 	charge: 1
-*** PixelVertexTest, analyze event: run: 5001 event: 62
+*** PixelVertexValTest, analyze event: run: 5001 event: 62
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -13885,7 +13885,7 @@ Reconstructed 15 tracks
 	momentum: (4.73981,-1.1843,-18.158)	PT: 4.88552
 	vertex: (-0.00109448,-0.0043803,0.0014296)	TIP: 0.00451496 +- 0.00686203	Z0: 0.0014296 +- 0.00736638
 	charge: -1
-*** PixelVertexTest, analyze event: run: 5001 event: 63
+*** PixelVertexValTest, analyze event: run: 5001 event: 63
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -13972,7 +13972,7 @@ Reconstructed 14 tracks
 	momentum: (1.74259,-1.27496,-7.45305)	PT: 2.1592
 	vertex: (0.00892695,0.0122012,-0.00852612)	TIP: -0.0151182 +- 0.00807673	Z0: -0.00852612 +- 0.00910096
 	charge: -1
-*** PixelVertexTest, analyze event: run: 5001 event: 64
+*** PixelVertexValTest, analyze event: run: 5001 event: 64
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -14047,7 +14047,7 @@ Reconstructed 10 tracks
 	momentum: (1.60745,-0.204076,0.197913)	PT: 1.62035
 	vertex: (-0.00137908,-0.0108626,-0.0137469)	TIP: 0.0109498 +- 0.0088006	Z0: -0.0137469 +- 0.00977451
 	charge: -1
-*** PixelVertexTest, analyze event: run: 5001 event: 65
+*** PixelVertexValTest, analyze event: run: 5001 event: 65
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -14143,7 +14143,7 @@ Reconstructed 17 tracks
 	momentum: (-8.01421,1.79476,29.4188)	PT: 8.21272
 	vertex: (-0.000995158,-0.00444371,0.000112671)	TIP: -0.00455378 +- 0.00647228	Z0: 0.000112671 +- 0.00733865
 	charge: -1
-*** PixelVertexTest, analyze event: run: 5001 event: 66
+*** PixelVertexValTest, analyze event: run: 5001 event: 66
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -14230,7 +14230,7 @@ Reconstructed 14 tracks
 	momentum: (-2.04841,0.131573,-9.70866)	PT: 2.05263
 	vertex: (-0.00643985,-0.10026,-0.0320644)	TIP: -0.100466 +- 0.00818975	Z0: -0.0320644 +- 0.00922384
 	charge: -1
-*** PixelVertexTest, analyze event: run: 5001 event: 67
+*** PixelVertexValTest, analyze event: run: 5001 event: 67
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -14326,7 +14326,7 @@ Reconstructed 17 tracks
 	momentum: (3.926,0.310028,-12.8736)	PT: 3.93822
 	vertex: (-0.000324506,0.00410934,0.00301117)	TIP: -0.00412213 +- 0.00709343	Z0: 0.00301117 +- 0.00770222
 	charge: 1
-*** PixelVertexTest, analyze event: run: 5001 event: 68
+*** PixelVertexValTest, analyze event: run: 5001 event: 68
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -14401,7 +14401,7 @@ Reconstructed 10 tracks
 	momentum: (10.8529,8.60473,-59.6833)	PT: 13.8502
 	vertex: (-0.0130735,0.0164893,0.00576068)	TIP: -0.0210432 +- 0.00637	Z0: 0.00576068 +- 0.007356
 	charge: 1
-*** PixelVertexTest, analyze event: run: 5001 event: 69
+*** PixelVertexValTest, analyze event: run: 5001 event: 69
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -14497,7 +14497,7 @@ Reconstructed 17 tracks
 	momentum: (-3.5289,1.73869,-15.6645)	PT: 3.93398
 	vertex: (0.00378788,0.00768799,-0.0213709)	TIP: 0.00857048 +- 0.00709472	Z0: -0.0213709 +- 0.00770428
 	charge: -1
-*** PixelVertexTest, analyze event: run: 5001 event: 70
+*** PixelVertexValTest, analyze event: run: 5001 event: 70
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -14593,7 +14593,7 @@ Reconstructed 17 tracks
 	momentum: (3.74982,2.1997,-18.2299)	PT: 4.34739
 	vertex: (0.0130273,-0.0222076,-0.00335098)	TIP: 0.0257467 +- 0.00698111	Z0: -0.00335098 +- 0.00752845
 	charge: 1
-*** PixelVertexTest, analyze event: run: 5001 event: 71
+*** PixelVertexValTest, analyze event: run: 5001 event: 71
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -14668,7 +14668,7 @@ Reconstructed 10 tracks
 	momentum: (7.2392,-4.29634,-2.88321)	PT: 8.4181
 	vertex: (0.00162753,0.00274234,0.00205968)	TIP: -0.00318893 +- 0.00645832	Z0: 0.00205968 +- 0.00735416
 	charge: -1
-*** PixelVertexTest, analyze event: run: 5001 event: 72
+*** PixelVertexValTest, analyze event: run: 5001 event: 72
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -14737,7 +14737,7 @@ Reconstructed 8 tracks
 	momentum: (-13.3066,0.0669909,-54.9833)	PT: 13.3068
 	vertex: (-4.42489e-05,-0.00878931,0.0295995)	TIP: -0.00878942 +- 0.00637	Z0: 0.0295995 +- 0.007356
 	charge: 1
-*** PixelVertexTest, analyze event: run: 5001 event: 73
+*** PixelVertexValTest, analyze event: run: 5001 event: 73
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -14824,7 +14824,7 @@ Reconstructed 14 tracks
 	momentum: (-2.13671,4.0855,22.9492)	PT: 4.61051
 	vertex: (-0.0227404,-0.0118932,-0.00560832)	TIP: -0.0256626 +- 0.00691941	Z0: -0.00560832 +- 0.00744039
 	charge: -1
-*** PixelVertexTest, analyze event: run: 5001 event: 74
+*** PixelVertexValTest, analyze event: run: 5001 event: 74
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -14902,7 +14902,7 @@ Reconstructed 11 tracks
 	momentum: (-0.912863,2.6699,-14.7015)	PT: 2.82164
 	vertex: (0.0245321,0.00838777,0.0137774)	TIP: 0.0259264 +- 0.0075657	Z0: 0.0137774 +- 0.00844349
 	charge: 1
-*** PixelVertexTest, analyze event: run: 5001 event: 75
+*** PixelVertexValTest, analyze event: run: 5001 event: 75
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -14989,7 +14989,7 @@ Reconstructed 14 tracks
 	momentum: (-3.13593,1.30366,-14.31)	PT: 3.39611
 	vertex: (0.000401675,0.000966222,0.0231206)	TIP: 0.00104639 +- 0.00728394	Z0: 0.0231206 +- 0.00800951
 	charge: 1
-*** PixelVertexTest, analyze event: run: 5001 event: 76
+*** PixelVertexValTest, analyze event: run: 5001 event: 76
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -15070,7 +15070,7 @@ Reconstructed 12 tracks
 	momentum: (2.96234,-2.3362,-15.0313)	PT: 3.7727
 	vertex: (-0.00828435,-0.0105047,0.0189649)	TIP: 0.0133783 +- 0.00714579	Z0: 0.0189649 +- 0.00778627
 	charge: 1
-*** PixelVertexTest, analyze event: run: 5001 event: 77
+*** PixelVertexValTest, analyze event: run: 5001 event: 77
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -15151,7 +15151,7 @@ Reconstructed 12 tracks
 	momentum: (-9.5408,-0.791766,39.4798)	PT: 9.5736
 	vertex: (-0.000666937,0.0080366,-0.00478277)	TIP: 0.00806423 +- 0.00639093	Z0: -0.00478277 +- 0.00738458
 	charge: -1
-*** PixelVertexTest, analyze event: run: 5001 event: 78
+*** PixelVertexValTest, analyze event: run: 5001 event: 78
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -15244,7 +15244,7 @@ Reconstructed 16 tracks
 	momentum: (-2.26468,2.40783,-15.2866)	PT: 3.30551
 	vertex: (0.00490974,0.00461785,-0.0455004)	TIP: 0.00674018 +- 0.00732187	Z0: -0.0455004 +- 0.00807019
 	charge: -1
-*** PixelVertexTest, analyze event: run: 5001 event: 79
+*** PixelVertexValTest, analyze event: run: 5001 event: 79
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -15325,7 +15325,7 @@ Reconstructed 12 tracks
 	momentum: (9.89957,1.14006,36.2115)	PT: 9.965
 	vertex: (-0.000476309,0.00413598,0.010395)	TIP: -0.00416332 +- 0.00637165	Z0: 0.010395 +- 0.00735943
 	charge: 1
-*** PixelVertexTest, analyze event: run: 5001 event: 80
+*** PixelVertexValTest, analyze event: run: 5001 event: 80
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -15406,7 +15406,7 @@ Reconstructed 12 tracks
 	momentum: (-1.21441,0.68351,-4.76363)	PT: 1.39355
 	vertex: (0.0127578,0.0226672,0.014092)	TIP: 0.0260109 +- 0.00927268	Z0: 0.014092 +- 0.0100984
 	charge: 1
-*** PixelVertexTest, analyze event: run: 5001 event: 81
+*** PixelVertexValTest, analyze event: run: 5001 event: 81
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -15490,7 +15490,7 @@ Reconstructed 13 tracks
 	momentum: (1.71832,7.098,-26.9689)	PT: 7.30303
 	vertex: (9.42969e-05,-2.28279e-05,0.0179102)	TIP: 9.70207e-05 +- 0.00654357	Z0: 0.0179102 +- 0.00726268
 	charge: 1
-*** PixelVertexTest, analyze event: run: 5001 event: 82
+*** PixelVertexValTest, analyze event: run: 5001 event: 82
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -15565,7 +15565,7 @@ Reconstructed 10 tracks
 	momentum: (2.53262,-1.92438,16.5319)	PT: 3.18079
 	vertex: (-0.0148546,-0.0195498,-0.0284833)	TIP: 0.0245531 +- 0.00737762	Z0: -0.0284833 +- 0.00815836
 	charge: 1
-*** PixelVertexTest, analyze event: run: 5001 event: 83
+*** PixelVertexValTest, analyze event: run: 5001 event: 83
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -15649,7 +15649,7 @@ Reconstructed 13 tracks
 	momentum: (2.16633,2.44364,-14.717)	PT: 3.26564
 	vertex: (-0.00740036,0.00656056,0.00618343)	TIP: -0.00988971 +- 0.00733923	Z0: 0.00618343 +- 0.00809779
 	charge: 1
-*** PixelVertexTest, analyze event: run: 5001 event: 84
+*** PixelVertexValTest, analyze event: run: 5001 event: 84
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -15751,7 +15751,7 @@ Reconstructed 19 tracks
 	momentum: (4.56556,1.07141,-18.0628)	PT: 4.68959
 	vertex: (-0.00109435,0.0046633,0.00813113)	TIP: -0.00478999 +- 0.00690222	Z0: 0.00813113 +- 0.00741729
 	charge: -1
-*** PixelVertexTest, analyze event: run: 5001 event: 85
+*** PixelVertexValTest, analyze event: run: 5001 event: 85
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -15826,7 +15826,7 @@ Reconstructed 10 tracks
 	momentum: (-0.721856,7.30301,31.8754)	PT: 7.3386
 	vertex: (-0.00212689,-0.00021023,-0.0265768)	TIP: -0.00213726 +- 0.00654045	Z0: -0.0265768 +- 0.00726544
 	charge: 1
-*** PixelVertexTest, analyze event: run: 5001 event: 86
+*** PixelVertexValTest, analyze event: run: 5001 event: 86
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -15907,7 +15907,7 @@ Reconstructed 12 tracks
 	momentum: (-4.95335,0.277239,-22.3547)	PT: 4.9611
 	vertex: (0.000186313,0.0033288,-0.0130491)	TIP: 0.00333401 +- 0.00684737	Z0: -0.0130491 +- 0.00734905
 	charge: -1
-*** PixelVertexTest, analyze event: run: 5001 event: 87
+*** PixelVertexValTest, analyze event: run: 5001 event: 87
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -15994,7 +15994,7 @@ Reconstructed 14 tracks
 	momentum: (0.112283,1.25743,-4.41171)	PT: 1.26243
 	vertex: (-0.00815347,0.00072807,0.0285889)	TIP: -0.00818591 +- 0.00962297	Z0: 0.0285889 +- 0.0102971
 	charge: 1
-*** PixelVertexTest, analyze event: run: 5001 event: 88
+*** PixelVertexValTest, analyze event: run: 5001 event: 88
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -16090,7 +16090,7 @@ Reconstructed 17 tracks
 	momentum: (-1.00017,6.71671,-29.1584)	PT: 6.79077
 	vertex: (0.00704522,0.00104909,0.0227468)	TIP: 0.0071229 +- 0.00659212	Z0: 0.0227468 +- 0.00722984
 	charge: -1
-*** PixelVertexTest, analyze event: run: 5001 event: 89
+*** PixelVertexValTest, analyze event: run: 5001 event: 89
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -16165,7 +16165,7 @@ Reconstructed 10 tracks
 	momentum: (-25.6149,17.81,132.246)	PT: 31.1981
 	vertex: (0.0411023,0.0591146,0.0155843)	TIP: 0.0719995 +- 0.00637	Z0: 0.0155843 +- 0.007356
 	charge: -1
-*** PixelVertexTest, analyze event: run: 5001 event: 90
+*** PixelVertexValTest, analyze event: run: 5001 event: 90
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -16249,7 +16249,7 @@ Reconstructed 13 tracks
 	momentum: (1.1941,-4.19214,-20.4623)	PT: 4.35889
 	vertex: (0.00567373,0.00161611,-0.0125973)	TIP: -0.00589941 +- 0.00697826	Z0: -0.0125973 +- 0.00752423
 	charge: -1
-*** PixelVertexTest, analyze event: run: 5001 event: 91
+*** PixelVertexValTest, analyze event: run: 5001 event: 91
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -16327,7 +16327,7 @@ Reconstructed 11 tracks
 	momentum: (25.8053,-13.1561,-18.0009)	PT: 28.9655
 	vertex: (0.0620007,0.121612,-0.0164368)	TIP: -0.136505 +- 0.00637	Z0: -0.0164368 +- 0.007356
 	charge: 1
-*** PixelVertexTest, analyze event: run: 5001 event: 92
+*** PixelVertexValTest, analyze event: run: 5001 event: 92
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -16426,7 +16426,7 @@ Reconstructed 18 tracks
 	momentum: (-2.16248,-0.691526,7.87443)	PT: 2.27036
 	vertex: (0.00250595,-0.00783641,0.0921028)	TIP: -0.00822734 +- 0.00797016	Z0: 0.0921028 +- 0.00897801
 	charge: 1
-*** PixelVertexTest, analyze event: run: 5001 event: 93
+*** PixelVertexValTest, analyze event: run: 5001 event: 93
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -16511,7 +16511,7 @@ Reconstructed 13 tracks
 	momentum: (-1.10352,-8.2423,-29.1694)	PT: 8.31585
 	vertex: (0.00583883,-0.000781734,-0.00891124)	TIP: -0.00589093 +- 0.00646519	Z0: -0.00891124 +- 0.00734665
 	charge: 1
-*** PixelVertexTest, analyze event: run: 5001 event: 94
+*** PixelVertexValTest, analyze event: run: 5001 event: 94
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -16583,7 +16583,7 @@ Reconstructed 9 tracks
 	momentum: (5.20489,3.62026,28.3186)	PT: 6.34013
 	vertex: (0.000450188,-0.00064724,-0.00388004)	TIP: 0.00078841 +- 0.00664131	Z0: -0.00388004 +- 0.00721725
 	charge: -1
-*** PixelVertexTest, analyze event: run: 5001 event: 95
+*** PixelVertexValTest, analyze event: run: 5001 event: 95
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -16670,7 +16670,7 @@ Reconstructed 14 tracks
 	momentum: (-2.94173,-5.09015,23.3278)	PT: 5.87906
 	vertex: (0.0224736,-0.0129881,-0.0953534)	TIP: -0.0259568 +- 0.00669945	Z0: -0.0953534 +- 0.00722782
 	charge: -1
-*** PixelVertexTest, analyze event: run: 5001 event: 96
+*** PixelVertexValTest, analyze event: run: 5001 event: 96
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -16745,7 +16745,7 @@ Reconstructed 10 tracks
 	momentum: (-3.1036,6.53975,-27.5289)	PT: 7.23883
 	vertex: (-0.00280759,-0.00133241,0.0068547)	TIP: -0.00310771 +- 0.00654928	Z0: 0.0068547 +- 0.00725781
 	charge: -1
-*** PixelVertexTest, analyze event: run: 5001 event: 97
+*** PixelVertexValTest, analyze event: run: 5001 event: 97
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -16832,7 +16832,7 @@ Reconstructed 14 tracks
 	momentum: (8.22714,-2.6272,-34.0704)	PT: 8.63644
 	vertex: (-0.00222626,-0.00697159,-8.99978e-05)	TIP: 0.00731843 +- 0.00644421	Z0: -8.99978e-05 +- 0.00736842
 	charge: -1
-*** PixelVertexTest, analyze event: run: 5001 event: 98
+*** PixelVertexValTest, analyze event: run: 5001 event: 98
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -16913,7 +16913,7 @@ Reconstructed 12 tracks
 	momentum: (34.9545,21.7301,-225.454)	PT: 41.1584
 	vertex: (-0.0109381,0.0175947,-0.0224901)	TIP: -0.0207174 +- 0.00637	Z0: -0.0224901 +- 0.007356
 	charge: 1
-*** PixelVertexTest, analyze event: run: 5001 event: 99
+*** PixelVertexValTest, analyze event: run: 5001 event: 99
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
@@ -16991,7 +16991,7 @@ Reconstructed 11 tracks
 	momentum: (-7.94677,4.43424,-49.4619)	PT: 9.1002
 	vertex: (0.00399672,0.00716268,0.0204273)	TIP: 0.0082023 +- 0.00641647	Z0: 0.0204273 +- 0.00738746
 	charge: -1
-*** PixelVertexTest, analyze event: run: 5001 event: 100
+*** PixelVertexValTest, analyze event: run: 5001 event: 100
 Process Name = PROD1
 ModuleLabel = pixelTracks
 Product ID = 63
