@@ -28,4 +28,9 @@
  <flags SEAL_PLUGIN_NAME="PixelTrackVal">
 </library>
 
+<library file="PixelVertexVal.cc" name="PixelVertexVal">
+ <use name=FWCore/Framework>
+ <flags SEAL_PLUGIN_NAME="PixelVertexVal">
+</library>
+
 
