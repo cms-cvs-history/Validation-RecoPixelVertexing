@@ -15,7 +15,7 @@
 <use name=RecoTracker/TkTrackingRegions>
 <use name=RecoPixelVertexing/PixelTriplets>
 <use name=RecoPixelVertexing/PixelTrackFitting>
-<use name=RecoPixelVertexing/PixelVertexFinding>
+#<use name=RecoPixelVertexing/PixelVertexFinding>
 
 <use name=DataFormats/TrackReco>
 <use name=DataFormats/VertexReco>
