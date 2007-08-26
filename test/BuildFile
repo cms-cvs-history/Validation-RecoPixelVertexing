@@ -20,6 +20,8 @@
 <use name=DataFormats/TrackReco>
 <use name=DataFormats/VertexReco>
 <use name=SimDataFormats/Track>
+<use name=hepmc>
+<use name=SimDataFormats/HepMCProduct>
 
 <library file="PixelTrackVal.cc" name="PixelTrackVal">
  <use name=FWCore/Framework>
