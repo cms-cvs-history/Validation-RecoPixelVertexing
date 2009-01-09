@@ -21,7 +21,7 @@
 <use name=DataFormats/VertexReco>
 <use name=SimDataFormats/Track>
 <use name=hepmc>
-<use name=SimDataFormats/HepMCProduct>
+<use name=SimDataFormats/GeneratorProducts>
 
 <library file="PixelTrackVal.cc" name="PixelTrackVal">
  <use name=FWCore/Framework>
