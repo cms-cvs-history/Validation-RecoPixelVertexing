@@ -24,12 +24,10 @@
 <use name=SimDataFormats/GeneratorProducts>
 
 <library file="PixelTrackVal.cc" name="PixelTrackVal">
- <use name=FWCore/Framework>
  <flags EDM_PLUGIN=1>
 </library>
 
 <library file="PixelVertexVal.cc" name="PixelVertexVal">
- <use name=FWCore/Framework>
  <flags EDM_PLUGIN=1>
 </library>
 
